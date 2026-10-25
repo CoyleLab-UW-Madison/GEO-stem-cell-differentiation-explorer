@@ -1,0 +1,10 @@
+workspace_archive/
+__pycache__/
+*.pyc
+*.parquet
+*.parquet.tmp
+*.pkl
+*.pbz2
+.DS_Store
+well_checkpoints
+consolidated_stills
