@@ -633,13 +633,21 @@ def process_single_well(ckpt_path_str: str) -> list:
         ax11.grid(True, color="#334155", alpha=0.45, lw=0.5)
         ax11.legend(loc="upper right", fontsize=6.2, framealpha=0.85)
 
-        # Render to buffer and quantize to 256-color indexed PNG (~460 KB/FOV, pixel-exact 2880x1050)
+        # 1. Save FULL-RESOLUTION 24-bit TrueColor RGB PNG (dpi=150 -> 4320x1575 px, unquantized!)
+        #    directly to the fileserver (Z: drive /mnt/researchdrive/.../fov_atlas/)
+        remote_png = REMOTE_ATLAS_DIR / out_png.name
         buf = io.BytesIO()
-        fig.savefig(buf, format="png", dpi=100, facecolor=fig.get_facecolor())
+        fig.savefig(buf, format="png", dpi=150, facecolor=fig.get_facecolor())
         plt.close(fig)
+        if REMOTE_ATLAS_DIR.exists():
+            remote_png.write_bytes(buf.getvalue())
+
+        # 2. Downscale to 2880x1050 (100 DPI) and quantize to 256-color indexed PNG (~460 KB/FOV)
+        #    for the GitHub Pages repository so git stays lightweight (~200 MB total)
         buf.seek(0)
         im_pil = Image.open(buf).convert("RGB")
-        im_q = im_pil.quantize(colors=256, method=Image.Quantize.MEDIANCUT)
+        im_web = im_pil.resize((2880, 1050), Image.Resampling.LANCZOS)
+        im_q = im_web.quantize(colors=256, method=Image.Quantize.MEDIANCUT)
         im_q.save(out_png, optimize=True)
 
         fov_records.append(
@@ -1605,14 +1613,32 @@ def main():
 
     build_interactive_html_viewer(all_fov_records)
 
-    print("Syncing upgraded 420-FOV atlas and HTML viewer to /mnt/researchdrive/General/Scott/stemcellcodes/vocoder_2026_10/...", flush=True)
+    print("Syncing HTML viewer, metadata, and FULL-RES summary figures to /mnt/researchdrive/General/Scott/stemcellcodes/vocoder_2026_10/...", flush=True)
     shutil.copy2(LOCAL_WORK_DIR / "H9_FOV_Physiology_Atlas_Viewer.html", REMOTE_OUT_DIR / "H9_FOV_Physiology_Atlas_Viewer.html")
     shutil.copy2(LOCAL_WORK_DIR / "index.html", REMOTE_OUT_DIR / "index.html")
     shutil.copy2(LOCAL_WORK_DIR / "2026_10_19_stemcell_420_fovs_physiology_atlas_summary.csv", REMOTE_OUT_DIR / "2026_10_19_stemcell_420_fovs_physiology_atlas_summary.csv")
     shutil.copy2(LOCAL_WORK_DIR / "2026_10_19_stemcell_420_fovs_physiology_atlas_summary.json", REMOTE_OUT_DIR / "2026_10_19_stemcell_420_fovs_physiology_atlas_summary.json")
     shutil.copy2(Path(__file__), REMOTE_OUT_DIR / Path(__file__).name)
-    for png_file in ATLAS_DIR.glob("*.png"):
-        shutil.copy2(png_file, REMOTE_ATLAS_DIR / png_file.name)
+
+    remote_fig_dir = REMOTE_OUT_DIR / "figures"
+    remote_fig_dir.mkdir(parents=True, exist_ok=True)
+    fullres_fig_map = {
+        "Fig34_H9_Global_Sail_StemCell_Centered_8x7_Hybrid_with_Zoomed_Bifurcating_Insets.png": "Fig34_Global_2D_Sail_Trajectories.png",
+        "Fig40_H9_DatasetWide_419FOV_Spatial_Wave_Coherence_and_Tissue_Remodeling.png": "Fig40_Spatial_Wave_Coherence_419FOVs.png",
+        "Fig41_H9_4Channel_FOV_GreenStill_FMBarcode_StateShift_and_ROC_MesoAxis.png": "Fig41_4Channel_GreenStill_FMBarcode_StateShift_ROCMeso.png",
+        "Fig42_H9_NonClonal_Barcode_Transcendence_and_DeadZone_Expression_Diagnostics.png": "Fig42_Barcode_Transcendence_and_DeadZone_Diagnostics.png",
+        "Fig43_H9_Stoichiometry_Matched_Oscillation_Probability_and_Excess_Quenching_Maps.png": "Fig43_Stoichiometry_Matched_Oscillation_Probability.png",
+        "Fig44_H9_ControlCompetent_Gated_dPosc_and_Meso_HyperExcitability_Coupling.png": "Fig44_ControlCompetent_Gated_dPosc_and_Meso_Coupling.png",
+        "Fig45_H9_FitFree_Dual_Space_dFstem_vs_dPosc_2D_3D_and_Sail.png": "Fig45_FitFree_Dual_Space_dFstem_vs_dPosc_2D_3D_and_Sail.png",
+        "Fig46_H9_StoichiometryBin_FitFree_Dual_Sail_dF_vs_dPosc.png": "Fig46_StoichiometryBin_FitFree_Dual_Sail_dF_vs_dPosc.png",
+        "Fig47_H9_Dual_ROC_Surprise_Flat_Control_Blue_Quench_Pink_Meso.png": "Fig47_Dual_ROC_Surprise_Flat_Control_Blue_Quench_Pink_Meso.png",
+        "Fig48_H9_Representative_Contact_Sheet_All_Spatial_Views_4Lineages.png": "Fig48_Representative_Contact_Sheet_All_Spatial_Views_4Lineages.png",
+    }
+    for src_name, dst_name in fullres_fig_map.items():
+        src_p = ARCHIVE_DIR / src_name
+        if src_p.exists():
+            shutil.copy2(src_p, remote_fig_dir / dst_name)
+            shutil.copy2(src_p, REMOTE_OUT_DIR / src_name)
 
     if GEO_REPO_DIR.exists():
         print("Syncing upgraded 420-FOV atlas and HTML viewer to /home/smcoyle/GEO-stem-cell-differentiation-explorer/...", flush=True)
