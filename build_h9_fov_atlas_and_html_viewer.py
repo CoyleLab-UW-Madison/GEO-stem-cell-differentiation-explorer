@@ -499,13 +499,13 @@ def process_single_well(ckpt_path_str: str) -> list:
         roc_pink_pct = 100.0 * float(np.mean(s_roc_map[active_osc_mask] >= 28.5)) if np.any(active_osc_mask) else 0.0
 
         ed_tissue_vals = ed_sub[in_tissue] if np.any(in_tissue) else np.array([0.0])
-        med_ed = float(np.median(ed_tissue_vals))
-        iqr_ed = float(np.percentile(ed_tissue_vals, 75) - np.percentile(ed_tissue_vals, 25))
-        med_f = float(np.median(f_vals))
-        iqr_f = float(np.percentile(f_vals, 75) - np.percentile(f_vals, 25)) if len(f_vals) > 1 else 0.0
-        med_df_stem = float(np.median(df_vals))
-        med_s_par = float(np.median(spar_vals)) if len(spar_vals) > 0 else 0.0
-        med_s_perp = float(np.median(sp_vals))
+        med_ed = float(np.nanmedian(ed_tissue_vals))
+        iqr_ed = float(np.nanpercentile(ed_tissue_vals, 75) - np.nanpercentile(ed_tissue_vals, 25))
+        med_f = float(np.nanmedian(f_vals))
+        iqr_f = float(np.nanpercentile(f_vals, 75) - np.nanpercentile(f_vals, 25)) if len(f_vals) > 1 else 0.0
+        med_df_stem = float(np.nanmedian(df_vals))
+        med_s_par = float(np.nanmedian(spar_vals)) if len(spar_vals) > 0 else 0.0
+        med_s_perp = float(np.nanmedian(sp_vals)) if np.any(np.isfinite(sp_vals)) else 0.0
         n_meso_roc = int(np.sum(sp_vals > 0.85)) if len(sp_vals) > 0 else 0
         pct_meso_roc = 100.0 * n_meso_roc / max(n_cells, 1)
 
@@ -713,11 +713,15 @@ def process_single_well(ckpt_path_str: str) -> list:
 
 
 def build_interactive_html_viewer(fov_records: list):
+    for r in fov_records:
+        for k, v in list(r.items()):
+            if isinstance(v, float) and not np.isfinite(v):
+                r[k] = 0.0
     records_sorted = sorted(
         fov_records,
         key=lambda r: (TREATMENTS.index(r["treatment"]), r["day"], r["well"], r["fov_index"]),
     )
-    json_payload = json.dumps(records_sorted)
+    json_payload = json.dumps(records_sorted, allow_nan=False)
 
     html_content = f"""<!DOCTYPE html>
 <html lang="en">
@@ -1569,7 +1573,7 @@ function exportFovTagsCsv() {{
     alert('No starred or annotated FOVs yet! Star or add a note to any FOV first.');
     return;
   }}
-  const csv = rows.map(r => r.join(',')).join('\n');
+  const csv = rows.map(r => r.join(',')).join('\\n');
   const blob = new Blob([csv], {{ type: 'text/csv;charset=utf-8;' }});
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
