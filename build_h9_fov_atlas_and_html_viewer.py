@@ -184,24 +184,13 @@ def build_precomputed_state_bundle() -> str:
     else:
         df["d_edge_px"] = 40.0
 
-    # Background-Subtracted Stoichiometry (E - B_E) / (D - B_D) (B_D = 136.7 ADU, B_E = 266.3 ADU)
-    B_D_MED, B_E_MED = 136.7, 266.3
-    df["ed_sub"] = np.maximum(df["E_smooth_mean"].to_numpy() - B_E_MED, 15.0) / np.maximum(df["D_smooth_mean"].to_numpy() - B_D_MED, 15.0)
-
-    ctrl_homeo_all = df[(df["treatment"] == "control") & (df["day"] >= 1.0) & (df["day"] <= 3.0)]
-    ed_grid = np.linspace(1.5, 12.0, 140)
-    ed_centers = 0.5 * (ed_grid[:-1] + ed_grid[1:])
-    c_ed = ctrl_homeo_all["ed_sub"].to_numpy()
-    c_f = ctrl_homeo_all["freq_mHz_mean"].to_numpy()
-    ctrl_ed_medians = np.array([
-        np.nanmedian(c_f[(c_ed >= ed_grid[i]) & (c_ed < ed_grid[i + 1])])
-        if np.sum((c_ed >= ed_grid[i]) & (c_ed < ed_grid[i + 1])) >= 25 else np.nan
-        for i in range(len(ed_centers))
-    ])
-    ctrl_ed_smooth = gaussian_filter1d(pd.Series(ctrl_ed_medians).interpolate().bfill().ffill().to_numpy(), sigma=1.5)
-    df["df_stem_surface"] = df["freq_mHz_mean"].to_numpy() - np.interp(
-        np.clip(df["ed_sub"].to_numpy(), ed_centers[0], ed_centers[-1]), ed_centers, ctrl_ed_smooth
+    # Merge locked 2D (D, E) reference lookup (`df_cell2d` primary, `df_px2d` sensitivity)
+    df_2d = pd.read_parquet(
+        ARCHIVE_DIR / "_locked_2d_dfstem_cells.parquet",
+        columns=["treatment", "day", "well_num", "filename", "label_id", "df_cell2d", "df_px2d"]
     )
+    df = df.merge(df_2d, on=["treatment", "day", "well_num", "filename", "label_id"], how="left")
+    df["df_stem_surface"] = df["df_cell2d"]
 
     d_edges = np.geomspace(155.0, 950.0, 33)
     e_edges = np.geomspace(460.0, 3200.0, 33)
@@ -236,7 +225,8 @@ def build_precomputed_state_bundle() -> str:
         cell_dict[(str(tr), float(dy), int(wn), str(fn))] = {
             "label_id": g["label_id"].to_numpy(dtype=np.int32),
             "freq_mHz": g["freq_mHz_mean"].to_numpy(dtype=np.float32),
-            "df_stem": g["df_stem_surface"].to_numpy(dtype=np.float32),
+            "df_stem": g["df_cell2d"].to_numpy(dtype=np.float32),
+            "df_px2d": g["df_px2d"].to_numpy(dtype=np.float32),
             "ds_par": g["ds_par"].to_numpy(dtype=np.float32),
             "ds_perp": g["ds_perp"].to_numpy(dtype=np.float32),
             "ds_perp_roc": g["ds_perp_roc"].to_numpy(dtype=np.float32),
@@ -319,6 +309,7 @@ def process_single_well(ckpt_path_str: str) -> list:
 
     bg_col = np.array([0.04, 0.06, 0.10], dtype=np.float32)
     z0_col = np.array([0.09, 0.12, 0.18], dtype=np.float32)
+    oos_col = np.array([0.22, 0.27, 0.35], dtype=np.float32)
 
     filenames = sorted(df_w["filename"].unique())
     fov_records = []
@@ -409,6 +400,7 @@ def process_single_well(ckpt_path_str: str) -> list:
             c_ids = c_ids[valid_c]
             f_vals = c_info["freq_mHz"][valid_c]
             df_vals = c_info["df_stem"][valid_c]
+            df_px2d_vals = c_info.get("df_px2d", df_vals)[valid_c]
             sp_vals = c_info["ds_perp_roc"][valid_c]
             spar_vals = c_info["ds_par"][valid_c]
             sperp_raw_vals = c_info["ds_perp"][valid_c]
@@ -416,12 +408,17 @@ def process_single_well(ckpt_path_str: str) -> list:
             dedge_vals = c_info.get("d_edge_px", np.full_like(df_vals, 40.0))[valid_c]
 
             lut_bar[c_ids] = cmap_barcode(norm_barcode(f_vals))[:, :3].astype(np.float32)
-            lut_df[c_ids] = cmap_df(norm_df(df_vals))[:, :3].astype(np.float32)
+            oos_c = ~np.isfinite(df_vals)
+            sup_c = np.isfinite(df_vals)
+            lut_df[c_ids[oos_c]] = oos_col
+            if np.any(sup_c):
+                lut_df[c_ids[sup_c]] = cmap_df(norm_df(df_vals[sup_c]))[:, :3].astype(np.float32)
             lut_meso[c_ids] = cmap_meso_roc(norm_meso_roc(sp_vals))[:, :3].astype(np.float32)
         else:
             c_ids = np.array([], dtype=np.int32)
             f_vals = np.array([0.0], dtype=np.float32)
             df_vals = np.array([0.0], dtype=np.float32)
+            df_px2d_vals = np.array([0.0], dtype=np.float32)
             sp_vals = np.array([0.0], dtype=np.float32)
             spar_vals = np.array([], dtype=np.float32)
             sperp_raw_vals = np.array([], dtype=np.float32)
@@ -482,10 +479,13 @@ def process_single_well(ckpt_path_str: str) -> list:
         n_cells = int(len(c_ids))
         n_seg_total = int(len(labels))
         n_seg_100 = int(np.sum(np.bincount(mask.ravel())[1:] >= 100)) if max_lbl > 0 else 0
+        cell_sup_2d_pct = 100.0 * float(np.mean(np.isfinite(df_vals))) if n_cells > 0 else 100.0
+        med_df_stem = float(np.nanmedian(df_vals)) if np.any(np.isfinite(df_vals)) else 0.0
+        med_df_px2d = float(np.nanmedian(df_px2d_vals)) if np.any(np.isfinite(df_px2d_vals)) else 0.0
         m_edge_c = (dedge_vals < 40.0) & np.isfinite(df_vals)
         m_int_c = (dedge_vals >= 40.0) & np.isfinite(df_vals)
-        df_edge_med = float(np.median(df_vals[m_edge_c])) if np.any(m_edge_c) else float(np.median(df_vals))
-        df_int_med = float(np.median(df_vals[m_int_c])) if np.any(m_int_c) else float(np.median(df_vals))
+        df_edge_med = float(np.nanmedian(df_vals[m_edge_c])) if np.any(m_edge_c) else med_df_stem
+        df_int_med = float(np.nanmedian(df_vals[m_int_c])) if np.any(m_int_c) else med_df_stem
         osc_tissue_pct = float(dz_stats["osc_pct"])
         exp_pctrl_pct = float(np.mean(p_exp_map[in_tissue])) if np.any(in_tissue) else 0.0
         comp_mask = in_tissue & (p_exp_map >= 20.0)
@@ -503,7 +503,6 @@ def process_single_well(ckpt_path_str: str) -> list:
         iqr_ed = float(np.nanpercentile(ed_tissue_vals, 75) - np.nanpercentile(ed_tissue_vals, 25))
         med_f = float(np.nanmedian(f_vals))
         iqr_f = float(np.nanpercentile(f_vals, 75) - np.nanpercentile(f_vals, 25)) if len(f_vals) > 1 else 0.0
-        med_df_stem = float(np.nanmedian(df_vals))
         med_s_par = float(np.nanmedian(spar_vals)) if len(spar_vals) > 0 else 0.0
         med_s_perp = float(np.nanmedian(sp_vals)) if np.any(np.isfinite(sp_vals)) else 0.0
         n_meso_roc = int(np.sum(sp_vals > 0.85)) if len(sp_vals) > 0 else 0
@@ -551,8 +550,8 @@ def process_single_well(ckpt_path_str: str) -> list:
             ),
             (
                 0, 4, rgb_df, cmap_df, norm_df,
-                "5. Decoded State Shift ΔF_stem (mHz)",
-                f"Med ΔF_stem: {med_df_stem:+.2f} mHz vs. Control",
+                "5. 2D (D,E) State Shift ΔF_stem^2D (mHz)",
+                f"Cell-2D: {med_df_stem:+.2f} mHz (Px2D: {med_df_px2d:+.2f} | {cell_sup_2d_pct:.0f}% sup)",
                 "#60a5fa"
             ),
             (
@@ -697,6 +696,8 @@ def process_single_well(ckpt_path_str: str) -> list:
                 "med_freq_mHz": round(med_f, 1),
                 "iqr_freq_mHz": round(iqr_f, 1),
                 "med_df_stem_mHz": round(med_df_stem, 2),
+                "med_df_px2d_mHz": round(med_df_px2d, 2),
+                "cell_sup_2d_pct": round(cell_sup_2d_pct, 1),
                 "df_edge_med": round(df_edge_med, 2),
                 "df_int_med": round(df_int_med, 2),
                 "med_s_parallel_mHz": round(med_s_par, 2),
@@ -1352,7 +1353,7 @@ function updateUI() {{
           <div class="metric-card"><div class="m-label">Oscillating Cells (≥10 px)</div><div class="m-val" style="color:#34d399">${{r.n_cells}} (${{r.osc_tissue_pct.toFixed(1)}}%)</div><div class="m-sub">Real Masks ≥100px: ${{r.n_seg_100 || r.n_cells}} | ${{r.n_pixels.toLocaleString()}} px</div></div>
           <div class="metric-card"><div class="m-label">Stoichiometry E/D</div><div class="m-val" style="color:#38bdf8">${{r.med_ED_ratio.toFixed(2)}}</div><div class="m-sub">Within-Colony IQR = ${{r.iqr_ED_ratio.toFixed(2)}}</div></div>
           <div class="metric-card"><div class="m-label">Raw FM Barcode (f_mHz)</div><div class="m-val" style="color:#fbbf24">${{r.med_freq_mHz.toFixed(1)}} mHz</div><div class="m-sub">Carrier IQR = ${{r.iqr_freq_mHz.toFixed(1)}} mHz</div></div>
-          <div class="metric-card"><div class="m-label">Decoded State ΔF_stem</div><div class="m-val" style="color:#60a5fa">${{r.med_df_stem_mHz >= 0 ? '+' : ''}}${{r.med_df_stem_mHz.toFixed(2)}} mHz</div><div class="m-sub">Stoich-Decoded vs. Control</div></div>
+          <div class="metric-card"><div class="m-label">2D (D,E) State ΔF_stem^2D</div><div class="m-val" style="color:#60a5fa">${{r.med_df_stem_mHz >= 0 ? '+' : ''}}${{r.med_df_stem_mHz.toFixed(2)}} mHz</div><div class="m-sub">Px2D: ${{r.med_df_px2d_mHz !== undefined ? (r.med_df_px2d_mHz >= 0 ? '+' : '') + r.med_df_px2d_mHz.toFixed(2) : '—'}} mHz | ${{r.cell_sup_2d_pct !== undefined ? r.cell_sup_2d_pct.toFixed(0) : 100}}% sup</div></div>
           <div class="metric-card"><div class="m-label">Colony-Edge Zonation (d_edge)</div><div class="m-val" style="color:#fde047">${{edgeDiff >= 0 ? '+' : ''}}${{edgeDiff.toFixed(2)}} mHz</div><div class="m-sub">Edge(&lt;40px): ${{r.df_edge_med !== undefined ? r.df_edge_med.toFixed(1) : '—'}} | Int(≥40px): ${{r.df_int_med !== undefined ? r.df_int_med.toFixed(1) : '—'}}</div></div>
           <div class="metric-card"><div class="m-label">ROC Meso/EMT (Δs_⊥&gt;+0.85)</div><div class="m-val" style="color:#f43f5e">${{r.pct_meso_roc.toFixed(1)}}% (n=${{r.n_meso_roc}})</div><div class="m-sub">Med Δs_⊥^stem = ${{r.med_s_perp_roc_mHz >= 0 ? '+' : ''}}${{r.med_s_perp_roc_mHz.toFixed(2)}} mHz</div></div>
           <div class="metric-card"><div class="m-label">8A/8B. Surface & Local ΔP_osc</div><div class="m-val" style="color:#7dd3fc">${{r.surf_dposc_med >= 0 ? '+' : ''}}${{r.surf_dposc_med.toFixed(1)}}% / ${{r.gated_dposc_med >= 0 ? '+' : ''}}${{r.gated_dposc_med.toFixed(1)}}%</div><div class="m-sub">Exp P_ctrl: ${{r.exp_pctrl_pct.toFixed(1)}}% | Quench: ${{r.quenched_pct.toFixed(0)}}%</div></div>
@@ -1452,12 +1453,12 @@ function updateUI() {{
     const figs = [
       {{
         title: "Figure 50 — Out-of-Sample Reference Robustness (LOWO, Day-Matched, Edge-Matched P_ctrl), Knot-Free Domain LLR, & Competent-Mask Audit",
-        sub: "Demonstrates that all headline Axis 1 and Axis 2 conclusions survive Leave-One-Well-Out (LOWO), Day-Matched, and Edge-Distance-Stratified P_ctrl(D, E | d_edge) references across n = 3 replicate wells; resolves the Mesoderm competent-mask question via Relaxed-Z (4.0 ≤ D_z < 5.0 → 97–98% oscillation rate); and shows well-to-well replicate drift is <1.7% of variance.",
+        sub: "Demonstrates that all headline Axis 1 and Axis 2 conclusions survive Leave-One-Well-Out (LOWO), Day-Matched, and Edge-Distance-Stratified P_ctrl(D, E | d_edge) references across n = 3 replicate wells; resolves the Mesoderm competent-mask question via Relaxed-Z (4.0 ≤ D_z < 5.0 → 97–98% oscillation rate); and shows well-to-well replicate drift is <2.5% of variance across both Cell-2D and Pixel-2D ΔF_stem.",
         src: "figures/Fig50_Reference_Robustness_EdgeMatched_DayMatched_LOMO_Audit.png"
       }},
       {{
-        title: "Figure 49 — Colony-Edge Physiological Zonation (24/24 Wells) & Edge-Conditioned Non-Clonal Neighbor Wave Coherence",
-        sub: "Across all 448,054 oscillating cells (n = 3 wells/condition), pluripotent Control colonies maintain a steady +2.3 to +3.8 mHz edge-to-interior ΔF_stem gradient within every E/D bin, while Ectoderm (−10.2 mHz interior vs. −1.9 mHz edge) and Endoderm (−5.3 mHz interior vs. −1.4 mHz edge) nucleate their frequency slowdowns from the inside out. Touching non-clonal neighbor coherence survives a strict joint (E/D, d_edge)-matched FOV permutation null while exhibiting uniform cross-boundary phase differences (median |Δφ| = 90.2°, KS p = 0.52) and a sharp ±1 px step at cell borders.",
+        title: "Figure 49 — Decoded 2D (D, E) State Zonation (Ectoderm/Endoderm) vs. Flat Control/Mesoderm & Non-Clonal Neighbor Wave Coherence",
+        sub: "Under the unified 2D (D, E) Control reference (Cell-2D primary, Pixel-2D sensitivity), pluripotent Control (+1.12 ± 0.53 mHz Cell-2D, +0.27 ± 0.38 mHz Pixel-2D) and dispersed post-EMT Mesoderm (+0.94 ± 0.37 mHz Cell-2D, −0.60 ± 0.20 mHz Pixel-2D) show flat edge profiles consistent with 3D ER volume-wave robustness, whereas Ectoderm (+6.49 ± 0.42 mHz Cell-2D, +3.55 ± 0.38 mHz Pixel-2D; interior −7.65 vs. rim −1.16 mHz) and Endoderm (+2.94 ± 0.46 mHz Cell-2D, +1.50 ± 0.55 mHz Pixel-2D) exhibit decoded-state edge zonation. Touching non-clonal neighbor coherence survives a strict joint (E/D, d_macro)-matched FOV permutation null while exhibiting uniform cross-boundary phase differences (median |Δφ| = 90.2°, KS p = 0.52) and a sharp ±1 px step at cell borders.",
         src: "figures/Fig49_Colony_Edge_Zonation_and_Edge_Conditioned_Neighbor_Coherence.png"
       }},
       {{
@@ -1748,12 +1749,26 @@ def main():
         "Fig46_H9_StoichiometryBin_FitFree_Dual_Sail_dF_vs_dPosc.png": "Fig46_StoichiometryBin_FitFree_Dual_Sail_dF_vs_dPosc.png",
         "Fig47_H9_Dual_ROC_Surprise_Flat_Control_Blue_Quench_Pink_Meso.png": "Fig47_Dual_ROC_Surprise_Flat_Control_Blue_Quench_Pink_Meso.png",
         "Fig48_H9_Representative_Contact_Sheet_All_Spatial_Views_4Lineages.png": "Fig48_Representative_Contact_Sheet_All_Spatial_Views_4Lineages.png",
+        "Fig49_H9_Colony_Edge_Zonation_and_Edge_Conditioned_Neighbor_Coherence.png": "Fig49_Colony_Edge_Zonation_and_Edge_Conditioned_Neighbor_Coherence.png",
+        "Fig50_H9_Reference_Robustness_EdgeMatched_DayMatched_LOMO_Audit.png": "Fig50_Reference_Robustness_EdgeMatched_DayMatched_LOMO_Audit.png",
     }
     for src_name, dst_name in fullres_fig_map.items():
-        src_p = ARCHIVE_DIR / src_name
-        if src_p.exists():
-            shutil.copy2(src_p, remote_fig_dir / dst_name)
-            shutil.copy2(src_p, REMOTE_OUT_DIR / src_name)
+        for cand_dir in (LOCAL_WORK_DIR, ARCHIVE_DIR):
+            src_p = cand_dir / src_name
+            if src_p.exists():
+                shutil.copy2(src_p, remote_fig_dir / dst_name)
+                shutil.copy2(src_p, REMOTE_OUT_DIR / src_name)
+                break
+        disp_name = src_name.replace(".png", "_display.png")
+        for cand_dir in (LOCAL_WORK_DIR, ARCHIVE_DIR):
+            disp_p = cand_dir / disp_name
+            if disp_p.exists():
+                (LOCAL_WORK_DIR / "figures").mkdir(parents=True, exist_ok=True)
+                shutil.copy2(disp_p, LOCAL_WORK_DIR / "figures" / dst_name)
+                if GEO_REPO_DIR.exists():
+                    (GEO_REPO_DIR / "figures").mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(disp_p, GEO_REPO_DIR / "figures" / dst_name)
+                break
 
     if GEO_REPO_DIR.exists():
         print("Syncing upgraded 420-FOV atlas and HTML viewer to /home/smcoyle/GEO-stem-cell-differentiation-explorer/...", flush=True)
