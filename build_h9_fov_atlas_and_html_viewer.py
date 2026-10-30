@@ -1318,16 +1318,35 @@ function updateUI() {{
     const r = findRecord(state.treatment, state.day, state.well, state.fov);
     let metricsHtml = '';
     if (r) {{
+      const fk = fovKey(r);
+      const tagObj = fovTags[fk] || {{ starred: false, tag: '', note: '' }};
+      const starCount = Object.values(fovTags).filter(v => v && v.starred).length;
+      const edgeDiff = (r.df_edge_med !== undefined && r.df_int_med !== undefined) ? (r.df_edge_med - r.df_int_med) : 0.0;
       metricsHtml = `
         <div class="metrics-strip">
-          <div class="metric-card"><div class="m-label">Oscillating Cells & Tissue</div><div class="m-val" style="color:#34d399">${{r.n_cells}} (${{r.osc_tissue_pct.toFixed(1)}}%)</div><div class="m-sub">${{r.n_seg_total}} Seg Masks | ${{r.n_pixels.toLocaleString()}} px</div></div>
+          <div class="metric-card"><div class="m-label">Oscillating Cells (≥10 px)</div><div class="m-val" style="color:#34d399">${{r.n_cells}} (${{r.osc_tissue_pct.toFixed(1)}}%)</div><div class="m-sub">Real Masks ≥100px: ${{r.n_seg_100 || r.n_cells}} | ${{r.n_pixels.toLocaleString()}} px</div></div>
           <div class="metric-card"><div class="m-label">Stoichiometry E/D</div><div class="m-val" style="color:#38bdf8">${{r.med_ED_ratio.toFixed(2)}}</div><div class="m-sub">Within-Colony IQR = ${{r.iqr_ED_ratio.toFixed(2)}}</div></div>
           <div class="metric-card"><div class="m-label">Raw FM Barcode (f_mHz)</div><div class="m-val" style="color:#fbbf24">${{r.med_freq_mHz.toFixed(1)}} mHz</div><div class="m-sub">Carrier IQR = ${{r.iqr_freq_mHz.toFixed(1)}} mHz</div></div>
           <div class="metric-card"><div class="m-label">Decoded State ΔF_stem</div><div class="m-val" style="color:#60a5fa">${{r.med_df_stem_mHz >= 0 ? '+' : ''}}${{r.med_df_stem_mHz.toFixed(2)}} mHz</div><div class="m-sub">Stoich-Decoded vs. Control</div></div>
-          <div class="metric-card"><div class="m-label">ROC Meso/EMT (Δs_⊥>+0.85)</div><div class="m-val" style="color:#f43f5e">${{r.pct_meso_roc.toFixed(1)}}% (n=${{r.n_meso_roc}})</div><div class="m-sub">Med Δs_⊥^stem = ${{r.med_s_perp_roc_mHz >= 0 ? '+' : ''}}${{r.med_s_perp_roc_mHz.toFixed(2)}} mHz</div></div>
-          <div class="metric-card"><div class="m-label">8A. Surface Shift ΔP_osc</div><div class="m-val" style="color:#7dd3fc">${{r.surf_dposc_med >= 0 ? '+' : ''}}${{r.surf_dposc_med.toFixed(1)}}%</div><div class="m-sub">Expected P_ctrl: ${{r.exp_pctrl_pct.toFixed(1)}}%</div></div>
-          <div class="metric-card"><div class="m-label">8B. Local Gated ΔP_osc</div><div class="m-val" style="color:#fb923c">${{r.gated_dposc_med >= 0 ? '+' : ''}}${{r.gated_dposc_med.toFixed(1)}}%</div><div class="m-sub">Quench: ${{r.quenched_pct.toFixed(0)}}% | +Alive: ${{r.more_alive_pct.toFixed(0)}}%</div></div>
+          <div class="metric-card"><div class="m-label">Colony-Edge Zonation (d_edge)</div><div class="m-val" style="color:#fde047">${{edgeDiff >= 0 ? '+' : ''}}${{edgeDiff.toFixed(2)}} mHz</div><div class="m-sub">Edge(&lt;40px): ${{r.df_edge_med !== undefined ? r.df_edge_med.toFixed(1) : '—'}} | Int(≥40px): ${{r.df_int_med !== undefined ? r.df_int_med.toFixed(1) : '—'}}</div></div>
+          <div class="metric-card"><div class="m-label">ROC Meso/EMT (Δs_⊥&gt;+0.85)</div><div class="m-val" style="color:#f43f5e">${{r.pct_meso_roc.toFixed(1)}}% (n=${{r.n_meso_roc}})</div><div class="m-sub">Med Δs_⊥^stem = ${{r.med_s_perp_roc_mHz >= 0 ? '+' : ''}}${{r.med_s_perp_roc_mHz.toFixed(2)}} mHz</div></div>
+          <div class="metric-card"><div class="m-label">8A/8B. Surface & Local ΔP_osc</div><div class="m-val" style="color:#7dd3fc">${{r.surf_dposc_med >= 0 ? '+' : ''}}${{r.surf_dposc_med.toFixed(1)}}% / ${{r.gated_dposc_med >= 0 ? '+' : ''}}${{r.gated_dposc_med.toFixed(1)}}%</div><div class="m-sub">Exp P_ctrl: ${{r.exp_pctrl_pct.toFixed(1)}}% | Quench: ${{r.quenched_pct.toFixed(0)}}%</div></div>
           <div class="metric-card"><div class="m-label">8C. Dual-ROC Surprise</div><div class="m-val" style="color:#f472b6">Pink ${{r.roc_pink_pct.toFixed(0)}}% | Blue ${{r.roc_blue_pct.toFixed(0)}}%</div><div class="m-sub">Flat Grey (Expected): ${{r.roc_grey_pct.toFixed(0)}}%</div></div>
+        </div>
+        <div class="controls-bar" style="margin-bottom:12px;border:1px solid var(--border);border-radius:8px;background:#0d1526;padding:8px 14px;">
+          <span class="ctrl-label" style="color:#fde047;">FOV Bookmark &amp; Notes:</span>
+          <button class="pill-btn ${{tagObj.starred ? 'active' : ''}}" style="${{tagObj.starred ? 'background:#eab308;border-color:#fde047;color:#0f172a;' : ''}}" onclick="toggleStarFov('${{fk}}')">${{tagObj.starred ? '★ Starred' : '☆ Star FOV'}}</button>
+          <select style="background:#1e293b;color:#f8fafc;border:1px solid #475569;border-radius:5px;padding:4px 8px;font-size:11.5px;" onchange="setFovTagCategory('${{fk}}', this.value)">
+            <option value="" ${{tagObj.tag === '' ? 'selected' : ''}}>-- Tag Category --</option>
+            <option value="Edge-Interior Gradient" ${{tagObj.tag === 'Edge-Interior Gradient' ? 'selected' : ''}}>Edge-Interior Gradient</option>
+            <option value="Quenched Rosette/Core" ${{tagObj.tag === 'Quenched Rosette/Core' ? 'selected' : ''}}>Quenched Rosette/Core</option>
+            <option value="Low-Threshold Active (Pink)" ${{tagObj.tag === 'Low-Threshold Active (Pink)' ? 'selected' : ''}}>Low-Threshold Active (Pink)</option>
+            <option value="Non-Clonal Wave Domain" ${{tagObj.tag === 'Non-Clonal Wave Domain' ? 'selected' : ''}}>Non-Clonal Wave Domain</option>
+            <option value="Showcase Candidate" ${{tagObj.tag === 'Showcase Candidate' ? 'selected' : ''}}>Showcase Candidate</option>
+            <option value="Artifact / Check" ${{tagObj.tag === 'Artifact / Check' ? 'selected' : ''}}>Artifact / Check</option>
+          </select>
+          <input type="text" placeholder="Add research note for this FOV (auto-saved in browser)..." value="${{(tagObj.note || '').replace(/"/g, '&quot;')}}" style="flex:1;min-width:220px;background:#1e293b;color:#f8fafc;border:1px solid #475569;border-radius:5px;padding:4px 10px;font-size:11.8px;" oninput="setFovNote('${{fk}}', this.value)">
+          <button class="pill-btn preset-btn" onclick="exportFovTagsCsv()">⬇ Export Notes CSV (${{starCount}} ★)</button>
         </div>
       `;
     }}
@@ -1407,13 +1426,23 @@ function updateUI() {{
   }} else if (state.mode === 'figures') {{
     const figs = [
       {{
+        title: "Figure 50 — Out-of-Sample Reference Robustness (LOWO, Day-Matched, Edge-Matched P_ctrl), Knot-Free Domain LLR, & Competent-Mask Audit",
+        sub: "Demonstrates that all headline Axis 1 and Axis 2 conclusions survive Leave-One-Well-Out (LOWO), Day-Matched, and Edge-Distance-Stratified P_ctrl(D, E | d_edge) references across n = 3 replicate wells; resolves the Mesoderm competent-mask question via Relaxed-Z (4.0 ≤ D_z < 5.0 → 97–98% oscillation rate); and shows well-to-well replicate drift is <1.7% of variance.",
+        src: "figures/Fig50_Reference_Robustness_EdgeMatched_DayMatched_LOMO_Audit.png"
+      }},
+      {{
+        title: "Figure 49 — Colony-Edge Physiological Zonation (24/24 Wells) & Edge-Conditioned Non-Clonal Neighbor Wave Coherence",
+        sub: "Across all 448,054 oscillating cells (n = 3 wells/condition), pluripotent Control colonies maintain a steady +2.3 to +3.8 mHz edge-to-interior ΔF_stem gradient within every E/D bin, while Ectoderm (−10.2 mHz interior vs. −1.9 mHz edge) and Endoderm (−5.3 mHz interior vs. −1.4 mHz edge) nucleate their frequency slowdowns from the inside out. Touching non-clonal neighbor coherence survives a strict joint (E/D, d_edge)-matched FOV permutation null while exhibiting uniform cross-boundary phase differences (median |Δφ| = 90.2°, KS p = 0.52) and a sharp ±1 px step at cell borders.",
+        src: "figures/Fig49_Colony_Edge_Zonation_and_Edge_Conditioned_Neighbor_Coherence.png"
+      }},
+      {{
         title: "Figure 48 — Master Representative Contact Sheet: All Spatial Views & Candidate ΔP_osc Formulations Across All 4 Lineages (Day 3.0)",
         sub: "10-column side-by-side comparison across Control, Ectoderm, Endoderm, and Mesoderm: 1. Green Still, 2. Dual Still, 3. Stoichiometry E/D, 4. Raw FM Barcode f_mHz, 5. Decoded State ΔF_stem, 6. ROC Meso/EMT Δs_⊥^stem, 7. Expected Control P_ctrl(D, E), 8A. Surface Shift ΔP_osc^surf, 8B. Local Gated ΔP_osc (Blue/Grey/Gold), and 8C. Dual-ROC Calibrated Surprise (Blue/Flat-Grey/Pink).",
         src: "figures/Fig48_Representative_Contact_Sheet_All_Spatial_Views_4Lineages.png"
       }},
       {{
-        title: "Figure 47 — Dual-ROC Calibrated Oscillation Surprise Map: Flat Grey Control ('1-on-1') vs. Ecto/Endo Blue Quenching ('0-on-1') & Meso Pink ('1-on-0')",
-        sub: "Operator-Receiver (ROC) calibration on both tails keeps 91% of Control colony area Flat Grey while lighting up Ectoderm/Endoderm quenched domains in Deep Cyan-Blue (τ_-* = −28%, AUROC = 0.737) and Mesoderm EMT cells in Vivid Pink (τ_+*: P_ctrl ≤ 35.5%, AUROC = 0.831).",
+        title: "Figure 47 — Dual-ROC Calibrated Oscillation Surprise Map: Control Baseline ('1-on-1' Grey) vs. Quenched ('0-on-1' Blue) & Low-Threshold Active ('1-on-0' Pink)",
+        sub: "ROC calibration on both tails keeps Control colony tissue Flat Grey (|S_roc| < 28.5) while separating Ectoderm/Endoderm quenched domains in Blue (P_dom − P_ctrl ≤ −22.0%, Youden τ_-* = −22.0%, AUROC = 0.737) and low-threshold active Mesoderm cells in Pink (P_ctrl ≤ 32.5%, Youden τ_+* = +61.5%, AUROC = 0.831).",
         src: "figures/Fig47_Dual_ROC_Surprise_Flat_Control_Blue_Quench_Pink_Meso.png"
       }},
       {{
@@ -1467,6 +1496,67 @@ function updateUI() {{
       </div>
     `).join('');
   }}
+}}
+
+const STORAGE_KEY_TAGS = 'h9_vocoder_fov_tags_v1';
+let fovTags = {{}};
+try {{
+  const rawTags = localStorage.getItem(STORAGE_KEY_TAGS);
+  if (rawTags) fovTags = JSON.parse(rawTags);
+}} catch (e) {{ fovTags = {{}}; }}
+
+function saveFovTags() {{
+  try {{ localStorage.setItem(STORAGE_KEY_TAGS, JSON.stringify(fovTags)); }} catch (e) {{}}
+}}
+function fovKey(r) {{
+  return `${{r.treatment}}_d${{r.day.toFixed(1)}}_w${{r.well}}_f${{r.fov_index}}`;
+}}
+function toggleStarFov(fk) {{
+  if (!fovTags[fk]) fovTags[fk] = {{ starred: false, tag: '', note: '' }};
+  fovTags[fk].starred = !fovTags[fk].starred;
+  saveFovTags();
+  updateUI();
+}}
+function setFovTagCategory(fk, val) {{
+  if (!fovTags[fk]) fovTags[fk] = {{ starred: true, tag: '', note: '' }};
+  fovTags[fk].tag = val;
+  if (val) fovTags[fk].starred = true;
+  saveFovTags();
+  updateUI();
+}}
+function setFovNote(fk, val) {{
+  if (!fovTags[fk]) fovTags[fk] = {{ starred: true, tag: '', note: '' }};
+  fovTags[fk].note = val;
+  saveFovTags();
+}}
+function exportFovTagsCsv() {{
+  const rows = [['key','treatment','day','well','fov_index','filename','starred','tag','note','n_cells','n_seg_100','med_ED_ratio','med_df_stem_mHz','df_edge_med','df_int_med','roc_grey_pct','roc_blue_pct','roc_pink_pct']];
+  FOV_DATA.forEach(r => {{
+    const fk = fovKey(r);
+    const t = fovTags[fk];
+    if (t && (t.starred || t.tag || (t.note && t.note.trim()))) {{
+      rows.push([
+        fk, r.treatment, r.day.toFixed(1), r.well, r.fov_index + 1, r.filename,
+        t.starred ? '1' : '0', `"${{(t.tag || '').replace(/"/g, '""')}}"`, `"${{(t.note || '').replace(/"/g, '""')}}"`,
+        r.n_cells, r.n_seg_100 || r.n_cells, r.med_ED_ratio.toFixed(2), r.med_df_stem_mHz.toFixed(2),
+        (r.df_edge_med !== undefined ? r.df_edge_med.toFixed(2) : ''), (r.df_int_med !== undefined ? r.df_int_med.toFixed(2) : ''),
+        r.roc_grey_pct.toFixed(1), r.roc_blue_pct.toFixed(1), r.roc_pink_pct.toFixed(1)
+      ]);
+    }}
+  }});
+  if (rows.length === 1) {{
+    alert('No starred or annotated FOVs yet! Star or add a note to any FOV first.');
+    return;
+  }}
+  const csv = rows.map(r => r.join(',')).join('\n');
+  const blob = new Blob([csv], {{ type: 'text/csv;charset=utf-8;' }});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'H9_Vocoder_Tagged_FOV_Notes.csv';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
 }}
 
 function setMode(m) {{ state.mode = m; updateUI(); }}
