@@ -176,22 +176,32 @@ def build_precomputed_state_bundle() -> str:
     w_piv = np.clip(1.0 - df["in_pivot_frac"].to_numpy(), 0.20, 1.0)
     df["ds_perp_roc"] = df["ds_perp"] * np.sqrt(w_pix * w_chi) * w_piv
 
-    ed_arr = df["ED_ratio_mean"].to_numpy()
-    ed_lever = np.clip((np.log2(np.maximum(ed_arr, 0.25)) - 1.0) / 1.8, -1.2, 1.2)
-    df["df0_clean"] = np.where(np.isfinite(df["df0_mean"].to_numpy()), df["df0_mean"].to_numpy(), off_raw + tilt_raw * ed_lever)
+    # Merge true macroscopic colony boundary distance `d_edge_px` from Fig 49 parquet
+    edge_pq = ARCHIVE_DIR / "_fig49_d_edge_cells.parquet"
+    if edge_pq.exists():
+        df_edge = pd.read_parquet(edge_pq, columns=["treatment", "day", "well_num", "filename", "label_id", "d_edge_px"])
+        df = df.merge(df_edge, on=["treatment", "day", "well_num", "filename", "label_id"], how="left")
+    else:
+        df["d_edge_px"] = 40.0
+
+    # Background-Subtracted Stoichiometry (E - B_E) / (D - B_D) (B_D = 136.7 ADU, B_E = 266.3 ADU)
+    B_D_MED, B_E_MED = 136.7, 266.3
+    df["ed_sub"] = np.maximum(df["E_smooth_mean"].to_numpy() - B_E_MED, 15.0) / np.maximum(df["D_smooth_mean"].to_numpy() - B_D_MED, 15.0)
 
     ctrl_homeo_all = df[(df["treatment"] == "control") & (df["day"] >= 1.0) & (df["day"] <= 3.0)]
-    ed_grid = np.linspace(1.2, 8.5, 140)
+    ed_grid = np.linspace(1.5, 12.0, 140)
     ed_centers = 0.5 * (ed_grid[:-1] + ed_grid[1:])
-    c_ed = ctrl_homeo_all["ED_ratio_mean"].to_numpy()
-    c_df0 = ctrl_homeo_all["df0_clean"].to_numpy()
+    c_ed = ctrl_homeo_all["ed_sub"].to_numpy()
+    c_f = ctrl_homeo_all["freq_mHz_mean"].to_numpy()
     ctrl_ed_medians = np.array([
-        np.nanmedian(c_df0[(c_ed >= ed_grid[i]) & (c_ed < ed_grid[i + 1])])
+        np.nanmedian(c_f[(c_ed >= ed_grid[i]) & (c_ed < ed_grid[i + 1])])
         if np.sum((c_ed >= ed_grid[i]) & (c_ed < ed_grid[i + 1])) >= 25 else np.nan
         for i in range(len(ed_centers))
     ])
     ctrl_ed_smooth = gaussian_filter1d(pd.Series(ctrl_ed_medians).interpolate().bfill().ffill().to_numpy(), sigma=1.5)
-    df["df_stem_surface"] = df["df0_clean"] - np.interp(ed_arr, ed_centers, ctrl_ed_smooth)
+    df["df_stem_surface"] = df["freq_mHz_mean"].to_numpy() - np.interp(
+        np.clip(df["ed_sub"].to_numpy(), ed_centers[0], ed_centers[-1]), ed_centers, ctrl_ed_smooth
+    )
 
     d_edges = np.geomspace(155.0, 950.0, 33)
     e_edges = np.geomspace(460.0, 3200.0, 33)
@@ -232,6 +242,7 @@ def build_precomputed_state_bundle() -> str:
             "ds_perp_roc": g["ds_perp_roc"].to_numpy(dtype=np.float32),
             "dP_osc_cell": g["dP_osc_cell"].to_numpy(dtype=np.float32),
             "ED_ratio": g["ED_ratio_mean"].to_numpy(dtype=np.float32),
+            "d_edge_px": g["d_edge_px"].to_numpy(dtype=np.float32),
         }
 
     with open(arch_bundle, "wb") as f:
@@ -402,6 +413,7 @@ def process_single_well(ckpt_path_str: str) -> list:
             spar_vals = c_info["ds_par"][valid_c]
             sperp_raw_vals = c_info["ds_perp"][valid_c]
             dp_cell_vals = c_info["dP_osc_cell"][valid_c]
+            dedge_vals = c_info.get("d_edge_px", np.full_like(df_vals, 40.0))[valid_c]
 
             lut_bar[c_ids] = cmap_barcode(norm_barcode(f_vals))[:, :3].astype(np.float32)
             lut_df[c_ids] = cmap_df(norm_df(df_vals))[:, :3].astype(np.float32)
@@ -414,6 +426,7 @@ def process_single_well(ckpt_path_str: str) -> list:
             spar_vals = np.array([], dtype=np.float32)
             sperp_raw_vals = np.array([], dtype=np.float32)
             dp_cell_vals = np.array([], dtype=np.float32)
+            dedge_vals = np.array([40.0], dtype=np.float32)
 
         rgb_bar = lut_bar[m_sub]
         rgb_df = lut_df[m_sub]
@@ -468,6 +481,11 @@ def process_single_well(ckpt_path_str: str) -> list:
         # Compute summary metrics for this FOV
         n_cells = int(len(c_ids))
         n_seg_total = int(len(labels))
+        n_seg_100 = int(np.sum(np.bincount(mask.ravel())[1:] >= 100)) if max_lbl > 0 else 0
+        m_edge_c = (dedge_vals < 40.0) & np.isfinite(df_vals)
+        m_int_c = (dedge_vals >= 40.0) & np.isfinite(df_vals)
+        df_edge_med = float(np.median(df_vals[m_edge_c])) if np.any(m_edge_c) else float(np.median(df_vals))
+        df_int_med = float(np.median(df_vals[m_int_c])) if np.any(m_int_c) else float(np.median(df_vals))
         osc_tissue_pct = float(dz_stats["osc_pct"])
         exp_pctrl_pct = float(np.mean(p_exp_map[in_tissue])) if np.any(in_tissue) else 0.0
         comp_mask = in_tissue & (p_exp_map >= 20.0)
@@ -663,6 +681,7 @@ def process_single_well(ckpt_path_str: str) -> list:
                 "n_pixels": int(len(strict_yx)),
                 "n_cells": n_cells,
                 "n_seg_total": n_seg_total,
+                "n_seg_100": n_seg_100,
                 "osc_tissue_pct": round(osc_tissue_pct, 1),
                 "exp_pctrl_pct": round(exp_pctrl_pct, 1),
                 "competent_pct": round(competent_pct, 1),
@@ -678,6 +697,8 @@ def process_single_well(ckpt_path_str: str) -> list:
                 "med_freq_mHz": round(med_f, 1),
                 "iqr_freq_mHz": round(iqr_f, 1),
                 "med_df_stem_mHz": round(med_df_stem, 2),
+                "df_edge_med": round(df_edge_med, 2),
+                "df_int_med": round(df_int_med, 2),
                 "med_s_parallel_mHz": round(med_s_par, 2),
                 "med_s_perp_roc_mHz": round(med_s_perp, 2),
                 "pct_meso_roc": round(pct_meso_roc, 1),
@@ -1689,7 +1710,7 @@ def main():
 
     all_fov_records = []
     done_wells = 0
-    with ProcessPoolExecutor(max_workers=8, initializer=_init_worker, initargs=(bundle_path,)) as ex:
+    with ProcessPoolExecutor(max_workers=12, initializer=_init_worker, initargs=(bundle_path,)) as ex:
         futs = {ex.submit(process_single_well, cp): cp for cp in ckpt_files}
         for fut in as_completed(futs):
             recs = fut.result()
