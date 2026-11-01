@@ -21,7 +21,8 @@
     "n_meso_roc": 36,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 28.1,
-    "n_aclonal_coh": 112
+    "n_aclonal_coh": 112,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "control",
@@ -45,7 +46,8 @@
     "n_meso_roc": 21,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 13.7,
-    "n_aclonal_coh": 53
+    "n_aclonal_coh": 53,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "control",
@@ -69,7 +71,8 @@
     "n_meso_roc": 23,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 34.1,
-    "n_aclonal_coh": 157
+    "n_aclonal_coh": 157,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "control",
@@ -93,7 +96,8 @@
     "n_meso_roc": 35,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 16.2,
-    "n_aclonal_coh": 69
+    "n_aclonal_coh": 69,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "control",
@@ -117,7 +121,8 @@
     "n_meso_roc": 36,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 19.7,
-    "n_aclonal_coh": 87
+    "n_aclonal_coh": 87,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "control",
@@ -141,7 +146,8 @@
     "n_meso_roc": 64,
     "med_c_nc": 0.08,
     "pct_aclonal_coh": 37.9,
-    "n_aclonal_coh": 319
+    "n_aclonal_coh": 319,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "control",
@@ -165,7 +171,8 @@
     "n_meso_roc": 44,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 27.7,
-    "n_aclonal_coh": 135
+    "n_aclonal_coh": 135,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "control",
@@ -189,7 +196,8 @@
     "n_meso_roc": 40,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 24.6,
-    "n_aclonal_coh": 139
+    "n_aclonal_coh": 139,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "control",
@@ -213,7 +221,8 @@
     "n_meso_roc": 37,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 28.0,
-    "n_aclonal_coh": 184
+    "n_aclonal_coh": 184,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "control",
@@ -237,7 +246,8 @@
     "n_meso_roc": 99,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 30.1,
-    "n_aclonal_coh": 265
+    "n_aclonal_coh": 265,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "control",
@@ -261,7 +271,8 @@
     "n_meso_roc": 62,
     "med_c_nc": 0.12,
     "pct_aclonal_coh": 37.5,
-    "n_aclonal_coh": 380
+    "n_aclonal_coh": 380,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "control",
@@ -285,7 +296,8 @@
     "n_meso_roc": 48,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 29.4,
-    "n_aclonal_coh": 176
+    "n_aclonal_coh": 176,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "control",
@@ -309,7 +321,8 @@
     "n_meso_roc": 58,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 28.8,
-    "n_aclonal_coh": 188
+    "n_aclonal_coh": 188,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "control",
@@ -333,7 +346,8 @@
     "n_meso_roc": 98,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 22.3,
-    "n_aclonal_coh": 268
+    "n_aclonal_coh": 268,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "control",
@@ -357,7 +371,8 @@
     "n_meso_roc": 84,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 30.5,
-    "n_aclonal_coh": 369
+    "n_aclonal_coh": 369,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "control",
@@ -381,7 +396,8 @@
     "n_meso_roc": 54,
     "med_c_nc": 0.34,
     "pct_aclonal_coh": 62.7,
-    "n_aclonal_coh": 293
+    "n_aclonal_coh": 293,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "control",
@@ -405,7 +421,8 @@
     "n_meso_roc": 23,
     "med_c_nc": 0.25,
     "pct_aclonal_coh": 51.2,
-    "n_aclonal_coh": 186
+    "n_aclonal_coh": 186,
+    "med_r12_um": 21.8
   },
   {
     "treatment": "control",
@@ -429,7 +446,8 @@
     "n_meso_roc": 43,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 57.0,
-    "n_aclonal_coh": 340
+    "n_aclonal_coh": 340,
+    "med_r12_um": 33.7
   },
   {
     "treatment": "control",
@@ -453,7 +471,8 @@
     "n_meso_roc": 18,
     "med_c_nc": 0.41,
     "pct_aclonal_coh": 70.3,
-    "n_aclonal_coh": 291
+    "n_aclonal_coh": 291,
+    "med_r12_um": 50.6
   },
   {
     "treatment": "control",
@@ -477,7 +496,8 @@
     "n_meso_roc": 19,
     "med_c_nc": 0.27,
     "pct_aclonal_coh": 51.7,
-    "n_aclonal_coh": 245
+    "n_aclonal_coh": 245,
+    "med_r12_um": 29.3
   },
   {
     "treatment": "control",
@@ -501,7 +521,8 @@
     "n_meso_roc": 37,
     "med_c_nc": 0.32,
     "pct_aclonal_coh": 61.0,
-    "n_aclonal_coh": 514
+    "n_aclonal_coh": 514,
+    "med_r12_um": 24.3
   },
   {
     "treatment": "control",
@@ -525,7 +546,8 @@
     "n_meso_roc": 33,
     "med_c_nc": 0.32,
     "pct_aclonal_coh": 56.7,
-    "n_aclonal_coh": 250
+    "n_aclonal_coh": 250,
+    "med_r12_um": 28.2
   },
   {
     "treatment": "control",
@@ -549,7 +571,8 @@
     "n_meso_roc": 48,
     "med_c_nc": 0.34,
     "pct_aclonal_coh": 61.4,
-    "n_aclonal_coh": 412
+    "n_aclonal_coh": 412,
+    "med_r12_um": 39.2
   },
   {
     "treatment": "control",
@@ -573,7 +596,8 @@
     "n_meso_roc": 50,
     "med_c_nc": 0.28,
     "pct_aclonal_coh": 53.1,
-    "n_aclonal_coh": 387
+    "n_aclonal_coh": 387,
+    "med_r12_um": 29.6
   },
   {
     "treatment": "control",
@@ -597,7 +621,8 @@
     "n_meso_roc": 55,
     "med_c_nc": 0.27,
     "pct_aclonal_coh": 55.3,
-    "n_aclonal_coh": 513
+    "n_aclonal_coh": 513,
+    "med_r12_um": 17.2
   },
   {
     "treatment": "control",
@@ -621,7 +646,8 @@
     "n_meso_roc": 32,
     "med_c_nc": 0.27,
     "pct_aclonal_coh": 53.9,
-    "n_aclonal_coh": 612
+    "n_aclonal_coh": 612,
+    "med_r12_um": 19.5
   },
   {
     "treatment": "control",
@@ -645,7 +671,8 @@
     "n_meso_roc": 36,
     "med_c_nc": 0.17,
     "pct_aclonal_coh": 42.4,
-    "n_aclonal_coh": 247
+    "n_aclonal_coh": 247,
+    "med_r12_um": 17.7
   },
   {
     "treatment": "control",
@@ -669,7 +696,8 @@
     "n_meso_roc": 44,
     "med_c_nc": 0.24,
     "pct_aclonal_coh": 49.4,
-    "n_aclonal_coh": 391
+    "n_aclonal_coh": 391,
+    "med_r12_um": 20.7
   },
   {
     "treatment": "control",
@@ -693,7 +721,8 @@
     "n_meso_roc": 38,
     "med_c_nc": 0.25,
     "pct_aclonal_coh": 51.3,
-    "n_aclonal_coh": 654
+    "n_aclonal_coh": 654,
+    "med_r12_um": 25.7
   },
   {
     "treatment": "control",
@@ -717,7 +746,8 @@
     "n_meso_roc": 73,
     "med_c_nc": 0.24,
     "pct_aclonal_coh": 50.3,
-    "n_aclonal_coh": 709
+    "n_aclonal_coh": 709,
+    "med_r12_um": 18.8
   },
   {
     "treatment": "control",
@@ -741,7 +771,8 @@
     "n_meso_roc": 69,
     "med_c_nc": 0.28,
     "pct_aclonal_coh": 56.6,
-    "n_aclonal_coh": 418
+    "n_aclonal_coh": 418,
+    "med_r12_um": 21.2
   },
   {
     "treatment": "control",
@@ -765,7 +796,8 @@
     "n_meso_roc": 15,
     "med_c_nc": 0.28,
     "pct_aclonal_coh": 56.6,
-    "n_aclonal_coh": 381
+    "n_aclonal_coh": 381,
+    "med_r12_um": 27.9
   },
   {
     "treatment": "control",
@@ -789,7 +821,8 @@
     "n_meso_roc": 26,
     "med_c_nc": 0.27,
     "pct_aclonal_coh": 54.7,
-    "n_aclonal_coh": 472
+    "n_aclonal_coh": 472,
+    "med_r12_um": 23.4
   },
   {
     "treatment": "control",
@@ -813,7 +846,8 @@
     "n_meso_roc": 41,
     "med_c_nc": 0.31,
     "pct_aclonal_coh": 58.2,
-    "n_aclonal_coh": 442
+    "n_aclonal_coh": 442,
+    "med_r12_um": 23.8
   },
   {
     "treatment": "control",
@@ -837,7 +871,8 @@
     "n_meso_roc": 37,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 57.3,
-    "n_aclonal_coh": 418
+    "n_aclonal_coh": 418,
+    "med_r12_um": 25.7
   },
   {
     "treatment": "control",
@@ -861,7 +896,8 @@
     "n_meso_roc": 43,
     "med_c_nc": 0.25,
     "pct_aclonal_coh": 51.1,
-    "n_aclonal_coh": 765
+    "n_aclonal_coh": 765,
+    "med_r12_um": 17.8
   },
   {
     "treatment": "control",
@@ -885,7 +921,8 @@
     "n_meso_roc": 39,
     "med_c_nc": 0.26,
     "pct_aclonal_coh": 51.6,
-    "n_aclonal_coh": 429
+    "n_aclonal_coh": 429,
+    "med_r12_um": 17.2
   },
   {
     "treatment": "control",
@@ -909,7 +946,8 @@
     "n_meso_roc": 18,
     "med_c_nc": 0.3,
     "pct_aclonal_coh": 57.2,
-    "n_aclonal_coh": 359
+    "n_aclonal_coh": 359,
+    "med_r12_um": 18.0
   },
   {
     "treatment": "control",
@@ -933,7 +971,8 @@
     "n_meso_roc": 46,
     "med_c_nc": 0.33,
     "pct_aclonal_coh": 59.8,
-    "n_aclonal_coh": 734
+    "n_aclonal_coh": 734,
+    "med_r12_um": 30.3
   },
   {
     "treatment": "control",
@@ -957,7 +996,8 @@
     "n_meso_roc": 52,
     "med_c_nc": 0.34,
     "pct_aclonal_coh": 64.4,
-    "n_aclonal_coh": 801
+    "n_aclonal_coh": 801,
+    "med_r12_um": 27.8
   },
   {
     "treatment": "control",
@@ -981,7 +1021,8 @@
     "n_meso_roc": 43,
     "med_c_nc": 0.24,
     "pct_aclonal_coh": 50.1,
-    "n_aclonal_coh": 804
+    "n_aclonal_coh": 804,
+    "med_r12_um": 21.3
   },
   {
     "treatment": "control",
@@ -1005,7 +1046,8 @@
     "n_meso_roc": 38,
     "med_c_nc": 0.35,
     "pct_aclonal_coh": 62.3,
-    "n_aclonal_coh": 529
+    "n_aclonal_coh": 529,
+    "med_r12_um": 35.4
   },
   {
     "treatment": "control",
@@ -1029,7 +1071,8 @@
     "n_meso_roc": 27,
     "med_c_nc": 0.22,
     "pct_aclonal_coh": 48.3,
-    "n_aclonal_coh": 608
+    "n_aclonal_coh": 608,
+    "med_r12_um": 29.6
   },
   {
     "treatment": "control",
@@ -1053,7 +1096,8 @@
     "n_meso_roc": 64,
     "med_c_nc": 0.27,
     "pct_aclonal_coh": 55.4,
-    "n_aclonal_coh": 974
+    "n_aclonal_coh": 974,
+    "med_r12_um": 27.4
   },
   {
     "treatment": "control",
@@ -1077,7 +1121,8 @@
     "n_meso_roc": 53,
     "med_c_nc": 0.24,
     "pct_aclonal_coh": 50.0,
-    "n_aclonal_coh": 1025
+    "n_aclonal_coh": 1025,
+    "med_r12_um": 25.8
   },
   {
     "treatment": "control",
@@ -1101,7 +1146,8 @@
     "n_meso_roc": 69,
     "med_c_nc": 0.33,
     "pct_aclonal_coh": 59.7,
-    "n_aclonal_coh": 721
+    "n_aclonal_coh": 721,
+    "med_r12_um": 31.3
   },
   {
     "treatment": "control",
@@ -1125,7 +1171,8 @@
     "n_meso_roc": 45,
     "med_c_nc": 0.22,
     "pct_aclonal_coh": 48.3,
-    "n_aclonal_coh": 590
+    "n_aclonal_coh": 590,
+    "med_r12_um": 22.5
   },
   {
     "treatment": "control",
@@ -1149,7 +1196,8 @@
     "n_meso_roc": 47,
     "med_c_nc": 0.5,
     "pct_aclonal_coh": 72.8,
-    "n_aclonal_coh": 922
+    "n_aclonal_coh": 922,
+    "med_r12_um": 62.0
   },
   {
     "treatment": "control",
@@ -1173,7 +1221,8 @@
     "n_meso_roc": 46,
     "med_c_nc": 0.35,
     "pct_aclonal_coh": 67.7,
-    "n_aclonal_coh": 801
+    "n_aclonal_coh": 801,
+    "med_r12_um": 28.7
   },
   {
     "treatment": "control",
@@ -1197,7 +1246,8 @@
     "n_meso_roc": 42,
     "med_c_nc": 0.38,
     "pct_aclonal_coh": 69.1,
-    "n_aclonal_coh": 696
+    "n_aclonal_coh": 696,
+    "med_r12_um": 30.2
   },
   {
     "treatment": "control",
@@ -1221,7 +1271,8 @@
     "n_meso_roc": 38,
     "med_c_nc": 0.45,
     "pct_aclonal_coh": 74.1,
-    "n_aclonal_coh": 1681
+    "n_aclonal_coh": 1681,
+    "med_r12_um": 51.0
   },
   {
     "treatment": "control",
@@ -1245,7 +1296,8 @@
     "n_meso_roc": 63,
     "med_c_nc": 0.33,
     "pct_aclonal_coh": 60.9,
-    "n_aclonal_coh": 965
+    "n_aclonal_coh": 965,
+    "med_r12_um": 36.4
   },
   {
     "treatment": "control",
@@ -1269,7 +1321,8 @@
     "n_meso_roc": 36,
     "med_c_nc": 0.34,
     "pct_aclonal_coh": 64.6,
-    "n_aclonal_coh": 692
+    "n_aclonal_coh": 692,
+    "med_r12_um": 23.3
   },
   {
     "treatment": "control",
@@ -1293,7 +1346,8 @@
     "n_meso_roc": 66,
     "med_c_nc": 0.42,
     "pct_aclonal_coh": 66.9,
-    "n_aclonal_coh": 1312
+    "n_aclonal_coh": 1312,
+    "med_r12_um": 48.2
   },
   {
     "treatment": "control",
@@ -1317,7 +1371,8 @@
     "n_meso_roc": 55,
     "med_c_nc": 0.32,
     "pct_aclonal_coh": 60.5,
-    "n_aclonal_coh": 1189
+    "n_aclonal_coh": 1189,
+    "med_r12_um": 28.9
   },
   {
     "treatment": "control",
@@ -1341,7 +1396,8 @@
     "n_meso_roc": 69,
     "med_c_nc": 0.26,
     "pct_aclonal_coh": 52.6,
-    "n_aclonal_coh": 1483
+    "n_aclonal_coh": 1483,
+    "med_r12_um": 29.7
   },
   {
     "treatment": "control",
@@ -1365,7 +1421,8 @@
     "n_meso_roc": 48,
     "med_c_nc": 0.36,
     "pct_aclonal_coh": 65.6,
-    "n_aclonal_coh": 1073
+    "n_aclonal_coh": 1073,
+    "med_r12_um": 36.2
   },
   {
     "treatment": "control",
@@ -1389,7 +1446,8 @@
     "n_meso_roc": 45,
     "med_c_nc": 0.23,
     "pct_aclonal_coh": 49.0,
-    "n_aclonal_coh": 945
+    "n_aclonal_coh": 945,
+    "med_r12_um": 21.3
   },
   {
     "treatment": "control",
@@ -1413,7 +1471,8 @@
     "n_meso_roc": 78,
     "med_c_nc": 0.31,
     "pct_aclonal_coh": 58.2,
-    "n_aclonal_coh": 1778
+    "n_aclonal_coh": 1778,
+    "med_r12_um": 32.2
   },
   {
     "treatment": "control",
@@ -1437,7 +1496,8 @@
     "n_meso_roc": 103,
     "med_c_nc": 0.26,
     "pct_aclonal_coh": 52.6,
-    "n_aclonal_coh": 1767
+    "n_aclonal_coh": 1767,
+    "med_r12_um": 25.2
   },
   {
     "treatment": "control",
@@ -1461,7 +1521,8 @@
     "n_meso_roc": 75,
     "med_c_nc": 0.34,
     "pct_aclonal_coh": 60.4,
-    "n_aclonal_coh": 1372
+    "n_aclonal_coh": 1372,
+    "med_r12_um": 35.3
   },
   {
     "treatment": "control",
@@ -1485,7 +1546,8 @@
     "n_meso_roc": 36,
     "med_c_nc": 0.28,
     "pct_aclonal_coh": 54.6,
-    "n_aclonal_coh": 1038
+    "n_aclonal_coh": 1038,
+    "med_r12_um": 22.7
   },
   {
     "treatment": "control",
@@ -1509,7 +1571,8 @@
     "n_meso_roc": 70,
     "med_c_nc": 0.39,
     "pct_aclonal_coh": 62.4,
-    "n_aclonal_coh": 1090
+    "n_aclonal_coh": 1090,
+    "med_r12_um": 44.1
   },
   {
     "treatment": "control",
@@ -1533,7 +1596,8 @@
     "n_meso_roc": 70,
     "med_c_nc": 0.36,
     "pct_aclonal_coh": 62.7,
-    "n_aclonal_coh": 1112
+    "n_aclonal_coh": 1112,
+    "med_r12_um": 37.1
   },
   {
     "treatment": "control",
@@ -1557,7 +1621,8 @@
     "n_meso_roc": 58,
     "med_c_nc": 0.36,
     "pct_aclonal_coh": 63.6,
-    "n_aclonal_coh": 1381
+    "n_aclonal_coh": 1381,
+    "med_r12_um": 42.1
   },
   {
     "treatment": "control",
@@ -1581,7 +1646,8 @@
     "n_meso_roc": 91,
     "med_c_nc": 0.32,
     "pct_aclonal_coh": 58.1,
-    "n_aclonal_coh": 2292
+    "n_aclonal_coh": 2292,
+    "med_r12_um": 37.4
   },
   {
     "treatment": "control",
@@ -1605,7 +1671,8 @@
     "n_meso_roc": 81,
     "med_c_nc": 0.36,
     "pct_aclonal_coh": 61.6,
-    "n_aclonal_coh": 1602
+    "n_aclonal_coh": 1602,
+    "med_r12_um": 37.8
   },
   {
     "treatment": "control",
@@ -1629,7 +1696,8 @@
     "n_meso_roc": 50,
     "med_c_nc": 0.41,
     "pct_aclonal_coh": 64.7,
-    "n_aclonal_coh": 1113
+    "n_aclonal_coh": 1113,
+    "med_r12_um": 42.4
   },
   {
     "treatment": "control",
@@ -1653,7 +1721,8 @@
     "n_meso_roc": 90,
     "med_c_nc": 0.34,
     "pct_aclonal_coh": 60.6,
-    "n_aclonal_coh": 1782
+    "n_aclonal_coh": 1782,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "control",
@@ -1677,7 +1746,8 @@
     "n_meso_roc": 78,
     "med_c_nc": 0.33,
     "pct_aclonal_coh": 60.7,
-    "n_aclonal_coh": 1651
+    "n_aclonal_coh": 1651,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "control",
@@ -1701,7 +1771,8 @@
     "n_meso_roc": 44,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 54.0,
-    "n_aclonal_coh": 1117
+    "n_aclonal_coh": 1117,
+    "med_r12_um": 30.7
   },
   {
     "treatment": "control",
@@ -1725,7 +1796,8 @@
     "n_meso_roc": 68,
     "med_c_nc": 0.24,
     "pct_aclonal_coh": 49.9,
-    "n_aclonal_coh": 1166
+    "n_aclonal_coh": 1166,
+    "med_r12_um": 21.7
   },
   {
     "treatment": "control",
@@ -1749,7 +1821,8 @@
     "n_meso_roc": 103,
     "med_c_nc": 0.23,
     "pct_aclonal_coh": 49.3,
-    "n_aclonal_coh": 1552
+    "n_aclonal_coh": 1552,
+    "med_r12_um": 21.8
   },
   {
     "treatment": "control",
@@ -1773,7 +1846,8 @@
     "n_meso_roc": 76,
     "med_c_nc": 0.24,
     "pct_aclonal_coh": 50.1,
-    "n_aclonal_coh": 1199
+    "n_aclonal_coh": 1199,
+    "med_r12_um": 25.4
   },
   {
     "treatment": "control",
@@ -1797,7 +1871,8 @@
     "n_meso_roc": 68,
     "med_c_nc": 0.31,
     "pct_aclonal_coh": 58.0,
-    "n_aclonal_coh": 1485
+    "n_aclonal_coh": 1485,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "control",
@@ -1821,7 +1896,8 @@
     "n_meso_roc": 136,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 57.3,
-    "n_aclonal_coh": 1633
+    "n_aclonal_coh": 1633,
+    "med_r12_um": 22.0
   },
   {
     "treatment": "control",
@@ -1845,7 +1921,8 @@
     "n_meso_roc": 109,
     "med_c_nc": 0.3,
     "pct_aclonal_coh": 58.9,
-    "n_aclonal_coh": 1808
+    "n_aclonal_coh": 1808,
+    "med_r12_um": 31.7
   },
   {
     "treatment": "control",
@@ -1869,7 +1946,8 @@
     "n_meso_roc": 100,
     "med_c_nc": 0.32,
     "pct_aclonal_coh": 60.3,
-    "n_aclonal_coh": 1593
+    "n_aclonal_coh": 1593,
+    "med_r12_um": 31.3
   },
   {
     "treatment": "control",
@@ -1893,7 +1971,8 @@
     "n_meso_roc": 82,
     "med_c_nc": 0.25,
     "pct_aclonal_coh": 51.6,
-    "n_aclonal_coh": 1653
+    "n_aclonal_coh": 1653,
+    "med_r12_um": 26.7
   },
   {
     "treatment": "control",
@@ -1917,7 +1996,8 @@
     "n_meso_roc": 60,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 55.9,
-    "n_aclonal_coh": 1644
+    "n_aclonal_coh": 1644,
+    "med_r12_um": 30.8
   },
   {
     "treatment": "control",
@@ -1941,7 +2021,8 @@
     "n_meso_roc": 70,
     "med_c_nc": 0.33,
     "pct_aclonal_coh": 61.3,
-    "n_aclonal_coh": 1900
+    "n_aclonal_coh": 1900,
+    "med_r12_um": 29.6
   },
   {
     "treatment": "control",
@@ -1965,7 +2046,8 @@
     "n_meso_roc": 91,
     "med_c_nc": 0.33,
     "pct_aclonal_coh": 60.5,
-    "n_aclonal_coh": 1805
+    "n_aclonal_coh": 1805,
+    "med_r12_um": 34.4
   },
   {
     "treatment": "control",
@@ -1989,7 +2071,8 @@
     "n_meso_roc": 95,
     "med_c_nc": 0.42,
     "pct_aclonal_coh": 72.6,
-    "n_aclonal_coh": 2428
+    "n_aclonal_coh": 2428,
+    "med_r12_um": 45.8
   },
   {
     "treatment": "control",
@@ -2013,7 +2096,8 @@
     "n_meso_roc": 139,
     "med_c_nc": 0.33,
     "pct_aclonal_coh": 59.2,
-    "n_aclonal_coh": 2167
+    "n_aclonal_coh": 2167,
+    "med_r12_um": 35.5
   },
   {
     "treatment": "control",
@@ -2037,7 +2121,8 @@
     "n_meso_roc": 97,
     "med_c_nc": 0.37,
     "pct_aclonal_coh": 66.7,
-    "n_aclonal_coh": 2673
+    "n_aclonal_coh": 2673,
+    "med_r12_um": 38.7
   },
   {
     "treatment": "control",
@@ -2061,7 +2146,8 @@
     "n_meso_roc": 109,
     "med_c_nc": 0.26,
     "pct_aclonal_coh": 52.1,
-    "n_aclonal_coh": 1776
+    "n_aclonal_coh": 1776,
+    "med_r12_um": 24.3
   },
   {
     "treatment": "control",
@@ -2085,7 +2171,8 @@
     "n_meso_roc": 118,
     "med_c_nc": 0.3,
     "pct_aclonal_coh": 55.4,
-    "n_aclonal_coh": 1752
+    "n_aclonal_coh": 1752,
+    "med_r12_um": 30.5
   },
   {
     "treatment": "control",
@@ -2109,7 +2196,8 @@
     "n_meso_roc": 117,
     "med_c_nc": 0.28,
     "pct_aclonal_coh": 54.4,
-    "n_aclonal_coh": 2010
+    "n_aclonal_coh": 2010,
+    "med_r12_um": 24.9
   },
   {
     "treatment": "control",
@@ -2133,7 +2221,8 @@
     "n_meso_roc": 0,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 0.0,
-    "n_aclonal_coh": 0
+    "n_aclonal_coh": 0,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "control",
@@ -2157,7 +2246,8 @@
     "n_meso_roc": 100,
     "med_c_nc": 0.28,
     "pct_aclonal_coh": 56.2,
-    "n_aclonal_coh": 1755
+    "n_aclonal_coh": 1755,
+    "med_r12_um": 26.4
   },
   {
     "treatment": "control",
@@ -2181,7 +2271,8 @@
     "n_meso_roc": 143,
     "med_c_nc": 0.19,
     "pct_aclonal_coh": 44.9,
-    "n_aclonal_coh": 1735
+    "n_aclonal_coh": 1735,
+    "med_r12_um": 15.7
   },
   {
     "treatment": "control",
@@ -2205,7 +2296,8 @@
     "n_meso_roc": 66,
     "med_c_nc": 0.35,
     "pct_aclonal_coh": 62.2,
-    "n_aclonal_coh": 1937
+    "n_aclonal_coh": 1937,
+    "med_r12_um": 37.5
   },
   {
     "treatment": "control",
@@ -2229,7 +2321,8 @@
     "n_meso_roc": 107,
     "med_c_nc": 0.31,
     "pct_aclonal_coh": 56.7,
-    "n_aclonal_coh": 2437
+    "n_aclonal_coh": 2437,
+    "med_r12_um": 27.3
   },
   {
     "treatment": "control",
@@ -2253,7 +2346,8 @@
     "n_meso_roc": 92,
     "med_c_nc": 0.3,
     "pct_aclonal_coh": 56.8,
-    "n_aclonal_coh": 1959
+    "n_aclonal_coh": 1959,
+    "med_r12_um": 28.0
   },
   {
     "treatment": "control",
@@ -2277,7 +2371,8 @@
     "n_meso_roc": 79,
     "med_c_nc": 0.27,
     "pct_aclonal_coh": 53.4,
-    "n_aclonal_coh": 1992
+    "n_aclonal_coh": 1992,
+    "med_r12_um": 25.8
   },
   {
     "treatment": "control",
@@ -2301,7 +2396,8 @@
     "n_meso_roc": 76,
     "med_c_nc": 0.36,
     "pct_aclonal_coh": 63.2,
-    "n_aclonal_coh": 2272
+    "n_aclonal_coh": 2272,
+    "med_r12_um": 34.7
   },
   {
     "treatment": "control",
@@ -2325,7 +2421,8 @@
     "n_meso_roc": 98,
     "med_c_nc": 0.35,
     "pct_aclonal_coh": 62.3,
-    "n_aclonal_coh": 2352
+    "n_aclonal_coh": 2352,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "control",
@@ -2349,7 +2446,8 @@
     "n_meso_roc": 85,
     "med_c_nc": 0.35,
     "pct_aclonal_coh": 63.3,
-    "n_aclonal_coh": 2183
+    "n_aclonal_coh": 2183,
+    "med_r12_um": 36.2
   },
   {
     "treatment": "control",
@@ -2373,7 +2471,8 @@
     "n_meso_roc": 71,
     "med_c_nc": 0.36,
     "pct_aclonal_coh": 61.9,
-    "n_aclonal_coh": 2087
+    "n_aclonal_coh": 2087,
+    "med_r12_um": 36.9
   },
   {
     "treatment": "control",
@@ -2397,7 +2496,8 @@
     "n_meso_roc": 113,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 56.5,
-    "n_aclonal_coh": 2172
+    "n_aclonal_coh": 2172,
+    "med_r12_um": 34.6
   },
   {
     "treatment": "control",
@@ -2421,7 +2521,8 @@
     "n_meso_roc": 76,
     "med_c_nc": 0.25,
     "pct_aclonal_coh": 50.9,
-    "n_aclonal_coh": 1837
+    "n_aclonal_coh": 1837,
+    "med_r12_um": 25.2
   },
   {
     "treatment": "control",
@@ -2445,7 +2546,8 @@
     "n_meso_roc": 71,
     "med_c_nc": 0.23,
     "pct_aclonal_coh": 48.2,
-    "n_aclonal_coh": 1738
+    "n_aclonal_coh": 1738,
+    "med_r12_um": 29.6
   },
   {
     "treatment": "control",
@@ -2469,7 +2571,8 @@
     "n_meso_roc": 126,
     "med_c_nc": 0.23,
     "pct_aclonal_coh": 49.1,
-    "n_aclonal_coh": 1564
+    "n_aclonal_coh": 1564,
+    "med_r12_um": 20.3
   },
   {
     "treatment": "control",
@@ -2493,7 +2596,8 @@
     "n_meso_roc": 93,
     "med_c_nc": 0.3,
     "pct_aclonal_coh": 57.6,
-    "n_aclonal_coh": 2309
+    "n_aclonal_coh": 2309,
+    "med_r12_um": 29.5
   },
   {
     "treatment": "control",
@@ -2517,7 +2621,8 @@
     "n_meso_roc": 92,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 55.5,
-    "n_aclonal_coh": 1897
+    "n_aclonal_coh": 1897,
+    "med_r12_um": 26.0
   },
   {
     "treatment": "ecto",
@@ -2541,7 +2646,8 @@
     "n_meso_roc": 126,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 27.1,
-    "n_aclonal_coh": 333
+    "n_aclonal_coh": 333,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -2565,7 +2671,8 @@
     "n_meso_roc": 37,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 23.2,
-    "n_aclonal_coh": 125
+    "n_aclonal_coh": 125,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -2589,7 +2696,8 @@
     "n_meso_roc": 38,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 27.3,
-    "n_aclonal_coh": 154
+    "n_aclonal_coh": 154,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -2613,7 +2721,8 @@
     "n_meso_roc": 101,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 31.3,
-    "n_aclonal_coh": 489
+    "n_aclonal_coh": 489,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -2637,7 +2746,8 @@
     "n_meso_roc": 55,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 23.7,
-    "n_aclonal_coh": 125
+    "n_aclonal_coh": 125,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -2661,7 +2771,8 @@
     "n_meso_roc": 37,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 37.0,
-    "n_aclonal_coh": 226
+    "n_aclonal_coh": 226,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -2685,7 +2796,8 @@
     "n_meso_roc": 52,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 31.0,
-    "n_aclonal_coh": 196
+    "n_aclonal_coh": 196,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -2709,7 +2821,8 @@
     "n_meso_roc": 31,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 29.1,
-    "n_aclonal_coh": 140
+    "n_aclonal_coh": 140,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -2733,7 +2846,8 @@
     "n_meso_roc": 36,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 17.8,
-    "n_aclonal_coh": 94
+    "n_aclonal_coh": 94,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -2757,7 +2871,8 @@
     "n_meso_roc": 41,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 24.7,
-    "n_aclonal_coh": 154
+    "n_aclonal_coh": 154,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -2781,7 +2896,8 @@
     "n_meso_roc": 104,
     "med_c_nc": 0.01,
     "pct_aclonal_coh": 37.4,
-    "n_aclonal_coh": 624
+    "n_aclonal_coh": 624,
+    "med_r12_um": 8.2
   },
   {
     "treatment": "ecto",
@@ -2805,7 +2921,8 @@
     "n_meso_roc": 69,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 24.7,
-    "n_aclonal_coh": 191
+    "n_aclonal_coh": 191,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -2829,7 +2946,8 @@
     "n_meso_roc": 51,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 29.5,
-    "n_aclonal_coh": 189
+    "n_aclonal_coh": 189,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -2853,7 +2971,8 @@
     "n_meso_roc": 40,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 21.9,
-    "n_aclonal_coh": 135
+    "n_aclonal_coh": 135,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -2877,7 +2996,8 @@
     "n_meso_roc": 49,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 30.9,
-    "n_aclonal_coh": 255
+    "n_aclonal_coh": 255,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -2901,7 +3021,8 @@
     "n_meso_roc": 58,
     "med_c_nc": 0.22,
     "pct_aclonal_coh": 46.0,
-    "n_aclonal_coh": 810
+    "n_aclonal_coh": 810,
+    "med_r12_um": 20.0
   },
   {
     "treatment": "ecto",
@@ -2925,7 +3046,8 @@
     "n_meso_roc": 33,
     "med_c_nc": 0.2,
     "pct_aclonal_coh": 44.4,
-    "n_aclonal_coh": 313
+    "n_aclonal_coh": 313,
+    "med_r12_um": 21.6
   },
   {
     "treatment": "ecto",
@@ -2949,7 +3071,8 @@
     "n_meso_roc": 28,
     "med_c_nc": 0.22,
     "pct_aclonal_coh": 46.7,
-    "n_aclonal_coh": 302
+    "n_aclonal_coh": 302,
+    "med_r12_um": 17.4
   },
   {
     "treatment": "ecto",
@@ -2973,7 +3096,8 @@
     "n_meso_roc": 59,
     "med_c_nc": 0.17,
     "pct_aclonal_coh": 41.7,
-    "n_aclonal_coh": 673
+    "n_aclonal_coh": 673,
+    "med_r12_um": 11.3
   },
   {
     "treatment": "ecto",
@@ -2997,7 +3121,8 @@
     "n_meso_roc": 31,
     "med_c_nc": 0.35,
     "pct_aclonal_coh": 60.9,
-    "n_aclonal_coh": 438
+    "n_aclonal_coh": 438,
+    "med_r12_um": 27.2
   },
   {
     "treatment": "ecto",
@@ -3021,7 +3146,8 @@
     "n_meso_roc": 17,
     "med_c_nc": 0.2,
     "pct_aclonal_coh": 47.6,
-    "n_aclonal_coh": 368
+    "n_aclonal_coh": 368,
+    "med_r12_um": 15.8
   },
   {
     "treatment": "ecto",
@@ -3045,7 +3171,8 @@
     "n_meso_roc": 37,
     "med_c_nc": 0.13,
     "pct_aclonal_coh": 39.1,
-    "n_aclonal_coh": 451
+    "n_aclonal_coh": 451,
+    "med_r12_um": 9.4
   },
   {
     "treatment": "ecto",
@@ -3069,7 +3196,8 @@
     "n_meso_roc": 27,
     "med_c_nc": 0.27,
     "pct_aclonal_coh": 54.6,
-    "n_aclonal_coh": 463
+    "n_aclonal_coh": 463,
+    "med_r12_um": 21.6
   },
   {
     "treatment": "ecto",
@@ -3093,7 +3221,8 @@
     "n_meso_roc": 13,
     "med_c_nc": 0.26,
     "pct_aclonal_coh": 51.3,
-    "n_aclonal_coh": 383
+    "n_aclonal_coh": 383,
+    "med_r12_um": 22.6
   },
   {
     "treatment": "ecto",
@@ -3117,7 +3246,8 @@
     "n_meso_roc": 12,
     "med_c_nc": 0.22,
     "pct_aclonal_coh": 48.6,
-    "n_aclonal_coh": 372
+    "n_aclonal_coh": 372,
+    "med_r12_um": 17.8
   },
   {
     "treatment": "ecto",
@@ -3141,7 +3271,8 @@
     "n_meso_roc": 71,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 53.9,
-    "n_aclonal_coh": 1306
+    "n_aclonal_coh": 1306,
+    "med_r12_um": 22.9
   },
   {
     "treatment": "ecto",
@@ -3165,7 +3296,8 @@
     "n_meso_roc": 32,
     "med_c_nc": 0.21,
     "pct_aclonal_coh": 47.5,
-    "n_aclonal_coh": 525
+    "n_aclonal_coh": 525,
+    "med_r12_um": 10.5
   },
   {
     "treatment": "ecto",
@@ -3189,7 +3321,8 @@
     "n_meso_roc": 28,
     "med_c_nc": 0.37,
     "pct_aclonal_coh": 61.5,
-    "n_aclonal_coh": 451
+    "n_aclonal_coh": 451,
+    "med_r12_um": 35.7
   },
   {
     "treatment": "ecto",
@@ -3213,7 +3346,8 @@
     "n_meso_roc": 20,
     "med_c_nc": 0.05,
     "pct_aclonal_coh": 33.1,
-    "n_aclonal_coh": 248
+    "n_aclonal_coh": 248,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -3237,7 +3371,8 @@
     "n_meso_roc": 26,
     "med_c_nc": 0.2,
     "pct_aclonal_coh": 47.8,
-    "n_aclonal_coh": 556
+    "n_aclonal_coh": 556,
+    "med_r12_um": 16.0
   },
   {
     "treatment": "ecto",
@@ -3261,7 +3396,8 @@
     "n_meso_roc": 127,
     "med_c_nc": 0.23,
     "pct_aclonal_coh": 48.9,
-    "n_aclonal_coh": 1283
+    "n_aclonal_coh": 1283,
+    "med_r12_um": 23.1
   },
   {
     "treatment": "ecto",
@@ -3285,7 +3421,8 @@
     "n_meso_roc": 55,
     "med_c_nc": 0.28,
     "pct_aclonal_coh": 55.8,
-    "n_aclonal_coh": 508
+    "n_aclonal_coh": 508,
+    "med_r12_um": 26.7
   },
   {
     "treatment": "ecto",
@@ -3309,7 +3446,8 @@
     "n_meso_roc": 29,
     "med_c_nc": 0.26,
     "pct_aclonal_coh": 52.6,
-    "n_aclonal_coh": 408
+    "n_aclonal_coh": 408,
+    "med_r12_um": 18.3
   },
   {
     "treatment": "ecto",
@@ -3333,7 +3471,8 @@
     "n_meso_roc": 94,
     "med_c_nc": 0.25,
     "pct_aclonal_coh": 50.7,
-    "n_aclonal_coh": 1275
+    "n_aclonal_coh": 1275,
+    "med_r12_um": 19.5
   },
   {
     "treatment": "ecto",
@@ -3357,7 +3496,8 @@
     "n_meso_roc": 42,
     "med_c_nc": 0.32,
     "pct_aclonal_coh": 58.6,
-    "n_aclonal_coh": 464
+    "n_aclonal_coh": 464,
+    "med_r12_um": 23.1
   },
   {
     "treatment": "ecto",
@@ -3381,7 +3521,8 @@
     "n_meso_roc": 46,
     "med_c_nc": 0.26,
     "pct_aclonal_coh": 52.7,
-    "n_aclonal_coh": 503
+    "n_aclonal_coh": 503,
+    "med_r12_um": 27.8
   },
   {
     "treatment": "ecto",
@@ -3405,7 +3546,8 @@
     "n_meso_roc": 36,
     "med_c_nc": 0.19,
     "pct_aclonal_coh": 43.0,
-    "n_aclonal_coh": 452
+    "n_aclonal_coh": 452,
+    "med_r12_um": 19.6
   },
   {
     "treatment": "ecto",
@@ -3429,7 +3571,8 @@
     "n_meso_roc": 25,
     "med_c_nc": 0.22,
     "pct_aclonal_coh": 46.1,
-    "n_aclonal_coh": 336
+    "n_aclonal_coh": 336,
+    "med_r12_um": 10.9
   },
   {
     "treatment": "ecto",
@@ -3453,7 +3596,8 @@
     "n_meso_roc": 40,
     "med_c_nc": 0.15,
     "pct_aclonal_coh": 41.8,
-    "n_aclonal_coh": 446
+    "n_aclonal_coh": 446,
+    "med_r12_um": 15.6
   },
   {
     "treatment": "ecto",
@@ -3477,7 +3621,8 @@
     "n_meso_roc": 60,
     "med_c_nc": 0.13,
     "pct_aclonal_coh": 41.3,
-    "n_aclonal_coh": 811
+    "n_aclonal_coh": 811,
+    "med_r12_um": 10.5
   },
   {
     "treatment": "ecto",
@@ -3501,7 +3646,8 @@
     "n_meso_roc": 100,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 54.1,
-    "n_aclonal_coh": 1772
+    "n_aclonal_coh": 1772,
+    "med_r12_um": 35.8
   },
   {
     "treatment": "ecto",
@@ -3525,7 +3671,8 @@
     "n_meso_roc": 53,
     "med_c_nc": 0.19,
     "pct_aclonal_coh": 42.9,
-    "n_aclonal_coh": 507
+    "n_aclonal_coh": 507,
+    "med_r12_um": 8.2
   },
   {
     "treatment": "ecto",
@@ -3549,7 +3696,8 @@
     "n_meso_roc": 45,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 56.9,
-    "n_aclonal_coh": 615
+    "n_aclonal_coh": 615,
+    "med_r12_um": 31.9
   },
   {
     "treatment": "ecto",
@@ -3573,7 +3721,8 @@
     "n_meso_roc": 40,
     "med_c_nc": 0.28,
     "pct_aclonal_coh": 56.1,
-    "n_aclonal_coh": 495
+    "n_aclonal_coh": 495,
+    "med_r12_um": 17.7
   },
   {
     "treatment": "ecto",
@@ -3597,7 +3746,8 @@
     "n_meso_roc": 37,
     "med_c_nc": 0.11,
     "pct_aclonal_coh": 32.0,
-    "n_aclonal_coh": 176
+    "n_aclonal_coh": 176,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -3621,7 +3771,8 @@
     "n_meso_roc": 203,
     "med_c_nc": 0.27,
     "pct_aclonal_coh": 53.5,
-    "n_aclonal_coh": 1355
+    "n_aclonal_coh": 1355,
+    "med_r12_um": 23.7
   },
   {
     "treatment": "ecto",
@@ -3645,7 +3796,8 @@
     "n_meso_roc": 107,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 57.0,
-    "n_aclonal_coh": 648
+    "n_aclonal_coh": 648,
+    "med_r12_um": 28.9
   },
   {
     "treatment": "ecto",
@@ -3669,7 +3821,8 @@
     "n_meso_roc": 59,
     "med_c_nc": 0.23,
     "pct_aclonal_coh": 48.7,
-    "n_aclonal_coh": 363
+    "n_aclonal_coh": 363,
+    "med_r12_um": 22.3
   },
   {
     "treatment": "ecto",
@@ -3693,7 +3846,8 @@
     "n_meso_roc": 115,
     "med_c_nc": 0.21,
     "pct_aclonal_coh": 47.7,
-    "n_aclonal_coh": 1361
+    "n_aclonal_coh": 1361,
+    "med_r12_um": 23.0
   },
   {
     "treatment": "ecto",
@@ -3717,7 +3871,8 @@
     "n_meso_roc": 57,
     "med_c_nc": 0.28,
     "pct_aclonal_coh": 55.1,
-    "n_aclonal_coh": 552
+    "n_aclonal_coh": 552,
+    "med_r12_um": 24.9
   },
   {
     "treatment": "ecto",
@@ -3741,7 +3896,8 @@
     "n_meso_roc": 100,
     "med_c_nc": 0.22,
     "pct_aclonal_coh": 48.2,
-    "n_aclonal_coh": 629
+    "n_aclonal_coh": 629,
+    "med_r12_um": 15.9
   },
   {
     "treatment": "ecto",
@@ -3765,7 +3921,8 @@
     "n_meso_roc": 72,
     "med_c_nc": 0.17,
     "pct_aclonal_coh": 40.8,
-    "n_aclonal_coh": 496
+    "n_aclonal_coh": 496,
+    "med_r12_um": 11.7
   },
   {
     "treatment": "ecto",
@@ -3789,7 +3946,8 @@
     "n_meso_roc": 41,
     "med_c_nc": 0.27,
     "pct_aclonal_coh": 53.6,
-    "n_aclonal_coh": 498
+    "n_aclonal_coh": 498,
+    "med_r12_um": 21.2
   },
   {
     "treatment": "ecto",
@@ -3813,7 +3971,8 @@
     "n_meso_roc": 49,
     "med_c_nc": 0.32,
     "pct_aclonal_coh": 62.1,
-    "n_aclonal_coh": 781
+    "n_aclonal_coh": 781,
+    "med_r12_um": 29.9
   },
   {
     "treatment": "ecto",
@@ -3837,7 +3996,8 @@
     "n_meso_roc": 54,
     "med_c_nc": 0.28,
     "pct_aclonal_coh": 53.9,
-    "n_aclonal_coh": 813
+    "n_aclonal_coh": 813,
+    "med_r12_um": 21.0
   },
   {
     "treatment": "ecto",
@@ -3861,7 +4021,8 @@
     "n_meso_roc": 106,
     "med_c_nc": 0.23,
     "pct_aclonal_coh": 49.3,
-    "n_aclonal_coh": 1407
+    "n_aclonal_coh": 1407,
+    "med_r12_um": 22.0
   },
   {
     "treatment": "ecto",
@@ -3885,7 +4046,8 @@
     "n_meso_roc": 93,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 54.6,
-    "n_aclonal_coh": 883
+    "n_aclonal_coh": 883,
+    "med_r12_um": 29.6
   },
   {
     "treatment": "ecto",
@@ -3909,7 +4071,8 @@
     "n_meso_roc": 49,
     "med_c_nc": 0.26,
     "pct_aclonal_coh": 51.8,
-    "n_aclonal_coh": 730
+    "n_aclonal_coh": 730,
+    "med_r12_um": 16.6
   },
   {
     "treatment": "ecto",
@@ -3933,7 +4096,8 @@
     "n_meso_roc": 56,
     "med_c_nc": 0.24,
     "pct_aclonal_coh": 50.1,
-    "n_aclonal_coh": 561
+    "n_aclonal_coh": 561,
+    "med_r12_um": 24.7
   },
   {
     "treatment": "ecto",
@@ -3957,7 +4121,8 @@
     "n_meso_roc": 45,
     "med_c_nc": 0.24,
     "pct_aclonal_coh": 49.8,
-    "n_aclonal_coh": 483
+    "n_aclonal_coh": 483,
+    "med_r12_um": 12.2
   },
   {
     "treatment": "ecto",
@@ -3981,7 +4146,8 @@
     "n_meso_roc": 111,
     "med_c_nc": 0.33,
     "pct_aclonal_coh": 59.6,
-    "n_aclonal_coh": 1102
+    "n_aclonal_coh": 1102,
+    "med_r12_um": 32.5
   },
   {
     "treatment": "ecto",
@@ -4005,7 +4171,8 @@
     "n_meso_roc": 40,
     "med_c_nc": 0.5,
     "pct_aclonal_coh": 77.8,
-    "n_aclonal_coh": 591
+    "n_aclonal_coh": 591,
+    "med_r12_um": 60.9
   },
   {
     "treatment": "ecto",
@@ -4029,7 +4196,8 @@
     "n_meso_roc": 39,
     "med_c_nc": 0.41,
     "pct_aclonal_coh": 70.0,
-    "n_aclonal_coh": 506
+    "n_aclonal_coh": 506,
+    "med_r12_um": 39.5
   },
   {
     "treatment": "ecto",
@@ -4053,7 +4221,8 @@
     "n_meso_roc": 38,
     "med_c_nc": 0.31,
     "pct_aclonal_coh": 59.6,
-    "n_aclonal_coh": 620
+    "n_aclonal_coh": 620,
+    "med_r12_um": 35.1
   },
   {
     "treatment": "ecto",
@@ -4077,7 +4246,8 @@
     "n_meso_roc": 18,
     "med_c_nc": 0.44,
     "pct_aclonal_coh": 76.0,
-    "n_aclonal_coh": 568
+    "n_aclonal_coh": 568,
+    "med_r12_um": 58.1
   },
   {
     "treatment": "ecto",
@@ -4101,7 +4271,8 @@
     "n_meso_roc": 50,
     "med_c_nc": 0.32,
     "pct_aclonal_coh": 59.4,
-    "n_aclonal_coh": 613
+    "n_aclonal_coh": 613,
+    "med_r12_um": 29.7
   },
   {
     "treatment": "ecto",
@@ -4125,7 +4296,8 @@
     "n_meso_roc": 22,
     "med_c_nc": 0.38,
     "pct_aclonal_coh": 68.9,
-    "n_aclonal_coh": 627
+    "n_aclonal_coh": 627,
+    "med_r12_um": 36.6
   },
   {
     "treatment": "ecto",
@@ -4149,7 +4321,8 @@
     "n_meso_roc": 38,
     "med_c_nc": 0.33,
     "pct_aclonal_coh": 63.0,
-    "n_aclonal_coh": 457
+    "n_aclonal_coh": 457,
+    "med_r12_um": 22.5
   },
   {
     "treatment": "ecto",
@@ -4173,7 +4346,8 @@
     "n_meso_roc": 42,
     "med_c_nc": 0.34,
     "pct_aclonal_coh": 62.1,
-    "n_aclonal_coh": 533
+    "n_aclonal_coh": 533,
+    "med_r12_um": 34.9
   },
   {
     "treatment": "ecto",
@@ -4197,7 +4371,8 @@
     "n_meso_roc": 37,
     "med_c_nc": 0.34,
     "pct_aclonal_coh": 63.5,
-    "n_aclonal_coh": 711
+    "n_aclonal_coh": 711,
+    "med_r12_um": 32.5
   },
   {
     "treatment": "ecto",
@@ -4221,7 +4396,8 @@
     "n_meso_roc": 30,
     "med_c_nc": 0.19,
     "pct_aclonal_coh": 45.7,
-    "n_aclonal_coh": 411
+    "n_aclonal_coh": 411,
+    "med_r12_um": 22.2
   },
   {
     "treatment": "ecto",
@@ -4245,7 +4421,8 @@
     "n_meso_roc": 42,
     "med_c_nc": 0.42,
     "pct_aclonal_coh": 70.5,
-    "n_aclonal_coh": 713
+    "n_aclonal_coh": 713,
+    "med_r12_um": 44.7
   },
   {
     "treatment": "ecto",
@@ -4269,7 +4446,8 @@
     "n_meso_roc": 45,
     "med_c_nc": 0.35,
     "pct_aclonal_coh": 62.2,
-    "n_aclonal_coh": 751
+    "n_aclonal_coh": 751,
+    "med_r12_um": 36.7
   },
   {
     "treatment": "ecto",
@@ -4293,7 +4471,8 @@
     "n_meso_roc": 33,
     "med_c_nc": 0.59,
     "pct_aclonal_coh": 77.9,
-    "n_aclonal_coh": 648
+    "n_aclonal_coh": 648,
+    "med_r12_um": 62.0
   },
   {
     "treatment": "ecto",
@@ -4317,7 +4496,8 @@
     "n_meso_roc": 36,
     "med_c_nc": 0.25,
     "pct_aclonal_coh": 50.7,
-    "n_aclonal_coh": 428
+    "n_aclonal_coh": 428,
+    "med_r12_um": 17.2
   },
   {
     "treatment": "ecto",
@@ -4341,7 +4521,8 @@
     "n_meso_roc": 62,
     "med_c_nc": 0.37,
     "pct_aclonal_coh": 61.7,
-    "n_aclonal_coh": 621
+    "n_aclonal_coh": 621,
+    "med_r12_um": 31.0
   },
   {
     "treatment": "ecto",
@@ -4365,7 +4546,8 @@
     "n_meso_roc": 19,
     "med_c_nc": 0.42,
     "pct_aclonal_coh": 64.5,
-    "n_aclonal_coh": 196
+    "n_aclonal_coh": 196,
+    "med_r12_um": 40.9
   },
   {
     "treatment": "ecto",
@@ -4389,7 +4571,8 @@
     "n_meso_roc": 23,
     "med_c_nc": 0.35,
     "pct_aclonal_coh": 58.0,
-    "n_aclonal_coh": 200
+    "n_aclonal_coh": 200,
+    "med_r12_um": 34.0
   },
   {
     "treatment": "ecto",
@@ -4413,7 +4596,8 @@
     "n_meso_roc": 23,
     "med_c_nc": 0.19,
     "pct_aclonal_coh": 47.0,
-    "n_aclonal_coh": 245
+    "n_aclonal_coh": 245,
+    "med_r12_um": 21.8
   },
   {
     "treatment": "ecto",
@@ -4437,7 +4621,8 @@
     "n_meso_roc": 31,
     "med_c_nc": 0.48,
     "pct_aclonal_coh": 74.0,
-    "n_aclonal_coh": 225
+    "n_aclonal_coh": 225,
+    "med_r12_um": 57.1
   },
   {
     "treatment": "ecto",
@@ -4461,7 +4646,8 @@
     "n_meso_roc": 22,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 55.9,
-    "n_aclonal_coh": 286
+    "n_aclonal_coh": 286,
+    "med_r12_um": 22.8
   },
   {
     "treatment": "ecto",
@@ -4485,7 +4671,8 @@
     "n_meso_roc": 26,
     "med_c_nc": 0.33,
     "pct_aclonal_coh": 55.3,
-    "n_aclonal_coh": 223
+    "n_aclonal_coh": 223,
+    "med_r12_um": 36.5
   },
   {
     "treatment": "ecto",
@@ -4509,7 +4696,8 @@
     "n_meso_roc": 16,
     "med_c_nc": 0.4,
     "pct_aclonal_coh": 64.7,
-    "n_aclonal_coh": 209
+    "n_aclonal_coh": 209,
+    "med_r12_um": 36.9
   },
   {
     "treatment": "ecto",
@@ -4533,7 +4721,8 @@
     "n_meso_roc": 37,
     "med_c_nc": 0.08,
     "pct_aclonal_coh": 35.4,
-    "n_aclonal_coh": 135
+    "n_aclonal_coh": 135,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -4557,7 +4746,8 @@
     "n_meso_roc": 13,
     "med_c_nc": 0.31,
     "pct_aclonal_coh": 55.4,
-    "n_aclonal_coh": 286
+    "n_aclonal_coh": 286,
+    "med_r12_um": 28.1
   },
   {
     "treatment": "ecto",
@@ -4581,7 +4771,8 @@
     "n_meso_roc": 41,
     "med_c_nc": 0.25,
     "pct_aclonal_coh": 50.3,
-    "n_aclonal_coh": 227
+    "n_aclonal_coh": 227,
+    "med_r12_um": 21.4
   },
   {
     "treatment": "ecto",
@@ -4605,7 +4796,8 @@
     "n_meso_roc": 27,
     "med_c_nc": 0.48,
     "pct_aclonal_coh": 71.1,
-    "n_aclonal_coh": 335
+    "n_aclonal_coh": 335,
+    "med_r12_um": 43.5
   },
   {
     "treatment": "ecto",
@@ -4629,7 +4821,8 @@
     "n_meso_roc": 18,
     "med_c_nc": 0.17,
     "pct_aclonal_coh": 41.2,
-    "n_aclonal_coh": 170
+    "n_aclonal_coh": 170,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -4653,7 +4846,8 @@
     "n_meso_roc": 12,
     "med_c_nc": 0.32,
     "pct_aclonal_coh": 56.3,
-    "n_aclonal_coh": 187
+    "n_aclonal_coh": 187,
+    "med_r12_um": 23.8
   },
   {
     "treatment": "ecto",
@@ -4677,7 +4871,8 @@
     "n_meso_roc": 11,
     "med_c_nc": 0.07,
     "pct_aclonal_coh": 30.5,
-    "n_aclonal_coh": 97
+    "n_aclonal_coh": 97,
+    "med_r12_um": 10.3
   },
   {
     "treatment": "ecto",
@@ -4701,7 +4896,8 @@
     "n_meso_roc": 37,
     "med_c_nc": 0.51,
     "pct_aclonal_coh": 69.1,
-    "n_aclonal_coh": 492
+    "n_aclonal_coh": 492,
+    "med_r12_um": 42.7
   },
   {
     "treatment": "ecto",
@@ -4725,7 +4921,8 @@
     "n_meso_roc": 30,
     "med_c_nc": 0.44,
     "pct_aclonal_coh": 61.2,
-    "n_aclonal_coh": 229
+    "n_aclonal_coh": 229,
+    "med_r12_um": 23.3
   },
   {
     "treatment": "ecto",
@@ -4749,7 +4946,8 @@
     "n_meso_roc": 28,
     "med_c_nc": 0.81,
     "pct_aclonal_coh": 74.9,
-    "n_aclonal_coh": 260
+    "n_aclonal_coh": 260,
+    "med_r12_um": 62.0
   },
   {
     "treatment": "ecto",
@@ -4773,7 +4971,8 @@
     "n_meso_roc": 19,
     "med_c_nc": 0.3,
     "pct_aclonal_coh": 54.3,
-    "n_aclonal_coh": 367
+    "n_aclonal_coh": 367,
+    "med_r12_um": 27.7
   },
   {
     "treatment": "ecto",
@@ -4797,7 +4996,8 @@
     "n_meso_roc": 18,
     "med_c_nc": 0.14,
     "pct_aclonal_coh": 44.0,
-    "n_aclonal_coh": 160
+    "n_aclonal_coh": 160,
+    "med_r12_um": 16.8
   },
   {
     "treatment": "ecto",
@@ -4821,7 +5021,8 @@
     "n_meso_roc": 19,
     "med_c_nc": 0.12,
     "pct_aclonal_coh": 45.6,
-    "n_aclonal_coh": 135
+    "n_aclonal_coh": 135,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -4845,7 +5046,8 @@
     "n_meso_roc": 25,
     "med_c_nc": 0.41,
     "pct_aclonal_coh": 59.4,
-    "n_aclonal_coh": 266
+    "n_aclonal_coh": 266,
+    "med_r12_um": 39.9
   },
   {
     "treatment": "ecto",
@@ -4869,7 +5071,8 @@
     "n_meso_roc": 8,
     "med_c_nc": 0.39,
     "pct_aclonal_coh": 59.9,
-    "n_aclonal_coh": 184
+    "n_aclonal_coh": 184,
+    "med_r12_um": 39.1
   },
   {
     "treatment": "ecto",
@@ -4893,7 +5096,8 @@
     "n_meso_roc": 25,
     "med_c_nc": 0.27,
     "pct_aclonal_coh": 53.8,
-    "n_aclonal_coh": 203
+    "n_aclonal_coh": 203,
+    "med_r12_um": 28.7
   },
   {
     "treatment": "ecto",
@@ -4917,7 +5121,8 @@
     "n_meso_roc": 20,
     "med_c_nc": 0.43,
     "pct_aclonal_coh": 57.2,
-    "n_aclonal_coh": 245
+    "n_aclonal_coh": 245,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "ecto",
@@ -4941,7 +5146,8 @@
     "n_meso_roc": 14,
     "med_c_nc": 0.21,
     "pct_aclonal_coh": 49.3,
-    "n_aclonal_coh": 174
+    "n_aclonal_coh": 174,
+    "med_r12_um": 11.5
   },
   {
     "treatment": "ecto",
@@ -4965,7 +5171,8 @@
     "n_meso_roc": 24,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 31.2,
-    "n_aclonal_coh": 122
+    "n_aclonal_coh": 122,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "ecto",
@@ -4989,7 +5196,8 @@
     "n_meso_roc": 28,
     "med_c_nc": 0.18,
     "pct_aclonal_coh": 46.4,
-    "n_aclonal_coh": 182
+    "n_aclonal_coh": 182,
+    "med_r12_um": 25.3
   },
   {
     "treatment": "ecto",
@@ -5013,7 +5221,8 @@
     "n_meso_roc": 25,
     "med_c_nc": 0.79,
     "pct_aclonal_coh": 70.3,
-    "n_aclonal_coh": 251
+    "n_aclonal_coh": 251,
+    "med_r12_um": 62.0
   },
   {
     "treatment": "ecto",
@@ -5037,7 +5246,8 @@
     "n_meso_roc": 14,
     "med_c_nc": 0.35,
     "pct_aclonal_coh": 62.3,
-    "n_aclonal_coh": 215
+    "n_aclonal_coh": 215,
+    "med_r12_um": 37.6
   },
   {
     "treatment": "endo",
@@ -5061,7 +5271,8 @@
     "n_meso_roc": 25,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 14.1,
-    "n_aclonal_coh": 74
+    "n_aclonal_coh": 74,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5085,7 +5296,8 @@
     "n_meso_roc": 72,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 25.2,
-    "n_aclonal_coh": 181
+    "n_aclonal_coh": 181,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5109,7 +5321,8 @@
     "n_meso_roc": 87,
     "med_c_nc": 0.12,
     "pct_aclonal_coh": 39.3,
-    "n_aclonal_coh": 439
+    "n_aclonal_coh": 439,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5133,7 +5346,8 @@
     "n_meso_roc": 51,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 26.2,
-    "n_aclonal_coh": 191
+    "n_aclonal_coh": 191,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5157,7 +5371,8 @@
     "n_meso_roc": 27,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 19.4,
-    "n_aclonal_coh": 95
+    "n_aclonal_coh": 95,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5181,7 +5396,8 @@
     "n_meso_roc": 70,
     "med_c_nc": 0.03,
     "pct_aclonal_coh": 38.5,
-    "n_aclonal_coh": 257
+    "n_aclonal_coh": 257,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5205,7 +5421,8 @@
     "n_meso_roc": 30,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 19.8,
-    "n_aclonal_coh": 115
+    "n_aclonal_coh": 115,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5229,7 +5446,8 @@
     "n_meso_roc": 24,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 32.2,
-    "n_aclonal_coh": 138
+    "n_aclonal_coh": 138,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5253,7 +5471,8 @@
     "n_meso_roc": 44,
     "med_c_nc": 0.12,
     "pct_aclonal_coh": 44.1,
-    "n_aclonal_coh": 278
+    "n_aclonal_coh": 278,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5277,7 +5496,8 @@
     "n_meso_roc": 58,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 26.3,
-    "n_aclonal_coh": 158
+    "n_aclonal_coh": 158,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5301,7 +5521,8 @@
     "n_meso_roc": 31,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 28.4,
-    "n_aclonal_coh": 196
+    "n_aclonal_coh": 196,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5325,7 +5546,8 @@
     "n_meso_roc": 27,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 23.6,
-    "n_aclonal_coh": 104
+    "n_aclonal_coh": 104,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5349,7 +5571,8 @@
     "n_meso_roc": 46,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 26.2,
-    "n_aclonal_coh": 211
+    "n_aclonal_coh": 211,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5373,7 +5596,8 @@
     "n_meso_roc": 45,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 26.9,
-    "n_aclonal_coh": 135
+    "n_aclonal_coh": 135,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5397,7 +5621,8 @@
     "n_meso_roc": 19,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 20.2,
-    "n_aclonal_coh": 105
+    "n_aclonal_coh": 105,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5421,7 +5646,8 @@
     "n_meso_roc": 16,
     "med_c_nc": 0.16,
     "pct_aclonal_coh": 43.3,
-    "n_aclonal_coh": 123
+    "n_aclonal_coh": 123,
+    "med_r12_um": 18.6
   },
   {
     "treatment": "endo",
@@ -5445,7 +5671,8 @@
     "n_meso_roc": 25,
     "med_c_nc": 0.18,
     "pct_aclonal_coh": 42.7,
-    "n_aclonal_coh": 211
+    "n_aclonal_coh": 211,
+    "med_r12_um": 13.4
   },
   {
     "treatment": "endo",
@@ -5469,7 +5696,8 @@
     "n_meso_roc": 33,
     "med_c_nc": 0.31,
     "pct_aclonal_coh": 58.0,
-    "n_aclonal_coh": 663
+    "n_aclonal_coh": 663,
+    "med_r12_um": 29.7
   },
   {
     "treatment": "endo",
@@ -5493,7 +5721,8 @@
     "n_meso_roc": 14,
     "med_c_nc": 0.33,
     "pct_aclonal_coh": 58.7,
-    "n_aclonal_coh": 311
+    "n_aclonal_coh": 311,
+    "med_r12_um": 25.5
   },
   {
     "treatment": "endo",
@@ -5517,7 +5746,8 @@
     "n_meso_roc": 16,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 53.4,
-    "n_aclonal_coh": 205
+    "n_aclonal_coh": 205,
+    "med_r12_um": 35.5
   },
   {
     "treatment": "endo",
@@ -5541,7 +5771,8 @@
     "n_meso_roc": 22,
     "med_c_nc": 0.35,
     "pct_aclonal_coh": 68.4,
-    "n_aclonal_coh": 442
+    "n_aclonal_coh": 442,
+    "med_r12_um": 36.9
   },
   {
     "treatment": "endo",
@@ -5565,7 +5796,8 @@
     "n_meso_roc": 17,
     "med_c_nc": 0.31,
     "pct_aclonal_coh": 55.9,
-    "n_aclonal_coh": 208
+    "n_aclonal_coh": 208,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "endo",
@@ -5589,7 +5821,8 @@
     "n_meso_roc": 16,
     "med_c_nc": 0.11,
     "pct_aclonal_coh": 32.7,
-    "n_aclonal_coh": 133
+    "n_aclonal_coh": 133,
+    "med_r12_um": 26.6
   },
   {
     "treatment": "endo",
@@ -5613,7 +5846,8 @@
     "n_meso_roc": 12,
     "med_c_nc": 0.4,
     "pct_aclonal_coh": 61.5,
-    "n_aclonal_coh": 278
+    "n_aclonal_coh": 278,
+    "med_r12_um": 39.5
   },
   {
     "treatment": "endo",
@@ -5637,7 +5871,8 @@
     "n_meso_roc": 18,
     "med_c_nc": 0.31,
     "pct_aclonal_coh": 57.5,
-    "n_aclonal_coh": 296
+    "n_aclonal_coh": 296,
+    "med_r12_um": 22.2
   },
   {
     "treatment": "endo",
@@ -5661,7 +5896,8 @@
     "n_meso_roc": 16,
     "med_c_nc": 0.39,
     "pct_aclonal_coh": 64.2,
-    "n_aclonal_coh": 382
+    "n_aclonal_coh": 382,
+    "med_r12_um": 45.0
   },
   {
     "treatment": "endo",
@@ -5685,7 +5921,8 @@
     "n_meso_roc": 24,
     "med_c_nc": 0.08,
     "pct_aclonal_coh": 33.1,
-    "n_aclonal_coh": 141
+    "n_aclonal_coh": 141,
+    "med_r12_um": 9.8
   },
   {
     "treatment": "endo",
@@ -5709,7 +5946,8 @@
     "n_meso_roc": 24,
     "med_c_nc": 0.24,
     "pct_aclonal_coh": 50.3,
-    "n_aclonal_coh": 390
+    "n_aclonal_coh": 390,
+    "med_r12_um": 13.0
   },
   {
     "treatment": "endo",
@@ -5733,7 +5971,8 @@
     "n_meso_roc": 16,
     "med_c_nc": 0.05,
     "pct_aclonal_coh": 29.5,
-    "n_aclonal_coh": 116
+    "n_aclonal_coh": 116,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5757,7 +5996,8 @@
     "n_meso_roc": 17,
     "med_c_nc": 0.13,
     "pct_aclonal_coh": 41.0,
-    "n_aclonal_coh": 213
+    "n_aclonal_coh": 213,
+    "med_r12_um": 16.2
   },
   {
     "treatment": "endo",
@@ -5781,7 +6021,8 @@
     "n_meso_roc": 5,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 21.9,
-    "n_aclonal_coh": 49
+    "n_aclonal_coh": 49,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5805,7 +6046,8 @@
     "n_meso_roc": 31,
     "med_c_nc": 0.26,
     "pct_aclonal_coh": 52.6,
-    "n_aclonal_coh": 253
+    "n_aclonal_coh": 253,
+    "med_r12_um": 13.7
   },
   {
     "treatment": "endo",
@@ -5829,7 +6071,8 @@
     "n_meso_roc": 26,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 55.1,
-    "n_aclonal_coh": 570
+    "n_aclonal_coh": 570,
+    "med_r12_um": 22.3
   },
   {
     "treatment": "endo",
@@ -5853,7 +6096,8 @@
     "n_meso_roc": 21,
     "med_c_nc": 0.14,
     "pct_aclonal_coh": 40.7,
-    "n_aclonal_coh": 263
+    "n_aclonal_coh": 263,
+    "med_r12_um": 22.2
   },
   {
     "treatment": "endo",
@@ -5877,7 +6121,8 @@
     "n_meso_roc": 22,
     "med_c_nc": 0.41,
     "pct_aclonal_coh": 72.9,
-    "n_aclonal_coh": 310
+    "n_aclonal_coh": 310,
+    "med_r12_um": 41.8
   },
   {
     "treatment": "endo",
@@ -5901,7 +6146,8 @@
     "n_meso_roc": 24,
     "med_c_nc": 0.31,
     "pct_aclonal_coh": 60.2,
-    "n_aclonal_coh": 430
+    "n_aclonal_coh": 430,
+    "med_r12_um": 32.3
   },
   {
     "treatment": "endo",
@@ -5925,7 +6171,8 @@
     "n_meso_roc": 8,
     "med_c_nc": 0.18,
     "pct_aclonal_coh": 39.9,
-    "n_aclonal_coh": 126
+    "n_aclonal_coh": 126,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -5949,7 +6196,8 @@
     "n_meso_roc": 19,
     "med_c_nc": 0.1,
     "pct_aclonal_coh": 38.5,
-    "n_aclonal_coh": 139
+    "n_aclonal_coh": 139,
+    "med_r12_um": 14.5
   },
   {
     "treatment": "endo",
@@ -5973,7 +6221,8 @@
     "n_meso_roc": 20,
     "med_c_nc": 0.18,
     "pct_aclonal_coh": 45.3,
-    "n_aclonal_coh": 259
+    "n_aclonal_coh": 259,
+    "med_r12_um": 11.6
   },
   {
     "treatment": "endo",
@@ -5997,7 +6246,8 @@
     "n_meso_roc": 23,
     "med_c_nc": 0.33,
     "pct_aclonal_coh": 59.6,
-    "n_aclonal_coh": 341
+    "n_aclonal_coh": 341,
+    "med_r12_um": 41.2
   },
   {
     "treatment": "endo",
@@ -6021,7 +6271,8 @@
     "n_meso_roc": 8,
     "med_c_nc": 0.13,
     "pct_aclonal_coh": 35.2,
-    "n_aclonal_coh": 183
+    "n_aclonal_coh": 183,
+    "med_r12_um": 20.5
   },
   {
     "treatment": "endo",
@@ -6045,7 +6296,8 @@
     "n_meso_roc": 25,
     "med_c_nc": 0.27,
     "pct_aclonal_coh": 51.6,
-    "n_aclonal_coh": 225
+    "n_aclonal_coh": 225,
+    "med_r12_um": 23.3
   },
   {
     "treatment": "endo",
@@ -6069,7 +6321,8 @@
     "n_meso_roc": 26,
     "med_c_nc": 0.19,
     "pct_aclonal_coh": 43.7,
-    "n_aclonal_coh": 292
+    "n_aclonal_coh": 292,
+    "med_r12_um": 22.2
   },
   {
     "treatment": "endo",
@@ -6093,7 +6346,8 @@
     "n_meso_roc": 8,
     "med_c_nc": 0.24,
     "pct_aclonal_coh": 49.9,
-    "n_aclonal_coh": 204
+    "n_aclonal_coh": 204,
+    "med_r12_um": 28.6
   },
   {
     "treatment": "endo",
@@ -6117,7 +6371,8 @@
     "n_meso_roc": 11,
     "med_c_nc": 0.14,
     "pct_aclonal_coh": 43.8,
-    "n_aclonal_coh": 155
+    "n_aclonal_coh": 155,
+    "med_r12_um": 19.3
   },
   {
     "treatment": "endo",
@@ -6141,7 +6396,8 @@
     "n_meso_roc": 7,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 52.1,
-    "n_aclonal_coh": 134
+    "n_aclonal_coh": 134,
+    "med_r12_um": 24.5
   },
   {
     "treatment": "endo",
@@ -6165,7 +6421,8 @@
     "n_meso_roc": 22,
     "med_c_nc": 0.15,
     "pct_aclonal_coh": 40.5,
-    "n_aclonal_coh": 214
+    "n_aclonal_coh": 214,
+    "med_r12_um": 17.2
   },
   {
     "treatment": "endo",
@@ -6189,7 +6446,8 @@
     "n_meso_roc": 32,
     "med_c_nc": 0.37,
     "pct_aclonal_coh": 66.5,
-    "n_aclonal_coh": 779
+    "n_aclonal_coh": 779,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "endo",
@@ -6213,7 +6471,8 @@
     "n_meso_roc": 18,
     "med_c_nc": 0.38,
     "pct_aclonal_coh": 62.1,
-    "n_aclonal_coh": 308
+    "n_aclonal_coh": 308,
+    "med_r12_um": 38.3
   },
   {
     "treatment": "endo",
@@ -6237,7 +6496,8 @@
     "n_meso_roc": 14,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 58.7,
-    "n_aclonal_coh": 279
+    "n_aclonal_coh": 279,
+    "med_r12_um": 26.0
   },
   {
     "treatment": "endo",
@@ -6261,7 +6521,8 @@
     "n_meso_roc": 34,
     "med_c_nc": 0.27,
     "pct_aclonal_coh": 54.7,
-    "n_aclonal_coh": 346
+    "n_aclonal_coh": 346,
+    "med_r12_um": 19.8
   },
   {
     "treatment": "endo",
@@ -6285,7 +6546,8 @@
     "n_meso_roc": 8,
     "med_c_nc": 0.28,
     "pct_aclonal_coh": 55.6,
-    "n_aclonal_coh": 219
+    "n_aclonal_coh": 219,
+    "med_r12_um": 34.4
   },
   {
     "treatment": "endo",
@@ -6309,7 +6571,8 @@
     "n_meso_roc": 14,
     "med_c_nc": 0.26,
     "pct_aclonal_coh": 51.8,
-    "n_aclonal_coh": 172
+    "n_aclonal_coh": 172,
+    "med_r12_um": 17.7
   },
   {
     "treatment": "endo",
@@ -6333,7 +6596,8 @@
     "n_meso_roc": 22,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 59.6,
-    "n_aclonal_coh": 313
+    "n_aclonal_coh": 313,
+    "med_r12_um": 25.9
   },
   {
     "treatment": "endo",
@@ -6357,7 +6621,8 @@
     "n_meso_roc": 22,
     "med_c_nc": 0.37,
     "pct_aclonal_coh": 68.4,
-    "n_aclonal_coh": 368
+    "n_aclonal_coh": 368,
+    "med_r12_um": 41.6
   },
   {
     "treatment": "endo",
@@ -6381,7 +6646,8 @@
     "n_meso_roc": 13,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 57.5,
-    "n_aclonal_coh": 285
+    "n_aclonal_coh": 285,
+    "med_r12_um": 21.1
   },
   {
     "treatment": "endo",
@@ -6405,7 +6671,8 @@
     "n_meso_roc": 16,
     "med_c_nc": 0.28,
     "pct_aclonal_coh": 53.5,
-    "n_aclonal_coh": 291
+    "n_aclonal_coh": 291,
+    "med_r12_um": 31.2
   },
   {
     "treatment": "endo",
@@ -6429,7 +6696,8 @@
     "n_meso_roc": 37,
     "med_c_nc": 0.3,
     "pct_aclonal_coh": 58.6,
-    "n_aclonal_coh": 355
+    "n_aclonal_coh": 355,
+    "med_r12_um": 30.8
   },
   {
     "treatment": "endo",
@@ -6453,7 +6721,8 @@
     "n_meso_roc": 16,
     "med_c_nc": 0.24,
     "pct_aclonal_coh": 51.0,
-    "n_aclonal_coh": 229
+    "n_aclonal_coh": 229,
+    "med_r12_um": 29.6
   },
   {
     "treatment": "endo",
@@ -6477,7 +6746,8 @@
     "n_meso_roc": 7,
     "med_c_nc": 0.32,
     "pct_aclonal_coh": 59.2,
-    "n_aclonal_coh": 190
+    "n_aclonal_coh": 190,
+    "med_r12_um": 34.1
   },
   {
     "treatment": "endo",
@@ -6501,7 +6771,8 @@
     "n_meso_roc": 8,
     "med_c_nc": 0.23,
     "pct_aclonal_coh": 49.2,
-    "n_aclonal_coh": 184
+    "n_aclonal_coh": 184,
+    "med_r12_um": 32.7
   },
   {
     "treatment": "endo",
@@ -6525,7 +6796,8 @@
     "n_meso_roc": 24,
     "med_c_nc": 0.13,
     "pct_aclonal_coh": 37.9,
-    "n_aclonal_coh": 255
+    "n_aclonal_coh": 255,
+    "med_r12_um": 28.4
   },
   {
     "treatment": "endo",
@@ -6549,7 +6821,8 @@
     "n_meso_roc": 43,
     "med_c_nc": 0.3,
     "pct_aclonal_coh": 53.7,
-    "n_aclonal_coh": 908
+    "n_aclonal_coh": 908,
+    "med_r12_um": 27.2
   },
   {
     "treatment": "endo",
@@ -6573,7 +6846,8 @@
     "n_meso_roc": 28,
     "med_c_nc": 0.25,
     "pct_aclonal_coh": 51.2,
-    "n_aclonal_coh": 454
+    "n_aclonal_coh": 454,
+    "med_r12_um": 19.3
   },
   {
     "treatment": "endo",
@@ -6597,7 +6871,8 @@
     "n_meso_roc": 12,
     "med_c_nc": 0.41,
     "pct_aclonal_coh": 62.4,
-    "n_aclonal_coh": 319
+    "n_aclonal_coh": 319,
+    "med_r12_um": 39.3
   },
   {
     "treatment": "endo",
@@ -6621,7 +6896,8 @@
     "n_meso_roc": 25,
     "med_c_nc": 0.27,
     "pct_aclonal_coh": 54.4,
-    "n_aclonal_coh": 487
+    "n_aclonal_coh": 487,
+    "med_r12_um": 32.8
   },
   {
     "treatment": "endo",
@@ -6645,7 +6921,8 @@
     "n_meso_roc": 17,
     "med_c_nc": 0.3,
     "pct_aclonal_coh": 57.8,
-    "n_aclonal_coh": 268
+    "n_aclonal_coh": 268,
+    "med_r12_um": 24.7
   },
   {
     "treatment": "endo",
@@ -6669,7 +6946,8 @@
     "n_meso_roc": 10,
     "med_c_nc": 0.22,
     "pct_aclonal_coh": 47.0,
-    "n_aclonal_coh": 182
+    "n_aclonal_coh": 182,
+    "med_r12_um": 22.5
   },
   {
     "treatment": "endo",
@@ -6693,7 +6971,8 @@
     "n_meso_roc": 14,
     "med_c_nc": 0.5,
     "pct_aclonal_coh": 74.9,
-    "n_aclonal_coh": 308
+    "n_aclonal_coh": 308,
+    "med_r12_um": 56.8
   },
   {
     "treatment": "endo",
@@ -6717,7 +6996,8 @@
     "n_meso_roc": 16,
     "med_c_nc": 0.34,
     "pct_aclonal_coh": 60.5,
-    "n_aclonal_coh": 466
+    "n_aclonal_coh": 466,
+    "med_r12_um": 30.2
   },
   {
     "treatment": "endo",
@@ -6741,7 +7021,8 @@
     "n_meso_roc": 7,
     "med_c_nc": 0.34,
     "pct_aclonal_coh": 63.0,
-    "n_aclonal_coh": 320
+    "n_aclonal_coh": 320,
+    "med_r12_um": 43.5
   },
   {
     "treatment": "endo",
@@ -6765,7 +7046,8 @@
     "n_meso_roc": 30,
     "med_c_nc": 0.11,
     "pct_aclonal_coh": 39.9,
-    "n_aclonal_coh": 254
+    "n_aclonal_coh": 254,
+    "med_r12_um": 20.9
   },
   {
     "treatment": "endo",
@@ -6789,7 +7071,8 @@
     "n_meso_roc": 30,
     "med_c_nc": 0.24,
     "pct_aclonal_coh": 50.1,
-    "n_aclonal_coh": 330
+    "n_aclonal_coh": 330,
+    "med_r12_um": 13.7
   },
   {
     "treatment": "endo",
@@ -6813,7 +7096,8 @@
     "n_meso_roc": 18,
     "med_c_nc": 0.24,
     "pct_aclonal_coh": 49.9,
-    "n_aclonal_coh": 266
+    "n_aclonal_coh": 266,
+    "med_r12_um": 21.6
   },
   {
     "treatment": "endo",
@@ -6837,7 +7121,8 @@
     "n_meso_roc": 19,
     "med_c_nc": 0.17,
     "pct_aclonal_coh": 37.8,
-    "n_aclonal_coh": 248
+    "n_aclonal_coh": 248,
+    "med_r12_um": 17.6
   },
   {
     "treatment": "endo",
@@ -6861,7 +7146,8 @@
     "n_meso_roc": 9,
     "med_c_nc": 0.4,
     "pct_aclonal_coh": 75.4,
-    "n_aclonal_coh": 214
+    "n_aclonal_coh": 214,
+    "med_r12_um": 28.5
   },
   {
     "treatment": "endo",
@@ -6885,7 +7171,8 @@
     "n_meso_roc": 13,
     "med_c_nc": 0.21,
     "pct_aclonal_coh": 46.0,
-    "n_aclonal_coh": 314
+    "n_aclonal_coh": 314,
+    "med_r12_um": 15.3
   },
   {
     "treatment": "endo",
@@ -6909,7 +7196,8 @@
     "n_meso_roc": 60,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 53.5,
-    "n_aclonal_coh": 1154
+    "n_aclonal_coh": 1154,
+    "med_r12_um": 29.6
   },
   {
     "treatment": "endo",
@@ -6933,7 +7221,8 @@
     "n_meso_roc": 39,
     "med_c_nc": 0.23,
     "pct_aclonal_coh": 49.5,
-    "n_aclonal_coh": 597
+    "n_aclonal_coh": 597,
+    "med_r12_um": 17.2
   },
   {
     "treatment": "endo",
@@ -6957,7 +7246,8 @@
     "n_meso_roc": 15,
     "med_c_nc": 0.36,
     "pct_aclonal_coh": 62.9,
-    "n_aclonal_coh": 352
+    "n_aclonal_coh": 352,
+    "med_r12_um": 27.1
   },
   {
     "treatment": "endo",
@@ -6981,7 +7271,8 @@
     "n_meso_roc": 21,
     "med_c_nc": 0.22,
     "pct_aclonal_coh": 46.0,
-    "n_aclonal_coh": 534
+    "n_aclonal_coh": 534,
+    "med_r12_um": 21.4
   },
   {
     "treatment": "endo",
@@ -7005,7 +7296,8 @@
     "n_meso_roc": 19,
     "med_c_nc": 0.31,
     "pct_aclonal_coh": 55.9,
-    "n_aclonal_coh": 286
+    "n_aclonal_coh": 286,
+    "med_r12_um": 27.2
   },
   {
     "treatment": "endo",
@@ -7029,7 +7321,8 @@
     "n_meso_roc": 15,
     "med_c_nc": 0.36,
     "pct_aclonal_coh": 63.2,
-    "n_aclonal_coh": 301
+    "n_aclonal_coh": 301,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "endo",
@@ -7053,7 +7346,8 @@
     "n_meso_roc": 9,
     "med_c_nc": 0.4,
     "pct_aclonal_coh": 63.2,
-    "n_aclonal_coh": 378
+    "n_aclonal_coh": 378,
+    "med_r12_um": 49.8
   },
   {
     "treatment": "endo",
@@ -7077,7 +7371,8 @@
     "n_meso_roc": 19,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 54.6,
-    "n_aclonal_coh": 476
+    "n_aclonal_coh": 476,
+    "med_r12_um": 33.4
   },
   {
     "treatment": "endo",
@@ -7101,7 +7396,8 @@
     "n_meso_roc": 22,
     "med_c_nc": 0.24,
     "pct_aclonal_coh": 49.3,
-    "n_aclonal_coh": 399
+    "n_aclonal_coh": 399,
+    "med_r12_um": 23.4
   },
   {
     "treatment": "endo",
@@ -7125,7 +7421,8 @@
     "n_meso_roc": 18,
     "med_c_nc": 0.16,
     "pct_aclonal_coh": 37.4,
-    "n_aclonal_coh": 258
+    "n_aclonal_coh": 258,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "endo",
@@ -7149,7 +7446,8 @@
     "n_meso_roc": 26,
     "med_c_nc": 0.22,
     "pct_aclonal_coh": 47.3,
-    "n_aclonal_coh": 402
+    "n_aclonal_coh": 402,
+    "med_r12_um": 29.1
   },
   {
     "treatment": "endo",
@@ -7173,7 +7471,8 @@
     "n_meso_roc": 23,
     "med_c_nc": 0.26,
     "pct_aclonal_coh": 51.1,
-    "n_aclonal_coh": 329
+    "n_aclonal_coh": 329,
+    "med_r12_um": 30.1
   },
   {
     "treatment": "endo",
@@ -7197,7 +7496,8 @@
     "n_meso_roc": 29,
     "med_c_nc": 0.18,
     "pct_aclonal_coh": 42.2,
-    "n_aclonal_coh": 344
+    "n_aclonal_coh": 344,
+    "med_r12_um": 14.9
   },
   {
     "treatment": "endo",
@@ -7221,7 +7521,8 @@
     "n_meso_roc": 31,
     "med_c_nc": 0.38,
     "pct_aclonal_coh": 56.7,
-    "n_aclonal_coh": 300
+    "n_aclonal_coh": 300,
+    "med_r12_um": 40.8
   },
   {
     "treatment": "endo",
@@ -7245,7 +7546,8 @@
     "n_meso_roc": 19,
     "med_c_nc": 0.43,
     "pct_aclonal_coh": 68.8,
-    "n_aclonal_coh": 496
+    "n_aclonal_coh": 496,
+    "med_r12_um": 45.3
   },
   {
     "treatment": "endo",
@@ -7269,7 +7571,8 @@
     "n_meso_roc": 58,
     "med_c_nc": 0.31,
     "pct_aclonal_coh": 57.2,
-    "n_aclonal_coh": 1164
+    "n_aclonal_coh": 1164,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "endo",
@@ -7293,7 +7596,8 @@
     "n_meso_roc": 54,
     "med_c_nc": 0.3,
     "pct_aclonal_coh": 54.2,
-    "n_aclonal_coh": 703
+    "n_aclonal_coh": 703,
+    "med_r12_um": 29.3
   },
   {
     "treatment": "endo",
@@ -7317,7 +7621,8 @@
     "n_meso_roc": 10,
     "med_c_nc": 0.17,
     "pct_aclonal_coh": 45.1,
-    "n_aclonal_coh": 251
+    "n_aclonal_coh": 251,
+    "med_r12_um": 15.9
   },
   {
     "treatment": "endo",
@@ -7341,7 +7646,8 @@
     "n_meso_roc": 44,
     "med_c_nc": 0.36,
     "pct_aclonal_coh": 59.9,
-    "n_aclonal_coh": 1263
+    "n_aclonal_coh": 1263,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "endo",
@@ -7365,7 +7671,8 @@
     "n_meso_roc": 29,
     "med_c_nc": 0.3,
     "pct_aclonal_coh": 57.1,
-    "n_aclonal_coh": 693
+    "n_aclonal_coh": 693,
+    "med_r12_um": 26.6
   },
   {
     "treatment": "endo",
@@ -7389,7 +7696,8 @@
     "n_meso_roc": 10,
     "med_c_nc": 0.31,
     "pct_aclonal_coh": 59.6,
-    "n_aclonal_coh": 390
+    "n_aclonal_coh": 390,
+    "med_r12_um": 26.5
   },
   {
     "treatment": "endo",
@@ -7413,7 +7721,8 @@
     "n_meso_roc": 21,
     "med_c_nc": 0.32,
     "pct_aclonal_coh": 56.5,
-    "n_aclonal_coh": 676
+    "n_aclonal_coh": 676,
+    "med_r12_um": 34.2
   },
   {
     "treatment": "endo",
@@ -7437,7 +7746,8 @@
     "n_meso_roc": 46,
     "med_c_nc": 0.43,
     "pct_aclonal_coh": 66.3,
-    "n_aclonal_coh": 966
+    "n_aclonal_coh": 966,
+    "med_r12_um": 53.1
   },
   {
     "treatment": "endo",
@@ -7461,7 +7771,8 @@
     "n_meso_roc": 36,
     "med_c_nc": 0.4,
     "pct_aclonal_coh": 65.1,
-    "n_aclonal_coh": 1104
+    "n_aclonal_coh": 1104,
+    "med_r12_um": 47.5
   },
   {
     "treatment": "endo",
@@ -7485,7 +7796,8 @@
     "n_meso_roc": 61,
     "med_c_nc": 0.32,
     "pct_aclonal_coh": 57.3,
-    "n_aclonal_coh": 628
+    "n_aclonal_coh": 628,
+    "med_r12_um": 31.6
   },
   {
     "treatment": "endo",
@@ -7509,7 +7821,8 @@
     "n_meso_roc": 54,
     "med_c_nc": 0.32,
     "pct_aclonal_coh": 56.1,
-    "n_aclonal_coh": 893
+    "n_aclonal_coh": 893,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "endo",
@@ -7533,7 +7846,8 @@
     "n_meso_roc": 50,
     "med_c_nc": 0.36,
     "pct_aclonal_coh": 62.3,
-    "n_aclonal_coh": 895
+    "n_aclonal_coh": 895,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "endo",
@@ -7557,7 +7871,8 @@
     "n_meso_roc": 39,
     "med_c_nc": 0.31,
     "pct_aclonal_coh": 57.0,
-    "n_aclonal_coh": 717
+    "n_aclonal_coh": 717,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "meso",
@@ -7581,7 +7896,8 @@
     "n_meso_roc": 72,
     "med_c_nc": 0.2,
     "pct_aclonal_coh": 45.1,
-    "n_aclonal_coh": 550
+    "n_aclonal_coh": 550,
+    "med_r12_um": 10.3
   },
   {
     "treatment": "meso",
@@ -7605,7 +7921,8 @@
     "n_meso_roc": 80,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 28.9,
-    "n_aclonal_coh": 256
+    "n_aclonal_coh": 256,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -7629,7 +7946,8 @@
     "n_meso_roc": 63,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 33.8,
-    "n_aclonal_coh": 239
+    "n_aclonal_coh": 239,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -7653,7 +7971,8 @@
     "n_meso_roc": 60,
     "med_c_nc": 0.05,
     "pct_aclonal_coh": 28.0,
-    "n_aclonal_coh": 191
+    "n_aclonal_coh": 191,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -7677,7 +7996,8 @@
     "n_meso_roc": 65,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 29.5,
-    "n_aclonal_coh": 208
+    "n_aclonal_coh": 208,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -7701,7 +8021,8 @@
     "n_meso_roc": 54,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 33.8,
-    "n_aclonal_coh": 230
+    "n_aclonal_coh": 230,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -7725,7 +8046,8 @@
     "n_meso_roc": 64,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 33.1,
-    "n_aclonal_coh": 201
+    "n_aclonal_coh": 201,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -7749,7 +8071,8 @@
     "n_meso_roc": 34,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 31.0,
-    "n_aclonal_coh": 171
+    "n_aclonal_coh": 171,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -7773,7 +8096,8 @@
     "n_meso_roc": 29,
     "med_c_nc": 0.07,
     "pct_aclonal_coh": 39.4,
-    "n_aclonal_coh": 227
+    "n_aclonal_coh": 227,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -7797,7 +8121,8 @@
     "n_meso_roc": 39,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 15.9,
-    "n_aclonal_coh": 80
+    "n_aclonal_coh": 80,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -7821,7 +8146,8 @@
     "n_meso_roc": 27,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 23.1,
-    "n_aclonal_coh": 104
+    "n_aclonal_coh": 104,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -7845,7 +8171,8 @@
     "n_meso_roc": 25,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 10.7,
-    "n_aclonal_coh": 61
+    "n_aclonal_coh": 61,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -7869,7 +8196,8 @@
     "n_meso_roc": 34,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 30.5,
-    "n_aclonal_coh": 173
+    "n_aclonal_coh": 173,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -7893,7 +8221,8 @@
     "n_meso_roc": 44,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 17.0,
-    "n_aclonal_coh": 54
+    "n_aclonal_coh": 54,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -7917,7 +8246,8 @@
     "n_meso_roc": 44,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 25.1,
-    "n_aclonal_coh": 142
+    "n_aclonal_coh": 142,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -7941,7 +8271,8 @@
     "n_meso_roc": 65,
     "med_c_nc": 0.22,
     "pct_aclonal_coh": 47.5,
-    "n_aclonal_coh": 476
+    "n_aclonal_coh": 476,
+    "med_r12_um": 21.3
   },
   {
     "treatment": "meso",
@@ -7965,7 +8296,8 @@
     "n_meso_roc": 19,
     "med_c_nc": 0.17,
     "pct_aclonal_coh": 45.7,
-    "n_aclonal_coh": 233
+    "n_aclonal_coh": 233,
+    "med_r12_um": 25.4
   },
   {
     "treatment": "meso",
@@ -7989,7 +8321,8 @@
     "n_meso_roc": 25,
     "med_c_nc": 0.17,
     "pct_aclonal_coh": 46.6,
-    "n_aclonal_coh": 217
+    "n_aclonal_coh": 217,
+    "med_r12_um": 24.6
   },
   {
     "treatment": "meso",
@@ -8013,7 +8346,8 @@
     "n_meso_roc": 34,
     "med_c_nc": 0.14,
     "pct_aclonal_coh": 40.1,
-    "n_aclonal_coh": 231
+    "n_aclonal_coh": 231,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8037,7 +8371,8 @@
     "n_meso_roc": 37,
     "med_c_nc": 0.08,
     "pct_aclonal_coh": 38.4,
-    "n_aclonal_coh": 185
+    "n_aclonal_coh": 185,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8061,7 +8396,8 @@
     "n_meso_roc": 33,
     "med_c_nc": 0.26,
     "pct_aclonal_coh": 51.0,
-    "n_aclonal_coh": 297
+    "n_aclonal_coh": 297,
+    "med_r12_um": 19.8
   },
   {
     "treatment": "meso",
@@ -8085,7 +8421,8 @@
     "n_meso_roc": 26,
     "med_c_nc": 0.35,
     "pct_aclonal_coh": 56.1,
-    "n_aclonal_coh": 244
+    "n_aclonal_coh": 244,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "meso",
@@ -8109,7 +8446,8 @@
     "n_meso_roc": 18,
     "med_c_nc": 0.03,
     "pct_aclonal_coh": 34.5,
-    "n_aclonal_coh": 133
+    "n_aclonal_coh": 133,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8133,7 +8471,8 @@
     "n_meso_roc": 11,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 36.6,
-    "n_aclonal_coh": 115
+    "n_aclonal_coh": 115,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8157,7 +8496,8 @@
     "n_meso_roc": 21,
     "med_c_nc": 0.23,
     "pct_aclonal_coh": 49.1,
-    "n_aclonal_coh": 185
+    "n_aclonal_coh": 185,
+    "med_r12_um": 31.2
   },
   {
     "treatment": "meso",
@@ -8181,7 +8521,8 @@
     "n_meso_roc": 25,
     "med_c_nc": 0.28,
     "pct_aclonal_coh": 53.1,
-    "n_aclonal_coh": 187
+    "n_aclonal_coh": 187,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "meso",
@@ -8205,7 +8546,8 @@
     "n_meso_roc": 18,
     "med_c_nc": 0.29,
     "pct_aclonal_coh": 52.9,
-    "n_aclonal_coh": 218
+    "n_aclonal_coh": 218,
+    "med_r12_um": 28.7
   },
   {
     "treatment": "meso",
@@ -8229,7 +8571,8 @@
     "n_meso_roc": 19,
     "med_c_nc": 0.22,
     "pct_aclonal_coh": 47.3,
-    "n_aclonal_coh": 210
+    "n_aclonal_coh": 210,
+    "med_r12_um": 9.4
   },
   {
     "treatment": "meso",
@@ -8253,7 +8596,8 @@
     "n_meso_roc": 7,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 33.9,
-    "n_aclonal_coh": 106
+    "n_aclonal_coh": 106,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8277,7 +8621,8 @@
     "n_meso_roc": 27,
     "med_c_nc": 0.12,
     "pct_aclonal_coh": 44.1,
-    "n_aclonal_coh": 199
+    "n_aclonal_coh": 199,
+    "med_r12_um": 16.9
   },
   {
     "treatment": "meso",
@@ -8301,7 +8646,8 @@
     "n_meso_roc": 77,
     "med_c_nc": 0.24,
     "pct_aclonal_coh": 49.9,
-    "n_aclonal_coh": 505
+    "n_aclonal_coh": 505,
+    "med_r12_um": 14.3
   },
   {
     "treatment": "meso",
@@ -8325,7 +8671,8 @@
     "n_meso_roc": 62,
     "med_c_nc": 0.33,
     "pct_aclonal_coh": 57.9,
-    "n_aclonal_coh": 429
+    "n_aclonal_coh": 429,
+    "med_r12_um": 26.8
   },
   {
     "treatment": "meso",
@@ -8349,7 +8696,8 @@
     "n_meso_roc": 44,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 34.9,
-    "n_aclonal_coh": 153
+    "n_aclonal_coh": 153,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8373,7 +8721,8 @@
     "n_meso_roc": 49,
     "med_c_nc": 0.18,
     "pct_aclonal_coh": 43.4,
-    "n_aclonal_coh": 238
+    "n_aclonal_coh": 238,
+    "med_r12_um": 18.3
   },
   {
     "treatment": "meso",
@@ -8397,7 +8746,8 @@
     "n_meso_roc": 32,
     "med_c_nc": 0.22,
     "pct_aclonal_coh": 48.3,
-    "n_aclonal_coh": 265
+    "n_aclonal_coh": 265,
+    "med_r12_um": 18.9
   },
   {
     "treatment": "meso",
@@ -8421,7 +8771,8 @@
     "n_meso_roc": 29,
     "med_c_nc": 0.21,
     "pct_aclonal_coh": 47.0,
-    "n_aclonal_coh": 203
+    "n_aclonal_coh": 203,
+    "med_r12_um": 17.1
   },
   {
     "treatment": "meso",
@@ -8445,7 +8796,8 @@
     "n_meso_roc": 28,
     "med_c_nc": 0.13,
     "pct_aclonal_coh": 40.9,
-    "n_aclonal_coh": 179
+    "n_aclonal_coh": 179,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8469,7 +8821,8 @@
     "n_meso_roc": 33,
     "med_c_nc": 0.34,
     "pct_aclonal_coh": 57.3,
-    "n_aclonal_coh": 197
+    "n_aclonal_coh": 197,
+    "med_r12_um": 27.9
   },
   {
     "treatment": "meso",
@@ -8493,7 +8846,8 @@
     "n_meso_roc": 22,
     "med_c_nc": 0.16,
     "pct_aclonal_coh": 47.1,
-    "n_aclonal_coh": 224
+    "n_aclonal_coh": 224,
+    "med_r12_um": 29.5
   },
   {
     "treatment": "meso",
@@ -8517,7 +8871,8 @@
     "n_meso_roc": 19,
     "med_c_nc": 0.26,
     "pct_aclonal_coh": 51.6,
-    "n_aclonal_coh": 189
+    "n_aclonal_coh": 189,
+    "med_r12_um": 18.2
   },
   {
     "treatment": "meso",
@@ -8541,7 +8896,8 @@
     "n_meso_roc": 27,
     "med_c_nc": 0.32,
     "pct_aclonal_coh": 56.3,
-    "n_aclonal_coh": 223
+    "n_aclonal_coh": 223,
+    "med_r12_um": 40.5
   },
   {
     "treatment": "meso",
@@ -8565,7 +8921,8 @@
     "n_meso_roc": 28,
     "med_c_nc": 0.25,
     "pct_aclonal_coh": 50.3,
-    "n_aclonal_coh": 232
+    "n_aclonal_coh": 232,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8589,7 +8946,8 @@
     "n_meso_roc": 22,
     "med_c_nc": 0.27,
     "pct_aclonal_coh": 51.0,
-    "n_aclonal_coh": 175
+    "n_aclonal_coh": 175,
+    "med_r12_um": 31.5
   },
   {
     "treatment": "meso",
@@ -8613,7 +8971,8 @@
     "n_meso_roc": 26,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 32.7,
-    "n_aclonal_coh": 114
+    "n_aclonal_coh": 114,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8637,7 +8996,8 @@
     "n_meso_roc": 24,
     "med_c_nc": 0.44,
     "pct_aclonal_coh": 56.3,
-    "n_aclonal_coh": 202
+    "n_aclonal_coh": 202,
+    "med_r12_um": 37.7
   },
   {
     "treatment": "meso",
@@ -8661,7 +9021,8 @@
     "n_meso_roc": 137,
     "med_c_nc": 0.22,
     "pct_aclonal_coh": 48.3,
-    "n_aclonal_coh": 578
+    "n_aclonal_coh": 578,
+    "med_r12_um": 16.5
   },
   {
     "treatment": "meso",
@@ -8685,7 +9046,8 @@
     "n_meso_roc": 69,
     "med_c_nc": 0.02,
     "pct_aclonal_coh": 41.0,
-    "n_aclonal_coh": 233
+    "n_aclonal_coh": 233,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8709,7 +9071,8 @@
     "n_meso_roc": 99,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 34.1,
-    "n_aclonal_coh": 202
+    "n_aclonal_coh": 202,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8733,7 +9096,8 @@
     "n_meso_roc": 73,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 32.8,
-    "n_aclonal_coh": 224
+    "n_aclonal_coh": 224,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8757,7 +9121,8 @@
     "n_meso_roc": 88,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 32.4,
-    "n_aclonal_coh": 209
+    "n_aclonal_coh": 209,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8781,7 +9146,8 @@
     "n_meso_roc": 65,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 35.9,
-    "n_aclonal_coh": 191
+    "n_aclonal_coh": 191,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8805,7 +9171,8 @@
     "n_meso_roc": 67,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 40.1,
-    "n_aclonal_coh": 242
+    "n_aclonal_coh": 242,
+    "med_r12_um": 9.4
   },
   {
     "treatment": "meso",
@@ -8829,7 +9196,8 @@
     "n_meso_roc": 37,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 35.9,
-    "n_aclonal_coh": 131
+    "n_aclonal_coh": 131,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8853,7 +9221,8 @@
     "n_meso_roc": 68,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 36.5,
-    "n_aclonal_coh": 178
+    "n_aclonal_coh": 178,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8877,7 +9246,8 @@
     "n_meso_roc": 90,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 35.9,
-    "n_aclonal_coh": 199
+    "n_aclonal_coh": 199,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8901,7 +9271,8 @@
     "n_meso_roc": 55,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 38.2,
-    "n_aclonal_coh": 193
+    "n_aclonal_coh": 193,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8925,7 +9296,8 @@
     "n_meso_roc": 44,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 37.3,
-    "n_aclonal_coh": 230
+    "n_aclonal_coh": 230,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8949,7 +9321,8 @@
     "n_meso_roc": 49,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 39.9,
-    "n_aclonal_coh": 187
+    "n_aclonal_coh": 187,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8973,7 +9346,8 @@
     "n_meso_roc": 31,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 25.8,
-    "n_aclonal_coh": 89
+    "n_aclonal_coh": 89,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -8997,7 +9371,8 @@
     "n_meso_roc": 55,
     "med_c_nc": 0.13,
     "pct_aclonal_coh": 42.9,
-    "n_aclonal_coh": 303
+    "n_aclonal_coh": 303,
+    "med_r12_um": 11.5
   },
   {
     "treatment": "meso",
@@ -9021,7 +9396,8 @@
     "n_meso_roc": 293,
     "med_c_nc": 0.17,
     "pct_aclonal_coh": 43.8,
-    "n_aclonal_coh": 720
+    "n_aclonal_coh": 720,
+    "med_r12_um": 9.5
   },
   {
     "treatment": "meso",
@@ -9045,7 +9421,8 @@
     "n_meso_roc": 248,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 37.9,
-    "n_aclonal_coh": 267
+    "n_aclonal_coh": 267,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9069,7 +9446,8 @@
     "n_meso_roc": 182,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 36.3,
-    "n_aclonal_coh": 237
+    "n_aclonal_coh": 237,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9093,7 +9471,8 @@
     "n_meso_roc": 194,
     "med_c_nc": 0.1,
     "pct_aclonal_coh": 44.7,
-    "n_aclonal_coh": 304
+    "n_aclonal_coh": 304,
+    "med_r12_um": 15.2
   },
   {
     "treatment": "meso",
@@ -9117,7 +9496,8 @@
     "n_meso_roc": 189,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 31.3,
-    "n_aclonal_coh": 213
+    "n_aclonal_coh": 213,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9141,7 +9521,8 @@
     "n_meso_roc": 183,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 30.0,
-    "n_aclonal_coh": 184
+    "n_aclonal_coh": 184,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9165,7 +9546,8 @@
     "n_meso_roc": 246,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 26.2,
-    "n_aclonal_coh": 202
+    "n_aclonal_coh": 202,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9189,7 +9571,8 @@
     "n_meso_roc": 192,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 19.0,
-    "n_aclonal_coh": 111
+    "n_aclonal_coh": 111,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9213,7 +9596,8 @@
     "n_meso_roc": 380,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 21.8,
-    "n_aclonal_coh": 178
+    "n_aclonal_coh": 178,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9237,7 +9621,8 @@
     "n_meso_roc": 247,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 31.7,
-    "n_aclonal_coh": 237
+    "n_aclonal_coh": 237,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9261,7 +9646,8 @@
     "n_meso_roc": 106,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 36.9,
-    "n_aclonal_coh": 191
+    "n_aclonal_coh": 191,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9285,7 +9671,8 @@
     "n_meso_roc": 207,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 21.3,
-    "n_aclonal_coh": 147
+    "n_aclonal_coh": 147,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9309,7 +9696,8 @@
     "n_meso_roc": 233,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 23.0,
-    "n_aclonal_coh": 205
+    "n_aclonal_coh": 205,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9333,7 +9721,8 @@
     "n_meso_roc": 270,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 35.9,
-    "n_aclonal_coh": 234
+    "n_aclonal_coh": 234,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9357,7 +9746,8 @@
     "n_meso_roc": 247,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 41.1,
-    "n_aclonal_coh": 339
+    "n_aclonal_coh": 339,
+    "med_r12_um": 15.7
   },
   {
     "treatment": "meso",
@@ -9381,7 +9771,8 @@
     "n_meso_roc": 304,
     "med_c_nc": 0.16,
     "pct_aclonal_coh": 42.4,
-    "n_aclonal_coh": 822
+    "n_aclonal_coh": 822,
+    "med_r12_um": 11.0
   },
   {
     "treatment": "meso",
@@ -9405,7 +9796,8 @@
     "n_meso_roc": 225,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 31.8,
-    "n_aclonal_coh": 238
+    "n_aclonal_coh": 238,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9429,7 +9821,8 @@
     "n_meso_roc": 143,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 33.4,
-    "n_aclonal_coh": 218
+    "n_aclonal_coh": 218,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9453,7 +9846,8 @@
     "n_meso_roc": 207,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 38.5,
-    "n_aclonal_coh": 265
+    "n_aclonal_coh": 265,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9477,7 +9871,8 @@
     "n_meso_roc": 178,
     "med_c_nc": 0.05,
     "pct_aclonal_coh": 42.8,
-    "n_aclonal_coh": 254
+    "n_aclonal_coh": 254,
+    "med_r12_um": 11.0
   },
   {
     "treatment": "meso",
@@ -9501,7 +9896,8 @@
     "n_meso_roc": 172,
     "med_c_nc": 0.01,
     "pct_aclonal_coh": 41.5,
-    "n_aclonal_coh": 437
+    "n_aclonal_coh": 437,
+    "med_r12_um": 9.7
   },
   {
     "treatment": "meso",
@@ -9525,7 +9921,8 @@
     "n_meso_roc": 340,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 19.9,
-    "n_aclonal_coh": 218
+    "n_aclonal_coh": 218,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9549,7 +9946,8 @@
     "n_meso_roc": 379,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 34.0,
-    "n_aclonal_coh": 343
+    "n_aclonal_coh": 343,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9573,7 +9971,8 @@
     "n_meso_roc": 341,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 30.8,
-    "n_aclonal_coh": 239
+    "n_aclonal_coh": 239,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9597,7 +9996,8 @@
     "n_meso_roc": 202,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 34.6,
-    "n_aclonal_coh": 248
+    "n_aclonal_coh": 248,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9621,7 +10021,8 @@
     "n_meso_roc": 117,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 9.6,
-    "n_aclonal_coh": 39
+    "n_aclonal_coh": 39,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9645,7 +10046,8 @@
     "n_meso_roc": 154,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 27.6,
-    "n_aclonal_coh": 150
+    "n_aclonal_coh": 150,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9669,7 +10071,8 @@
     "n_meso_roc": 255,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 27.9,
-    "n_aclonal_coh": 239
+    "n_aclonal_coh": 239,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9693,7 +10096,8 @@
     "n_meso_roc": 294,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 22.1,
-    "n_aclonal_coh": 160
+    "n_aclonal_coh": 160,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9717,7 +10121,8 @@
     "n_meso_roc": 301,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 35.7,
-    "n_aclonal_coh": 351
+    "n_aclonal_coh": 351,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9741,7 +10146,8 @@
     "n_meso_roc": 241,
     "med_c_nc": 0.31,
     "pct_aclonal_coh": 57.2,
-    "n_aclonal_coh": 1214
+    "n_aclonal_coh": 1214,
+    "med_r12_um": 29.6
   },
   {
     "treatment": "meso",
@@ -9765,7 +10171,8 @@
     "n_meso_roc": 233,
     "med_c_nc": 0.04,
     "pct_aclonal_coh": 41.6,
-    "n_aclonal_coh": 371
+    "n_aclonal_coh": 371,
+    "med_r12_um": 9.2
   },
   {
     "treatment": "meso",
@@ -9789,7 +10196,8 @@
     "n_meso_roc": 189,
     "med_c_nc": 0.38,
     "pct_aclonal_coh": 59.8,
-    "n_aclonal_coh": 632
+    "n_aclonal_coh": 632,
+    "med_r12_um": 54.2
   },
   {
     "treatment": "meso",
@@ -9813,7 +10221,8 @@
     "n_meso_roc": 109,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 41.3,
-    "n_aclonal_coh": 268
+    "n_aclonal_coh": 268,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9837,7 +10246,8 @@
     "n_meso_roc": 159,
     "med_c_nc": 0.06,
     "pct_aclonal_coh": 39.4,
-    "n_aclonal_coh": 354
+    "n_aclonal_coh": 354,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9861,7 +10271,8 @@
     "n_meso_roc": 214,
     "med_c_nc": 0.42,
     "pct_aclonal_coh": 63.9,
-    "n_aclonal_coh": 738
+    "n_aclonal_coh": 738,
+    "med_r12_um": 48.2
   },
   {
     "treatment": "meso",
@@ -9885,7 +10296,8 @@
     "n_meso_roc": 279,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 27.4,
-    "n_aclonal_coh": 359
+    "n_aclonal_coh": 359,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9909,7 +10321,8 @@
     "n_meso_roc": 419,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 38.5,
-    "n_aclonal_coh": 483
+    "n_aclonal_coh": 483,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9933,7 +10346,8 @@
     "n_meso_roc": 327,
     "med_c_nc": 0.03,
     "pct_aclonal_coh": 35.6,
-    "n_aclonal_coh": 517
+    "n_aclonal_coh": 517,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9957,7 +10371,8 @@
     "n_meso_roc": 265,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 34.0,
-    "n_aclonal_coh": 369
+    "n_aclonal_coh": 369,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -9981,7 +10396,8 @@
     "n_meso_roc": 314,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 35.8,
-    "n_aclonal_coh": 423
+    "n_aclonal_coh": 423,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -10005,7 +10421,8 @@
     "n_meso_roc": 321,
     "med_c_nc": 0.17,
     "pct_aclonal_coh": 44.8,
-    "n_aclonal_coh": 522
+    "n_aclonal_coh": 522,
+    "med_r12_um": 12.5
   },
   {
     "treatment": "meso",
@@ -10029,7 +10446,8 @@
     "n_meso_roc": 279,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 30.9,
-    "n_aclonal_coh": 340
+    "n_aclonal_coh": 340,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -10053,7 +10471,8 @@
     "n_meso_roc": 385,
     "med_c_nc": 0.0,
     "pct_aclonal_coh": 33.5,
-    "n_aclonal_coh": 354
+    "n_aclonal_coh": 354,
+    "med_r12_um": 8.0
   },
   {
     "treatment": "meso",
@@ -10077,6 +10496,7 @@
     "n_meso_roc": 199,
     "med_c_nc": 0.2,
     "pct_aclonal_coh": 48.2,
-    "n_aclonal_coh": 608
+    "n_aclonal_coh": 608,
+    "med_r12_um": 31.4
   }
 ]
