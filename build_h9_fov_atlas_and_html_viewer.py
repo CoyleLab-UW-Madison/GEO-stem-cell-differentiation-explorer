@@ -82,6 +82,26 @@ def make_grayscale_fluorescence_cmap():
     )
 
 
+def make_coherence_hotpink_cmap():
+    """
+    TV-Static White Noise (0.0) -> Soft Orchid-Pink -> Vivid Hot-Pink -> Electric Fuchsia/Magenta:
+      Orthogonal to Blue/Red (ΔF_stem), Teal/Gold (ΔP_osc), and Slate/Purple (Δs_⊥).
+    """
+    return LinearSegmentedColormap.from_list(
+        "nc_coherence_hotpink",
+        [
+            (0.00, "#f8fafc"),
+            (0.16, "#fdf4ff"),
+            (0.34, "#f5d0fe"),
+            (0.54, "#f472b6"),
+            (0.76, "#e879f9"),
+            (0.90, "#d946ef"),
+            (1.00, "#a21caf"),
+        ],
+        N=256,
+    )
+
+
 def _init_worker(bundle_path_str: str):
     global _G_CELL_DICT, _G_P_CTRL_2D, _G_D_EDGES, _G_E_EDGES
     with open(bundle_path_str, "rb") as f:
@@ -111,11 +131,13 @@ def process_single_well(ckpt_path_str: str) -> list:
     cmap_df = make_df_blue_red_cmap()
     cmap_dposc = make_dposc_blue_grey_gold_cmap()
     cmap_sperp = make_sperp_slate_magenta_cmap()
+    cmap_coh = make_coherence_hotpink_cmap()
 
     norm_barcode = Normalize(vmin=18.0, vmax=52.0)
     norm_df = Normalize(vmin=-12.0, vmax=12.0)
     norm_dposc = Normalize(vmin=-50.0, vmax=50.0)
     norm_sperp = Normalize(vmin=-1.0, vmax=2.8)
+    norm_coh = Normalize(vmin=0.0, vmax=0.58)
 
     filenames = sorted(df_w["filename"].unique())
     fov_records = []
@@ -160,7 +182,7 @@ def process_single_well(ckpt_path_str: str) -> list:
         lum = 0.04 + 0.92 * g_norm_still
         rgb_gray = np.stack([lum, lum, lum], axis=-1).astype(np.float32)
 
-        # Shared dark microscopy background for panels 2..5 (exact match to Figures 5 and 6)
+        # Shared dark microscopy background for panels 2..6 (exact match to Figures 5 and 6)
         p02, p995 = np.percentile(g_raw_sub, [2.0, 99.5])
         g_norm = np.clip((g_raw_sub - p02) / max(p995 - p02, 1.0), 0.0, 1.0) ** 0.65
         bg_fluo = np.stack([0.50 * g_norm, 0.51 * g_norm, 0.54 * g_norm], axis=-1).astype(np.float32)
@@ -175,6 +197,7 @@ def process_single_well(ckpt_path_str: str) -> list:
         rgb_df = bg_fluo.copy()
         rgb_dposc = bg_fluo.copy()
         rgb_sperp = bg_fluo.copy()
+        rgb_cnc = bg_fluo.copy()
 
         di = np.clip(np.searchsorted(_G_D_EDGES, r_sm) - 1, 0, len(_G_D_EDGES) - 2)
         ei = np.clip(np.searchsorted(_G_E_EDGES, g_sm) - 1, 0, len(_G_E_EDGES) - 2)
@@ -195,6 +218,7 @@ def process_single_well(ckpt_path_str: str) -> list:
             sp_v = c_info["ds_perp_roc"][valid_c]
             dp_v = c_info["dP_osc_cell"][valid_c]
             ed_v = c_info["ED_ratio"][valid_c]
+            cnc_v = c_info["c_nc"][valid_c] if "c_nc" in c_info else np.zeros_like(f_v)
 
             flat_m = m_sub.ravel()
             flat_p = p_exp_map.ravel()
@@ -216,6 +240,8 @@ def process_single_well(ckpt_path_str: str) -> list:
             lut_df_c = np.zeros((max_lbl + 1, 3), dtype=np.float32)
             lut_dp_c = np.zeros((max_lbl + 1, 3), dtype=np.float32)
             lut_sp_c = np.zeros((max_lbl + 1, 3), dtype=np.float32)
+            lut_cnc_c = np.zeros((max_lbl + 1, 3), dtype=np.float32)
+            lut_cnc_norm = np.zeros(max_lbl + 1, dtype=np.float32)
 
             lut_bar_c[c_v] = cmap_barcode(norm_barcode(f_v))[:, :3].astype(np.float32)
             oos_m = ~np.isfinite(df_v)
@@ -226,16 +252,32 @@ def process_single_well(ckpt_path_str: str) -> list:
             lut_dp_c[c_v] = cmap_dposc(norm_dposc(dp_eff_v))[:, :3].astype(np.float32)
             lut_sp_c[c_v] = cmap_sperp(norm_sperp(sp_v))[:, :3].astype(np.float32)
 
+            cnc_norm_v = np.clip(norm_coh(cnc_v), 0.0, 1.0).astype(np.float32)
+            lut_cnc_c[c_v] = cmap_coh(cnc_norm_v)[:, :3].astype(np.float32)
+            lut_cnc_norm[c_v] = cnc_norm_v
+
             tex_w = (0.76 + 0.24 * g_norm)[..., None]
             rgb_bar[in_aud_cell] = np.clip(lut_bar_c[m_sub[in_aud_cell]] * tex_w[in_aud_cell] * 1.18, 0.0, 1.0)
             rgb_df[in_aud_cell] = np.clip(lut_df_c[m_sub[in_aud_cell]] * tex_w[in_aud_cell] * 1.18, 0.0, 1.0)
             rgb_dposc[in_aud_cell] = np.clip(lut_dp_c[m_sub[in_aud_cell]] * tex_w[in_aud_cell] * 1.18, 0.0, 1.0)
             rgb_sperp[in_aud_cell] = np.clip(lut_sp_c[m_sub[in_aud_cell]] * tex_w[in_aud_cell] * 1.18, 0.0, 1.0)
 
+            # 6. Aclonal Coherence C_nc: TV-Static White Noise in uncorrelated cells -> Solid Hot-Pink/Magenta in coherent domains
+            H_s, W_s = m_sub.shape
+            rng_noise = np.random.default_rng(101 + int(well_val) * 17 + int(day_val * 10) + fov_idx)
+            coarse_noise = rng_noise.choice([-1.0, 1.0], size=(H_s // 2 + 2, W_s // 2 + 2))
+            static_field = np.repeat(np.repeat(coarse_noise, 2, axis=0), 2, axis=1)[:H_s, :W_s]
+            cell_n = lut_cnc_norm[m_sub[in_aud_cell]]
+            static_amp = 0.34 * np.clip(1.0 - cell_n / 0.38, 0.0, 1.0) ** 1.3
+            base_cnc_rgb = lut_cnc_c[m_sub[in_aud_cell]]
+            noisy_cnc_rgb = np.clip(base_cnc_rgb + (static_field[in_aud_cell] * static_amp)[:, None], 0.05, 1.0)
+            rgb_cnc[in_aud_cell] = np.clip(noisy_cnc_rgb * tex_w[in_aud_cell] * 1.15, 0.0, 1.0)
+
             rgb_bar[cell_border & in_aud_cell] *= border_mult
             rgb_df[cell_border & in_aud_cell] *= border_mult
             rgb_dposc[cell_border & in_aud_cell] *= border_mult
             rgb_sperp[cell_border & in_aud_cell] *= border_mult
+            rgb_cnc[cell_border & in_aud_cell] *= border_mult
         else:
             c_v = np.array([], dtype=np.int32)
             f_v = np.array([0.0], dtype=np.float32)
@@ -243,6 +285,7 @@ def process_single_well(ckpt_path_str: str) -> list:
             sp_v = np.array([0.0], dtype=np.float32)
             dp_v = np.array([0.0], dtype=np.float32)
             ed_v = np.array([0.0], dtype=np.float32)
+            cnc_v = np.array([0.0], dtype=np.float32)
 
         # Multi-cell neighborhood competence on non-oscillating colony tissue in control-competent (D, E) space
         p_dom = 100.0 * 1.45 * (gaussian_filter(in_aud_cell.astype(np.float32), sigma=sigma_nb) / tis_nb)
@@ -264,17 +307,20 @@ def process_single_well(ckpt_path_str: str) -> list:
         n_meso_roc = int(np.sum(sp_v > 0.85)) if n_cells > 0 else 0
         pct_meso_roc = 100.0 * n_meso_roc / max(n_cells, 1)
         med_ed = float(np.nanmedian(ed_v)) if n_cells > 0 else 0.0
+        med_c_nc = float(np.nanmedian(cnc_v)) if n_cells > 0 else 0.0
+        n_aclonal_coh = int(np.sum(cnc_v >= 0.24)) if n_cells > 0 else 0
+        pct_aclonal_coh = 100.0 * n_aclonal_coh / max(n_cells, 1)
 
         rel_png = f"fov_atlas/{treat}_d{day_val:.1f}_w{well_val}_fov{fov_idx}_{fov_short}.png"
         out_png = LOCAL_WORK_DIR / rel_png
 
         # =====================================================================
-        # RENDER CLEAN 1x5 HORIZONTAL STRIP (22.5 x 4.70 in @ 100 DPI = 2250 x 470 px)
-        # Every Tile (c in {0..4}) occupies x in [c*0.20, (c+1)*0.20].
-        # Every 512x512 colony image occupies [x0 + 0.007, 0.115, 0.162, 0.7755]
+        # RENDER CLEAN 1x6 HORIZONTAL STRIP (27.0 x 4.70 in @ 100 DPI = 2700 x 470 px)
+        # Every Tile (c in {0..5}) occupies x in [c*(1/6), (c+1)*(1/6)] (450 x 470 px).
+        # Every 512x512 colony image occupies [x0 + 0.007*(5/6), 0.115, 0.162*(5/6), 0.7755]
         # (exact 1:1 square = 364.5 x 364.5 px, 0.00 px overlay offset!).
         # =====================================================================
-        fig = plt.figure(figsize=(22.5, 4.70), dpi=100)
+        fig = plt.figure(figsize=(27.0, 4.70), dpi=100)
         fig.patch.set_facecolor("#0f172a")
 
         fov_pt = fov_short.split("_")[0]
@@ -309,12 +355,19 @@ def process_single_well(ckpt_path_str: str) -> list:
                 f"tail > +0.85 mHz: {pct_meso_roc:.1f}% (n={n_meso_roc}) | p90={p90_s_perp:+.2f}",
                 "#c084fc", [-0.5, 0.5, 1.5, 2.5]
             ),
+            (
+                5, rgb_cnc, cmap_coh, norm_coh,
+                "6. Aclonal Coherence C_nc (TV → Pink)",
+                f"median C_nc = {med_c_nc:.2f} | coherent: {pct_aclonal_coh:.1f}% (n={n_aclonal_coh})",
+                "#f472b6", [0.0, 0.15, 0.30, 0.45, 0.58]
+            ),
         ]
 
-        w_col = 0.20
+        w_col = 1.0 / 6.0
+        s6 = 5.0 / 6.0
         for c_t, rgb_arr, cm, norm_obj, title_s, sub_s, t_col, cb_ticks in tiles:
             x0 = c_t * w_col
-            ax = fig.add_axes([x0 + 0.007, 0.115, 0.162, 0.7755])
+            ax = fig.add_axes([x0 + 0.007 * s6, 0.115, 0.162 * s6, 0.7755])
             ax.imshow(rgb_arr, interpolation="nearest", aspect="auto")
             # 50 µm scale bar (100 px at step=2) in bottom-right corner
             h_im, w_im = rgb_arr.shape[:2]
@@ -331,7 +384,7 @@ def process_single_well(ckpt_path_str: str) -> list:
                 sp.set_linewidth(1.0)
 
             if cm is not None and norm_obj is not None:
-                cax = fig.add_axes([x0 + 0.1715, 0.115, 0.0055, 0.7755])
+                cax = fig.add_axes([x0 + 0.1715 * s6, 0.115, 0.0055 * s6, 0.7755])
                 cb = fig.colorbar(matplotlib.cm.ScalarMappable(norm=norm_obj, cmap=cm), cax=cax)
                 if cb_ticks is not None:
                     cb.set_ticks(cb_ticks)
@@ -350,8 +403,17 @@ def process_single_well(ckpt_path_str: str) -> list:
 
         buf.seek(0)
         im_pil = Image.open(buf).convert("RGB")
-        im_web = im_pil.resize((2250, 470), Image.Resampling.LANCZOS)
-        im_q = im_web.quantize(colors=256, method=Image.Quantize.MAXCOVERAGE, dither=Image.Dither.NONE)
+        im_web = im_pil.resize((2700, 470), Image.Resampling.LANCZOS)
+        # Build 256-color palette: 36 exact neutral greys (so Panel 1 Still has zero color cast) + 220 vivid colors from Panels 2..6
+        c_pal = im_web.crop((450, 0, 2700, 470)).quantize(
+            colors=220, method=Image.Quantize.MAXCOVERAGE, dither=Image.Dither.NONE
+        ).getpalette()[: 220 * 3]
+        greys = []
+        for g_v in np.linspace(0, 255, 36).round().astype(int):
+            greys.extend([int(g_v), int(g_v), int(g_v)])
+        pal_im = Image.new("P", (16, 16))
+        pal_im.putpalette(greys + c_pal)
+        im_q = im_web.quantize(palette=pal_im, dither=Image.Dither.NONE)
         im_q.save(out_png, optimize=True)
 
         fov_records.append(
@@ -375,6 +437,9 @@ def process_single_well(ckpt_path_str: str) -> list:
                 "p90_s_perp_roc_mHz": round(p90_s_perp, 2),
                 "pct_meso_roc": round(pct_meso_roc, 1),
                 "n_meso_roc": n_meso_roc,
+                "med_c_nc": round(med_c_nc, 2),
+                "pct_aclonal_coh": round(pct_aclonal_coh, 1),
+                "n_aclonal_coh": n_aclonal_coh,
             }
         )
 
@@ -563,7 +628,7 @@ def build_interactive_html_viewer(fov_records: list):
     padding: 3px 10px;
     border-radius: 4px;
   }}
-  /* Each tile is 1/5 of 2250x470 = 450x470 px */
+  /* Each tile is 1/6 of 2700x470 = 450x470 px */
   .tile-zoom-box {{
     overflow: hidden;
     border-radius: 6px;
@@ -573,14 +638,13 @@ def build_interactive_html_viewer(fov_records: list):
     aspect-ratio: 450 / 470;
   }}
   .tile-zoom-box img.base-layer {{
-    width: 500%;
+    width: 600%;
     max-width: none;
     height: auto;
     display: block;
   }}
   /* Overlay layer clipped strictly to the 512x512 colony image box:
-     left = 0.007/0.20 = 3.5%, right = 100% - (0.007+0.162)/0.20 = 15.5%,
-     top = 10.95%, bottom = 11.5% */
+     left = 3.5%, right = 15.5%, top = 10.95%, bottom = 11.5% */
   .tile-zoom-box .overlay-clip {{
     position: absolute;
     inset: 0;
@@ -590,7 +654,7 @@ def build_interactive_html_viewer(fov_records: list):
     mix-blend-mode: var(--blend-mode, screen);
   }}
   .tile-zoom-box .overlay-clip img {{
-    width: 500%;
+    width: 600%;
     max-width: none;
     height: auto;
     display: block;
@@ -621,7 +685,7 @@ def build_interactive_html_viewer(fov_records: list):
 <header>
   <div class="title-block">
     <h1>GEO Stem Cell Differentiation Explorer</h1>
-    <p>420 Fields of View &bull; 4 Lineages (hESC, Ectoderm, Endoderm, Mesoderm) &bull; 7 Timepoints (d0.0 &ndash; d3.0, 12 h intervals) &bull; 3 Replicate Wells</p>
+    <p>420 Fields of View &bull; 6 Spatial Channels (Still, Barcode f, &Delta;F_stem, &Delta;P_osc, &Delta;s_&perp;, Aclonal Coherence C_nc) &bull; 4 Lineages &bull; 7 Timepoints (d0.0 &ndash; d3.0)</p>
   </div>
   <div class="mode-tabs">
     <button class="mode-btn active" onclick="setMode('single')" id="tab-single">Single FOV</button>
@@ -676,7 +740,7 @@ def build_interactive_html_viewer(fov_records: list):
 
 <div class="focus-bar">
   <span class="ctrl-label">View</span>
-  <button class="pill-btn active" onclick="setFocus('all')" id="btn-focus-all">All 5 Panels</button>
+  <button class="pill-btn active" onclick="setFocus('all')" id="btn-focus-all">All 6 Panels</button>
   <button class="pill-btn" onclick="setFocus('pair')" id="btn-focus-pair">Overlay / Compare 2 Panels</button>
   <span style="color:var(--border);margin:0 4px;">|</span>
   <span class="ctrl-label">Single Panel</span>
@@ -685,6 +749,7 @@ def build_interactive_html_viewer(fov_records: list):
   <button class="pill-btn" onclick="setFocus('t2')" id="btn-focus-t2">3. Frequency Shift &Delta;F_stem</button>
   <button class="pill-btn" onclick="setFocus('t3')" id="btn-focus-t3">4. Competence Shift &Delta;P_osc</button>
   <button class="pill-btn" onclick="setFocus('t4')" id="btn-focus-t4">5. Stoichiometric Tilt &Delta;s_&perp;</button>
+  <button class="pill-btn" onclick="setFocus('t5')" id="btn-focus-t5">6. Aclonal Coherence C_nc</button>
 
   <div class="ctrl-group" id="zoom-size-ctrl" style="margin-left:auto;">
     <span class="ctrl-label">Zoom Size</span>
@@ -702,6 +767,7 @@ def build_interactive_html_viewer(fov_records: list):
       <option value="2">3. Frequency Shift &Delta;F_stem (mHz)</option>
       <option value="3">4. Competence Shift &Delta;P_osc (%)</option>
       <option value="4">5. Stoichiometric Tilt &Delta;s_&perp; (mHz)</option>
+      <option value="5">6. Aclonal Coherence C_nc (TV &rarr; Pink)</option>
     </select>
     <button class="pill-btn" onclick="swapPair()">&harr; Swap</button>
     <span class="ctrl-label" style="margin-left:4px;">Overlay (B)</span>
@@ -711,6 +777,7 @@ def build_interactive_html_viewer(fov_records: list):
       <option value="2" selected>3. Frequency Shift &Delta;F_stem (mHz)</option>
       <option value="3">4. Competence Shift &Delta;P_osc (%)</option>
       <option value="4">5. Stoichiometric Tilt &Delta;s_&perp; (mHz)</option>
+      <option value="5">6. Aclonal Coherence C_nc (TV &rarr; Pink)</option>
     </select>
   </div>
 
@@ -751,7 +818,8 @@ const PANEL_NAMES = [
   "2. FM Barcode f (18–52 mHz)",
   "3. Frequency Shift ΔF_stem (mHz)",
   "4. Competence Shift ΔP_osc (%)",
-  "5. Stoichiometric Tilt Δs_⊥ (mHz)"
+  "5. Stoichiometric Tilt Δs_⊥ (mHz)",
+  "6. Aclonal Coherence C_nc (TV → Pink)"
 ];
 
 let state = {{
@@ -767,7 +835,7 @@ let state = {{
   blendOpacity: 65,
   blendMode: 'screen',
   curtainWipe: 100,
-  sortCol: 'pct_meso_roc',
+  sortCol: 'pct_aclonal_coh',
   sortAsc: false
 }};
 
@@ -776,7 +844,7 @@ function findRecord(treat, day, well, fov) {{
 }}
 
 function tileTransformCoords(tileIndex) {{
-  const tx = -(tileIndex * 20.0);
+  const tx = -(tileIndex * (100.0 / 6.0));
   return {{ tx, ty: 0.0 }};
 }}
 
@@ -787,7 +855,7 @@ function renderTileCrop(imgSrc, tileIndex, widthPx, labelText) {{
     <div class="tile-col-wrap">
       ${{tagHtml}}
       <div class="tile-zoom-box" style="width:${{widthPx}}px;">
-        <img class="base-layer" src="${{imgSrc}}" loading="lazy" style="transform: translate(${{tx.toFixed(2)}}%, 0%);">
+        <img class="base-layer" src="${{imgSrc}}" loading="lazy" style="transform: translate(${{tx.toFixed(4)}}%, 0%);">
       </div>
     </div>
   `;
@@ -802,9 +870,9 @@ function renderBlendedTileCrop(imgSrc, leftIdx, rightIdx, widthPx) {{
         Blended: [${{PANEL_NAMES[leftIdx]}}] + [${{PANEL_NAMES[rightIdx]}}]
       </div>
       <div class="tile-zoom-box" style="width:${{widthPx}}px; border-color:#38bdf8;">
-        <img class="base-layer" src="${{imgSrc}}" loading="lazy" style="transform: translate(${{cA.tx.toFixed(2)}}%, 0%);">
+        <img class="base-layer" src="${{imgSrc}}" loading="lazy" style="transform: translate(${{cA.tx.toFixed(4)}}%, 0%);">
         <div class="overlay-clip">
-          <img src="${{imgSrc}}" loading="lazy" style="transform: translate(${{cB.tx.toFixed(2)}}%, 0%);">
+          <img src="${{imgSrc}}" loading="lazy" style="transform: translate(${{cB.tx.toFixed(4)}}%, 0%);">
         </div>
       </div>
     </div>
@@ -831,6 +899,9 @@ function renderVisualBody(r) {{
 
 function renderCard(r) {{
   if (!r) return '<div class="fov-card">No FOV record found.</div>';
+  const medCnc = (r.med_c_nc !== undefined) ? r.med_c_nc : 0.0;
+  const pctAc = (r.pct_aclonal_coh !== undefined) ? r.pct_aclonal_coh : 0.0;
+  const nAc = (r.n_aclonal_coh !== undefined) ? r.n_aclonal_coh : 0;
   return `
     <div class="fov-card">
       <div class="fov-card-header">
@@ -840,11 +911,12 @@ function renderCard(r) {{
           Well ${{r.well}} &middot; FOV ${{r.fov_index + 1}} (<code>${{r.filename}}</code>)
         </div>
         <div style="color: var(--muted); font-size: 12px;">
-          Oscillating cells: <strong style="color:#f8fafc">${{r.n_cells}}</strong> &nbsp;|&nbsp;
+          Osc cells: <strong style="color:#f8fafc">${{r.n_cells}}</strong> &nbsp;|&nbsp;
           Median f: <strong style="color:#38bdf8">${{r.med_freq_mHz.toFixed(1)}} mHz</strong> &nbsp;|&nbsp;
           &Delta;F_stem: <strong style="color:#f87171">${{r.med_df_stem_mHz >= 0 ? '+' : ''}}${{r.med_df_stem_mHz.toFixed(2)}} mHz</strong> &nbsp;|&nbsp;
           &Delta;P_osc: <strong style="color:#fbbf24">${{r.med_dposc_pct >= 0 ? '+' : ''}}${{r.med_dposc_pct.toFixed(1)}}%</strong> &nbsp;|&nbsp;
-          Tilt &gt; +0.85 mHz: <strong style="color:#c084fc">${{r.pct_meso_roc.toFixed(1)}}% (n=${{r.n_meso_roc}})</strong>
+          Tilt: <strong style="color:#c084fc">${{r.pct_meso_roc.toFixed(1)}}%</strong> &nbsp;|&nbsp;
+          Aclonal C_nc: <strong style="color:#f472b6">${{medCnc.toFixed(2)}} (${{pctAc.toFixed(1)}}%, n=${{nAc}})</strong>
         </div>
       </div>
       ${{renderVisualBody(r)}}
@@ -873,7 +945,7 @@ function updateUI() {{
     if (el) el.classList.toggle('active', state.fov === f);
   }});
 
-  ['all', 'pair', 't0', 't1', 't2', 't3', 't4'].forEach(fk => {{
+  ['all', 'pair', 't0', 't1', 't2', 't3', 't4', 't5'].forEach(fk => {{
     const el = document.getElementById('btn-focus-' + fk);
     if (el) el.classList.toggle('active', state.focus === fk);
   }});
@@ -886,6 +958,9 @@ function updateUI() {{
     const r = findRecord(state.treatment, state.day, state.well, state.fov);
     let metricsHtml = '';
     if (r) {{
+      const medCnc = (r.med_c_nc !== undefined) ? r.med_c_nc : 0.0;
+      const pctAc = (r.pct_aclonal_coh !== undefined) ? r.pct_aclonal_coh : 0.0;
+      const nAc = (r.n_aclonal_coh !== undefined) ? r.n_aclonal_coh : 0;
       metricsHtml = `
         <div class="metrics-strip">
           <div class="metric-card">
@@ -912,6 +987,11 @@ function updateUI() {{
             <div class="m-label">Stoichiometric Tilt (&Delta;s_&perp;)</div>
             <div class="m-val" style="color:#c084fc">${{r.pct_meso_roc.toFixed(1)}}% &gt; +0.85 mHz</div>
             <div class="m-sub">p90 = ${{r.p90_s_perp_roc_mHz >= 0 ? '+' : ''}}${{r.p90_s_perp_roc_mHz.toFixed(2)}} mHz (n = ${{r.n_meso_roc}} tail cells)</div>
+          </div>
+          <div class="metric-card">
+            <div class="m-label">Aclonal Coherence (C_nc)</div>
+            <div class="m-val" style="color:#f472b6">${{medCnc.toFixed(2)}} (${{pctAc.toFixed(1)}}%)</div>
+            <div class="m-sub">n = ${{nAc}} coherent non-clonal cells (&le; 45 &mu;m)</div>
           </div>
         </div>
       `;
@@ -943,7 +1023,11 @@ function updateUI() {{
       if (typeof va === 'string') return state.sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
       return state.sortAsc ? va - vb : vb - va;
     }});
-    let rows = sorted.map(r => `
+    let rows = sorted.map(r => {{
+      const medCnc = (r.med_c_nc !== undefined) ? r.med_c_nc : 0.0;
+      const pctAc = (r.pct_aclonal_coh !== undefined) ? r.pct_aclonal_coh : 0.0;
+      const nAc = (r.n_aclonal_coh !== undefined) ? r.n_aclonal_coh : 0;
+      return `
       <tr onclick="jumpToFov('${{r.treatment}}', ${{r.day}}, ${{r.well}}, ${{r.fov_index}})">
         <td><span class="badge badge-${{r.treatment}}">${{r.treatment}}</span></td>
         <td><strong>${{r.day.toFixed(1)}}</strong></td>
@@ -956,8 +1040,10 @@ function updateUI() {{
         <td style="color:#fbbf24;font-weight:600;">${{r.med_dposc_pct >= 0 ? '+' : ''}}${{r.med_dposc_pct.toFixed(1)}}%</td>
         <td style="color:#c084fc;font-weight:600;">${{r.pct_meso_roc.toFixed(1)}}% (${{r.n_meso_roc}})</td>
         <td>${{r.p90_s_perp_roc_mHz >= 0 ? '+' : ''}}${{r.p90_s_perp_roc_mHz.toFixed(2)}}</td>
+        <td style="color:#f472b6;font-weight:600;">${{medCnc.toFixed(2)}}</td>
+        <td style="color:#f472b6;font-weight:600;">${{pctAc.toFixed(1)}}% (${{nAc}})</td>
       </tr>
-    `).join('');
+    `}}).join('');
     container.innerHTML = `
       <p style="color:var(--muted);margin-top:0;font-size:12.5px;">Click any column header to sort all 420 FOVs, or click any row to inspect that FOV.</p>
       <table class="fov-table">
@@ -974,6 +1060,8 @@ function updateUI() {{
             <th onclick="sortTable('med_dposc_pct')">Median &Delta;P_osc (%)</th>
             <th onclick="sortTable('pct_meso_roc')">Tilt &gt; +0.85 mHz (%)</th>
             <th onclick="sortTable('p90_s_perp_roc_mHz')">Tilt p90 (mHz)</th>
+            <th onclick="sortTable('med_c_nc')">Median C_nc</th>
+            <th onclick="sortTable('pct_aclonal_coh')">Aclonal Coherent (%)</th>
           </tr>
         </thead>
         <tbody>${{rows}}</tbody>
@@ -990,6 +1078,16 @@ function updateUI() {{
         title: "Figure 6 — Prior-Free 3-Parameter Physiological Trajectories (ΔF_stem, ΔP_osc, Δs_⊥) and Spatiotemporal Colony Dynamics Across Trilineage Differentiation",
         sub: "Independent 72-hour trajectories (ref → singularized d0 → d3.0 across n = 3 biological replicate wells per lineage), population distribution ridges, and living-colony overlays of ΔF_stem (Blue ↔ White ↔ Red), ΔP_osc (Teal ↔ Grey ↔ Gold), and stoichiometric tilt Δs_⊥ (Grey → Purple).",
         src: "figures/Figure6_GEO_Physiology_Timecourse_Trajectories.png"
+      }},
+      {{
+        title: "Aclonal Spatial Coherence & Exponential Radial Decay Fits (r_1/2) — TV-Static White Noise vs. Solid Hot-Pink Multiclonal Domains",
+        sub: "Exponential spatial autocorrelation decay fits r_1/2 across 420 FOVs, 72-hour non-clonal mesoscale coherence trajectories (highlighting Mesoderm EMT collapse at d1.5 → d2.0), and 5-row single-cell coherence maps.",
+        src: "figures/Diagnostic_NonClonal_Radial_Decay_and_SingleCell_Coherence_Maps.png"
+      }},
+      {{
+        title: "The 2×2 Barcode–Physiology Coherence Matrix — Strict 2D (log2 D, log2 E) Dissection of Aclonal vs. Clonal Coherence & Boundary Discordance",
+        sub: "Decomposing colony spatial structure into Q1 Coherent Aclonal (Hot-Pink), Q2 Coherent 2D-Clonal (Luminous Gold), Q4 Incoherent 2D-Clonal / Iso-Barcode Discordant Boundary (Electric Cyan), and Q3 Incoherent Aclonal (TV-Static).",
+        src: "figures/Diagnostic_3State_Coherence_Composite_Dissection.png"
       }}
     ];
     container.innerHTML = figs.map(fg => `

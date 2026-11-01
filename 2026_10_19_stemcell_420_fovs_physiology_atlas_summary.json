@@ -18,7 +18,10 @@
     "med_s_perp_roc_mHz": 0.14,
     "p90_s_perp_roc_mHz": 0.83,
     "pct_meso_roc": 9.0,
-    "n_meso_roc": 36
+    "n_meso_roc": 36,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 28.1,
+    "n_aclonal_coh": 112
   },
   {
     "treatment": "control",
@@ -39,7 +42,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.73,
     "pct_meso_roc": 5.4,
-    "n_meso_roc": 21
+    "n_meso_roc": 21,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 13.7,
+    "n_aclonal_coh": 53
   },
   {
     "treatment": "control",
@@ -60,7 +66,10 @@
     "med_s_perp_roc_mHz": -0.06,
     "p90_s_perp_roc_mHz": 0.58,
     "pct_meso_roc": 5.0,
-    "n_meso_roc": 23
+    "n_meso_roc": 23,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 34.1,
+    "n_aclonal_coh": 157
   },
   {
     "treatment": "control",
@@ -81,7 +90,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.76,
     "pct_meso_roc": 8.2,
-    "n_meso_roc": 35
+    "n_meso_roc": 35,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 16.2,
+    "n_aclonal_coh": 69
   },
   {
     "treatment": "control",
@@ -102,7 +114,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.74,
     "pct_meso_roc": 8.1,
-    "n_meso_roc": 36
+    "n_meso_roc": 36,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 19.7,
+    "n_aclonal_coh": 87
   },
   {
     "treatment": "control",
@@ -123,7 +138,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.72,
     "pct_meso_roc": 7.6,
-    "n_meso_roc": 64
+    "n_meso_roc": 64,
+    "med_c_nc": 0.08,
+    "pct_aclonal_coh": 37.9,
+    "n_aclonal_coh": 319
   },
   {
     "treatment": "control",
@@ -144,7 +162,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.78,
     "pct_meso_roc": 9.0,
-    "n_meso_roc": 44
+    "n_meso_roc": 44,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 27.7,
+    "n_aclonal_coh": 135
   },
   {
     "treatment": "control",
@@ -165,7 +186,10 @@
     "med_s_perp_roc_mHz": 0.0,
     "p90_s_perp_roc_mHz": 0.73,
     "pct_meso_roc": 7.1,
-    "n_meso_roc": 40
+    "n_meso_roc": 40,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 24.6,
+    "n_aclonal_coh": 139
   },
   {
     "treatment": "control",
@@ -186,7 +210,10 @@
     "med_s_perp_roc_mHz": -0.06,
     "p90_s_perp_roc_mHz": 0.6,
     "pct_meso_roc": 5.6,
-    "n_meso_roc": 37
+    "n_meso_roc": 37,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 28.0,
+    "n_aclonal_coh": 184
   },
   {
     "treatment": "control",
@@ -207,7 +234,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.97,
     "pct_meso_roc": 11.3,
-    "n_meso_roc": 99
+    "n_meso_roc": 99,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 30.1,
+    "n_aclonal_coh": 265
   },
   {
     "treatment": "control",
@@ -228,7 +258,10 @@
     "med_s_perp_roc_mHz": -0.04,
     "p90_s_perp_roc_mHz": 0.69,
     "pct_meso_roc": 6.1,
-    "n_meso_roc": 62
+    "n_meso_roc": 62,
+    "med_c_nc": 0.12,
+    "pct_aclonal_coh": 37.5,
+    "n_aclonal_coh": 380
   },
   {
     "treatment": "control",
@@ -249,7 +282,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.74,
     "pct_meso_roc": 8.0,
-    "n_meso_roc": 48
+    "n_meso_roc": 48,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 29.4,
+    "n_aclonal_coh": 176
   },
   {
     "treatment": "control",
@@ -270,7 +306,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.8,
     "pct_meso_roc": 8.9,
-    "n_meso_roc": 58
+    "n_meso_roc": 58,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 28.8,
+    "n_aclonal_coh": 188
   },
   {
     "treatment": "control",
@@ -291,7 +330,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.73,
     "pct_meso_roc": 8.1,
-    "n_meso_roc": 98
+    "n_meso_roc": 98,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 22.3,
+    "n_aclonal_coh": 268
   },
   {
     "treatment": "control",
@@ -312,7 +354,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.69,
     "pct_meso_roc": 6.9,
-    "n_meso_roc": 84
+    "n_meso_roc": 84,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 30.5,
+    "n_aclonal_coh": 369
   },
   {
     "treatment": "control",
@@ -333,7 +378,10 @@
     "med_s_perp_roc_mHz": 0.13,
     "p90_s_perp_roc_mHz": 0.94,
     "pct_meso_roc": 11.6,
-    "n_meso_roc": 54
+    "n_meso_roc": 54,
+    "med_c_nc": 0.34,
+    "pct_aclonal_coh": 62.7,
+    "n_aclonal_coh": 293
   },
   {
     "treatment": "control",
@@ -354,7 +402,10 @@
     "med_s_perp_roc_mHz": 0.11,
     "p90_s_perp_roc_mHz": 0.64,
     "pct_meso_roc": 6.3,
-    "n_meso_roc": 23
+    "n_meso_roc": 23,
+    "med_c_nc": 0.25,
+    "pct_aclonal_coh": 51.2,
+    "n_aclonal_coh": 186
   },
   {
     "treatment": "control",
@@ -375,7 +426,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.64,
     "pct_meso_roc": 7.2,
-    "n_meso_roc": 43
+    "n_meso_roc": 43,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 57.0,
+    "n_aclonal_coh": 340
   },
   {
     "treatment": "control",
@@ -396,7 +450,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.61,
     "pct_meso_roc": 4.3,
-    "n_meso_roc": 18
+    "n_meso_roc": 18,
+    "med_c_nc": 0.41,
+    "pct_aclonal_coh": 70.3,
+    "n_aclonal_coh": 291
   },
   {
     "treatment": "control",
@@ -417,7 +474,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.55,
     "pct_meso_roc": 4.0,
-    "n_meso_roc": 19
+    "n_meso_roc": 19,
+    "med_c_nc": 0.27,
+    "pct_aclonal_coh": 51.7,
+    "n_aclonal_coh": 245
   },
   {
     "treatment": "control",
@@ -438,7 +498,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 4.4,
-    "n_meso_roc": 37
+    "n_meso_roc": 37,
+    "med_c_nc": 0.32,
+    "pct_aclonal_coh": 61.0,
+    "n_aclonal_coh": 514
   },
   {
     "treatment": "control",
@@ -459,7 +522,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.66,
     "pct_meso_roc": 7.5,
-    "n_meso_roc": 33
+    "n_meso_roc": 33,
+    "med_c_nc": 0.32,
+    "pct_aclonal_coh": 56.7,
+    "n_aclonal_coh": 250
   },
   {
     "treatment": "control",
@@ -480,7 +546,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.63,
     "pct_meso_roc": 7.2,
-    "n_meso_roc": 48
+    "n_meso_roc": 48,
+    "med_c_nc": 0.34,
+    "pct_aclonal_coh": 61.4,
+    "n_aclonal_coh": 412
   },
   {
     "treatment": "control",
@@ -501,7 +570,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.57,
     "pct_meso_roc": 6.9,
-    "n_meso_roc": 50
+    "n_meso_roc": 50,
+    "med_c_nc": 0.28,
+    "pct_aclonal_coh": 53.1,
+    "n_aclonal_coh": 387
   },
   {
     "treatment": "control",
@@ -522,7 +594,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.61,
     "pct_meso_roc": 5.9,
-    "n_meso_roc": 55
+    "n_meso_roc": 55,
+    "med_c_nc": 0.27,
+    "pct_aclonal_coh": 55.3,
+    "n_aclonal_coh": 513
   },
   {
     "treatment": "control",
@@ -543,7 +618,10 @@
     "med_s_perp_roc_mHz": -0.03,
     "p90_s_perp_roc_mHz": 0.46,
     "pct_meso_roc": 2.8,
-    "n_meso_roc": 32
+    "n_meso_roc": 32,
+    "med_c_nc": 0.27,
+    "pct_aclonal_coh": 53.9,
+    "n_aclonal_coh": 612
   },
   {
     "treatment": "control",
@@ -564,7 +642,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.59,
     "pct_meso_roc": 6.2,
-    "n_meso_roc": 36
+    "n_meso_roc": 36,
+    "med_c_nc": 0.17,
+    "pct_aclonal_coh": 42.4,
+    "n_aclonal_coh": 247
   },
   {
     "treatment": "control",
@@ -585,7 +666,10 @@
     "med_s_perp_roc_mHz": 0.11,
     "p90_s_perp_roc_mHz": 0.62,
     "pct_meso_roc": 5.6,
-    "n_meso_roc": 44
+    "n_meso_roc": 44,
+    "med_c_nc": 0.24,
+    "pct_aclonal_coh": 49.4,
+    "n_aclonal_coh": 391
   },
   {
     "treatment": "control",
@@ -606,7 +690,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 3.0,
-    "n_meso_roc": 38
+    "n_meso_roc": 38,
+    "med_c_nc": 0.25,
+    "pct_aclonal_coh": 51.3,
+    "n_aclonal_coh": 654
   },
   {
     "treatment": "control",
@@ -627,7 +714,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.61,
     "pct_meso_roc": 5.2,
-    "n_meso_roc": 73
+    "n_meso_roc": 73,
+    "med_c_nc": 0.24,
+    "pct_aclonal_coh": 50.3,
+    "n_aclonal_coh": 709
   },
   {
     "treatment": "control",
@@ -648,7 +738,10 @@
     "med_s_perp_roc_mHz": 0.13,
     "p90_s_perp_roc_mHz": 0.81,
     "pct_meso_roc": 9.3,
-    "n_meso_roc": 69
+    "n_meso_roc": 69,
+    "med_c_nc": 0.28,
+    "pct_aclonal_coh": 56.6,
+    "n_aclonal_coh": 418
   },
   {
     "treatment": "control",
@@ -669,7 +762,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.47,
     "pct_meso_roc": 2.2,
-    "n_meso_roc": 15
+    "n_meso_roc": 15,
+    "med_c_nc": 0.28,
+    "pct_aclonal_coh": 56.6,
+    "n_aclonal_coh": 381
   },
   {
     "treatment": "control",
@@ -690,7 +786,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.46,
     "pct_meso_roc": 3.0,
-    "n_meso_roc": 26
+    "n_meso_roc": 26,
+    "med_c_nc": 0.27,
+    "pct_aclonal_coh": 54.7,
+    "n_aclonal_coh": 472
   },
   {
     "treatment": "control",
@@ -711,7 +810,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 5.4,
-    "n_meso_roc": 41
+    "n_meso_roc": 41,
+    "med_c_nc": 0.31,
+    "pct_aclonal_coh": 58.2,
+    "n_aclonal_coh": 442
   },
   {
     "treatment": "control",
@@ -732,7 +834,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.55,
     "pct_meso_roc": 5.1,
-    "n_meso_roc": 37
+    "n_meso_roc": 37,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 57.3,
+    "n_aclonal_coh": 418
   },
   {
     "treatment": "control",
@@ -753,7 +858,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.45,
     "pct_meso_roc": 2.9,
-    "n_meso_roc": 43
+    "n_meso_roc": 43,
+    "med_c_nc": 0.25,
+    "pct_aclonal_coh": 51.1,
+    "n_aclonal_coh": 765
   },
   {
     "treatment": "control",
@@ -774,7 +882,10 @@
     "med_s_perp_roc_mHz": 0.1,
     "p90_s_perp_roc_mHz": 0.55,
     "pct_meso_roc": 4.7,
-    "n_meso_roc": 39
+    "n_meso_roc": 39,
+    "med_c_nc": 0.26,
+    "pct_aclonal_coh": 51.6,
+    "n_aclonal_coh": 429
   },
   {
     "treatment": "control",
@@ -795,7 +906,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 2.9,
-    "n_meso_roc": 18
+    "n_meso_roc": 18,
+    "med_c_nc": 0.3,
+    "pct_aclonal_coh": 57.2,
+    "n_aclonal_coh": 359
   },
   {
     "treatment": "control",
@@ -816,7 +930,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 3.7,
-    "n_meso_roc": 46
+    "n_meso_roc": 46,
+    "med_c_nc": 0.33,
+    "pct_aclonal_coh": 59.8,
+    "n_aclonal_coh": 734
   },
   {
     "treatment": "control",
@@ -837,7 +954,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 4.2,
-    "n_meso_roc": 52
+    "n_meso_roc": 52,
+    "med_c_nc": 0.34,
+    "pct_aclonal_coh": 64.4,
+    "n_aclonal_coh": 801
   },
   {
     "treatment": "control",
@@ -858,7 +978,10 @@
     "med_s_perp_roc_mHz": 0.0,
     "p90_s_perp_roc_mHz": 0.47,
     "pct_meso_roc": 2.7,
-    "n_meso_roc": 43
+    "n_meso_roc": 43,
+    "med_c_nc": 0.24,
+    "pct_aclonal_coh": 50.1,
+    "n_aclonal_coh": 804
   },
   {
     "treatment": "control",
@@ -879,7 +1002,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 4.5,
-    "n_meso_roc": 38
+    "n_meso_roc": 38,
+    "med_c_nc": 0.35,
+    "pct_aclonal_coh": 62.3,
+    "n_aclonal_coh": 529
   },
   {
     "treatment": "control",
@@ -900,7 +1026,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.47,
     "pct_meso_roc": 2.1,
-    "n_meso_roc": 27
+    "n_meso_roc": 27,
+    "med_c_nc": 0.22,
+    "pct_aclonal_coh": 48.3,
+    "n_aclonal_coh": 608
   },
   {
     "treatment": "control",
@@ -921,7 +1050,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 3.6,
-    "n_meso_roc": 64
+    "n_meso_roc": 64,
+    "med_c_nc": 0.27,
+    "pct_aclonal_coh": 55.4,
+    "n_aclonal_coh": 974
   },
   {
     "treatment": "control",
@@ -942,7 +1074,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 2.6,
-    "n_meso_roc": 53
+    "n_meso_roc": 53,
+    "med_c_nc": 0.24,
+    "pct_aclonal_coh": 50.0,
+    "n_aclonal_coh": 1025
   },
   {
     "treatment": "control",
@@ -963,7 +1098,10 @@
     "med_s_perp_roc_mHz": 0.1,
     "p90_s_perp_roc_mHz": 0.61,
     "pct_meso_roc": 5.7,
-    "n_meso_roc": 69
+    "n_meso_roc": 69,
+    "med_c_nc": 0.33,
+    "pct_aclonal_coh": 59.7,
+    "n_aclonal_coh": 721
   },
   {
     "treatment": "control",
@@ -984,7 +1122,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 3.7,
-    "n_meso_roc": 45
+    "n_meso_roc": 45,
+    "med_c_nc": 0.22,
+    "pct_aclonal_coh": 48.3,
+    "n_aclonal_coh": 590
   },
   {
     "treatment": "control",
@@ -1005,7 +1146,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.47,
     "pct_meso_roc": 3.7,
-    "n_meso_roc": 47
+    "n_meso_roc": 47,
+    "med_c_nc": 0.5,
+    "pct_aclonal_coh": 72.8,
+    "n_aclonal_coh": 922
   },
   {
     "treatment": "control",
@@ -1026,7 +1170,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 3.9,
-    "n_meso_roc": 46
+    "n_meso_roc": 46,
+    "med_c_nc": 0.35,
+    "pct_aclonal_coh": 67.7,
+    "n_aclonal_coh": 801
   },
   {
     "treatment": "control",
@@ -1047,7 +1194,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 4.2,
-    "n_meso_roc": 42
+    "n_meso_roc": 42,
+    "med_c_nc": 0.38,
+    "pct_aclonal_coh": 69.1,
+    "n_aclonal_coh": 696
   },
   {
     "treatment": "control",
@@ -1068,7 +1218,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.42,
     "pct_meso_roc": 1.7,
-    "n_meso_roc": 38
+    "n_meso_roc": 38,
+    "med_c_nc": 0.45,
+    "pct_aclonal_coh": 74.1,
+    "n_aclonal_coh": 1681
   },
   {
     "treatment": "control",
@@ -1089,7 +1242,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 4.0,
-    "n_meso_roc": 63
+    "n_meso_roc": 63,
+    "med_c_nc": 0.33,
+    "pct_aclonal_coh": 60.9,
+    "n_aclonal_coh": 965
   },
   {
     "treatment": "control",
@@ -1110,7 +1266,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 3.4,
-    "n_meso_roc": 36
+    "n_meso_roc": 36,
+    "med_c_nc": 0.34,
+    "pct_aclonal_coh": 64.6,
+    "n_aclonal_coh": 692
   },
   {
     "treatment": "control",
@@ -1131,7 +1290,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.47,
     "pct_meso_roc": 3.4,
-    "n_meso_roc": 66
+    "n_meso_roc": 66,
+    "med_c_nc": 0.42,
+    "pct_aclonal_coh": 66.9,
+    "n_aclonal_coh": 1312
   },
   {
     "treatment": "control",
@@ -1152,7 +1314,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 2.8,
-    "n_meso_roc": 55
+    "n_meso_roc": 55,
+    "med_c_nc": 0.32,
+    "pct_aclonal_coh": 60.5,
+    "n_aclonal_coh": 1189
   },
   {
     "treatment": "control",
@@ -1173,7 +1338,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.44,
     "pct_meso_roc": 2.4,
-    "n_meso_roc": 69
+    "n_meso_roc": 69,
+    "med_c_nc": 0.26,
+    "pct_aclonal_coh": 52.6,
+    "n_aclonal_coh": 1483
   },
   {
     "treatment": "control",
@@ -1194,7 +1362,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.48,
     "pct_meso_roc": 2.9,
-    "n_meso_roc": 48
+    "n_meso_roc": 48,
+    "med_c_nc": 0.36,
+    "pct_aclonal_coh": 65.6,
+    "n_aclonal_coh": 1073
   },
   {
     "treatment": "control",
@@ -1215,7 +1386,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 2.3,
-    "n_meso_roc": 45
+    "n_meso_roc": 45,
+    "med_c_nc": 0.23,
+    "pct_aclonal_coh": 49.0,
+    "n_aclonal_coh": 945
   },
   {
     "treatment": "control",
@@ -1236,7 +1410,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 2.6,
-    "n_meso_roc": 78
+    "n_meso_roc": 78,
+    "med_c_nc": 0.31,
+    "pct_aclonal_coh": 58.2,
+    "n_aclonal_coh": 1778
   },
   {
     "treatment": "control",
@@ -1257,7 +1434,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 3.1,
-    "n_meso_roc": 103
+    "n_meso_roc": 103,
+    "med_c_nc": 0.26,
+    "pct_aclonal_coh": 52.6,
+    "n_aclonal_coh": 1767
   },
   {
     "treatment": "control",
@@ -1278,7 +1458,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 3.3,
-    "n_meso_roc": 75
+    "n_meso_roc": 75,
+    "med_c_nc": 0.34,
+    "pct_aclonal_coh": 60.4,
+    "n_aclonal_coh": 1372
   },
   {
     "treatment": "control",
@@ -1299,7 +1482,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.45,
     "pct_meso_roc": 1.9,
-    "n_meso_roc": 36
+    "n_meso_roc": 36,
+    "med_c_nc": 0.28,
+    "pct_aclonal_coh": 54.6,
+    "n_aclonal_coh": 1038
   },
   {
     "treatment": "control",
@@ -1320,7 +1506,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 4.0,
-    "n_meso_roc": 70
+    "n_meso_roc": 70,
+    "med_c_nc": 0.39,
+    "pct_aclonal_coh": 62.4,
+    "n_aclonal_coh": 1090
   },
   {
     "treatment": "control",
@@ -1341,7 +1530,10 @@
     "med_s_perp_roc_mHz": -0.0,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 3.9,
-    "n_meso_roc": 70
+    "n_meso_roc": 70,
+    "med_c_nc": 0.36,
+    "pct_aclonal_coh": 62.7,
+    "n_aclonal_coh": 1112
   },
   {
     "treatment": "control",
@@ -1362,7 +1554,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 2.7,
-    "n_meso_roc": 58
+    "n_meso_roc": 58,
+    "med_c_nc": 0.36,
+    "pct_aclonal_coh": 63.6,
+    "n_aclonal_coh": 1381
   },
   {
     "treatment": "control",
@@ -1383,7 +1578,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.46,
     "pct_meso_roc": 2.3,
-    "n_meso_roc": 91
+    "n_meso_roc": 91,
+    "med_c_nc": 0.32,
+    "pct_aclonal_coh": 58.1,
+    "n_aclonal_coh": 2292
   },
   {
     "treatment": "control",
@@ -1404,7 +1602,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 3.1,
-    "n_meso_roc": 81
+    "n_meso_roc": 81,
+    "med_c_nc": 0.36,
+    "pct_aclonal_coh": 61.6,
+    "n_aclonal_coh": 1602
   },
   {
     "treatment": "control",
@@ -1425,7 +1626,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 2.9,
-    "n_meso_roc": 50
+    "n_meso_roc": 50,
+    "med_c_nc": 0.41,
+    "pct_aclonal_coh": 64.7,
+    "n_aclonal_coh": 1113
   },
   {
     "treatment": "control",
@@ -1446,7 +1650,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.45,
     "pct_meso_roc": 3.1,
-    "n_meso_roc": 90
+    "n_meso_roc": 90,
+    "med_c_nc": 0.34,
+    "pct_aclonal_coh": 60.6,
+    "n_aclonal_coh": 1782
   },
   {
     "treatment": "control",
@@ -1467,7 +1674,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.46,
     "pct_meso_roc": 2.9,
-    "n_meso_roc": 78
+    "n_meso_roc": 78,
+    "med_c_nc": 0.33,
+    "pct_aclonal_coh": 60.7,
+    "n_aclonal_coh": 1651
   },
   {
     "treatment": "control",
@@ -1488,7 +1698,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.46,
     "pct_meso_roc": 2.1,
-    "n_meso_roc": 44
+    "n_meso_roc": 44,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 54.0,
+    "n_aclonal_coh": 1117
   },
   {
     "treatment": "control",
@@ -1509,7 +1722,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.46,
     "pct_meso_roc": 2.9,
-    "n_meso_roc": 68
+    "n_meso_roc": 68,
+    "med_c_nc": 0.24,
+    "pct_aclonal_coh": 49.9,
+    "n_aclonal_coh": 1166
   },
   {
     "treatment": "control",
@@ -1530,7 +1746,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.48,
     "pct_meso_roc": 3.3,
-    "n_meso_roc": 103
+    "n_meso_roc": 103,
+    "med_c_nc": 0.23,
+    "pct_aclonal_coh": 49.3,
+    "n_aclonal_coh": 1552
   },
   {
     "treatment": "control",
@@ -1551,7 +1770,10 @@
     "med_s_perp_roc_mHz": -0.0,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 3.2,
-    "n_meso_roc": 76
+    "n_meso_roc": 76,
+    "med_c_nc": 0.24,
+    "pct_aclonal_coh": 50.1,
+    "n_aclonal_coh": 1199
   },
   {
     "treatment": "control",
@@ -1572,7 +1794,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 2.7,
-    "n_meso_roc": 68
+    "n_meso_roc": 68,
+    "med_c_nc": 0.31,
+    "pct_aclonal_coh": 58.0,
+    "n_aclonal_coh": 1485
   },
   {
     "treatment": "control",
@@ -1593,7 +1818,10 @@
     "med_s_perp_roc_mHz": 0.09,
     "p90_s_perp_roc_mHz": 0.63,
     "pct_meso_roc": 4.8,
-    "n_meso_roc": 136
+    "n_meso_roc": 136,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 57.3,
+    "n_aclonal_coh": 1633
   },
   {
     "treatment": "control",
@@ -1614,7 +1842,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 3.5,
-    "n_meso_roc": 109
+    "n_meso_roc": 109,
+    "med_c_nc": 0.3,
+    "pct_aclonal_coh": 58.9,
+    "n_aclonal_coh": 1808
   },
   {
     "treatment": "control",
@@ -1635,7 +1866,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 3.8,
-    "n_meso_roc": 100
+    "n_meso_roc": 100,
+    "med_c_nc": 0.32,
+    "pct_aclonal_coh": 60.3,
+    "n_aclonal_coh": 1593
   },
   {
     "treatment": "control",
@@ -1656,7 +1890,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 2.6,
-    "n_meso_roc": 82
+    "n_meso_roc": 82,
+    "med_c_nc": 0.25,
+    "pct_aclonal_coh": 51.6,
+    "n_aclonal_coh": 1653
   },
   {
     "treatment": "control",
@@ -1677,7 +1914,10 @@
     "med_s_perp_roc_mHz": -0.0,
     "p90_s_perp_roc_mHz": 0.43,
     "pct_meso_roc": 2.0,
-    "n_meso_roc": 60
+    "n_meso_roc": 60,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 55.9,
+    "n_aclonal_coh": 1644
   },
   {
     "treatment": "control",
@@ -1698,7 +1938,10 @@
     "med_s_perp_roc_mHz": 0.09,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 2.3,
-    "n_meso_roc": 70
+    "n_meso_roc": 70,
+    "med_c_nc": 0.33,
+    "pct_aclonal_coh": 61.3,
+    "n_aclonal_coh": 1900
   },
   {
     "treatment": "control",
@@ -1719,7 +1962,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 3.1,
-    "n_meso_roc": 91
+    "n_meso_roc": 91,
+    "med_c_nc": 0.33,
+    "pct_aclonal_coh": 60.5,
+    "n_aclonal_coh": 1805
   },
   {
     "treatment": "control",
@@ -1740,7 +1986,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 2.8,
-    "n_meso_roc": 95
+    "n_meso_roc": 95,
+    "med_c_nc": 0.42,
+    "pct_aclonal_coh": 72.6,
+    "n_aclonal_coh": 2428
   },
   {
     "treatment": "control",
@@ -1761,7 +2010,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 3.8,
-    "n_meso_roc": 139
+    "n_meso_roc": 139,
+    "med_c_nc": 0.33,
+    "pct_aclonal_coh": 59.2,
+    "n_aclonal_coh": 2167
   },
   {
     "treatment": "control",
@@ -1782,7 +2034,10 @@
     "med_s_perp_roc_mHz": 0.07,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 2.4,
-    "n_meso_roc": 97
+    "n_meso_roc": 97,
+    "med_c_nc": 0.37,
+    "pct_aclonal_coh": 66.7,
+    "n_aclonal_coh": 2673
   },
   {
     "treatment": "control",
@@ -1803,7 +2058,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.56,
     "pct_meso_roc": 3.2,
-    "n_meso_roc": 109
+    "n_meso_roc": 109,
+    "med_c_nc": 0.26,
+    "pct_aclonal_coh": 52.1,
+    "n_aclonal_coh": 1776
   },
   {
     "treatment": "control",
@@ -1824,7 +2082,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.59,
     "pct_meso_roc": 3.7,
-    "n_meso_roc": 118
+    "n_meso_roc": 118,
+    "med_c_nc": 0.3,
+    "pct_aclonal_coh": 55.4,
+    "n_aclonal_coh": 1752
   },
   {
     "treatment": "control",
@@ -1845,7 +2106,10 @@
     "med_s_perp_roc_mHz": 0.07,
     "p90_s_perp_roc_mHz": 0.58,
     "pct_meso_roc": 3.2,
-    "n_meso_roc": 117
+    "n_meso_roc": 117,
+    "med_c_nc": 0.28,
+    "pct_aclonal_coh": 54.4,
+    "n_aclonal_coh": 2010
   },
   {
     "treatment": "control",
@@ -1866,7 +2130,10 @@
     "med_s_perp_roc_mHz": 0.0,
     "p90_s_perp_roc_mHz": 0.0,
     "pct_meso_roc": 0.0,
-    "n_meso_roc": 0
+    "n_meso_roc": 0,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 0.0,
+    "n_aclonal_coh": 0
   },
   {
     "treatment": "control",
@@ -1887,7 +2154,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.61,
     "pct_meso_roc": 3.2,
-    "n_meso_roc": 100
+    "n_meso_roc": 100,
+    "med_c_nc": 0.28,
+    "pct_aclonal_coh": 56.2,
+    "n_aclonal_coh": 1755
   },
   {
     "treatment": "control",
@@ -1908,7 +2178,10 @@
     "med_s_perp_roc_mHz": 0.07,
     "p90_s_perp_roc_mHz": 0.58,
     "pct_meso_roc": 3.7,
-    "n_meso_roc": 143
+    "n_meso_roc": 143,
+    "med_c_nc": 0.19,
+    "pct_aclonal_coh": 44.9,
+    "n_aclonal_coh": 1735
   },
   {
     "treatment": "control",
@@ -1929,7 +2202,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.46,
     "pct_meso_roc": 2.1,
-    "n_meso_roc": 66
+    "n_meso_roc": 66,
+    "med_c_nc": 0.35,
+    "pct_aclonal_coh": 62.2,
+    "n_aclonal_coh": 1937
   },
   {
     "treatment": "control",
@@ -1950,7 +2226,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 2.5,
-    "n_meso_roc": 107
+    "n_meso_roc": 107,
+    "med_c_nc": 0.31,
+    "pct_aclonal_coh": 56.7,
+    "n_aclonal_coh": 2437
   },
   {
     "treatment": "control",
@@ -1971,7 +2250,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 2.7,
-    "n_meso_roc": 92
+    "n_meso_roc": 92,
+    "med_c_nc": 0.3,
+    "pct_aclonal_coh": 56.8,
+    "n_aclonal_coh": 1959
   },
   {
     "treatment": "control",
@@ -1992,7 +2274,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.48,
     "pct_meso_roc": 2.1,
-    "n_meso_roc": 79
+    "n_meso_roc": 79,
+    "med_c_nc": 0.27,
+    "pct_aclonal_coh": 53.4,
+    "n_aclonal_coh": 1992
   },
   {
     "treatment": "control",
@@ -2013,7 +2298,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.43,
     "pct_meso_roc": 2.1,
-    "n_meso_roc": 76
+    "n_meso_roc": 76,
+    "med_c_nc": 0.36,
+    "pct_aclonal_coh": 63.2,
+    "n_aclonal_coh": 2272
   },
   {
     "treatment": "control",
@@ -2034,7 +2322,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.44,
     "pct_meso_roc": 2.6,
-    "n_meso_roc": 98
+    "n_meso_roc": 98,
+    "med_c_nc": 0.35,
+    "pct_aclonal_coh": 62.3,
+    "n_aclonal_coh": 2352
   },
   {
     "treatment": "control",
@@ -2055,7 +2346,10 @@
     "med_s_perp_roc_mHz": -0.0,
     "p90_s_perp_roc_mHz": 0.48,
     "pct_meso_roc": 2.5,
-    "n_meso_roc": 85
+    "n_meso_roc": 85,
+    "med_c_nc": 0.35,
+    "pct_aclonal_coh": 63.3,
+    "n_aclonal_coh": 2183
   },
   {
     "treatment": "control",
@@ -2076,7 +2370,10 @@
     "med_s_perp_roc_mHz": 0.07,
     "p90_s_perp_roc_mHz": 0.46,
     "pct_meso_roc": 2.1,
-    "n_meso_roc": 71
+    "n_meso_roc": 71,
+    "med_c_nc": 0.36,
+    "pct_aclonal_coh": 61.9,
+    "n_aclonal_coh": 2087
   },
   {
     "treatment": "control",
@@ -2097,7 +2394,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.46,
     "pct_meso_roc": 2.9,
-    "n_meso_roc": 113
+    "n_meso_roc": 113,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 56.5,
+    "n_aclonal_coh": 2172
   },
   {
     "treatment": "control",
@@ -2118,7 +2418,10 @@
     "med_s_perp_roc_mHz": -0.03,
     "p90_s_perp_roc_mHz": 0.46,
     "pct_meso_roc": 2.1,
-    "n_meso_roc": 76
+    "n_meso_roc": 76,
+    "med_c_nc": 0.25,
+    "pct_aclonal_coh": 50.9,
+    "n_aclonal_coh": 1837
   },
   {
     "treatment": "control",
@@ -2139,7 +2442,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 2.0,
-    "n_meso_roc": 71
+    "n_meso_roc": 71,
+    "med_c_nc": 0.23,
+    "pct_aclonal_coh": 48.2,
+    "n_aclonal_coh": 1738
   },
   {
     "treatment": "control",
@@ -2160,7 +2466,10 @@
     "med_s_perp_roc_mHz": 0.1,
     "p90_s_perp_roc_mHz": 0.59,
     "pct_meso_roc": 4.0,
-    "n_meso_roc": 126
+    "n_meso_roc": 126,
+    "med_c_nc": 0.23,
+    "pct_aclonal_coh": 49.1,
+    "n_aclonal_coh": 1564
   },
   {
     "treatment": "control",
@@ -2181,7 +2490,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 2.3,
-    "n_meso_roc": 93
+    "n_meso_roc": 93,
+    "med_c_nc": 0.3,
+    "pct_aclonal_coh": 57.6,
+    "n_aclonal_coh": 2309
   },
   {
     "treatment": "control",
@@ -2202,7 +2514,10 @@
     "med_s_perp_roc_mHz": -0.0,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 2.7,
-    "n_meso_roc": 92
+    "n_meso_roc": 92,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 55.5,
+    "n_aclonal_coh": 1897
   },
   {
     "treatment": "ecto",
@@ -2223,7 +2538,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.86,
     "pct_meso_roc": 10.2,
-    "n_meso_roc": 126
+    "n_meso_roc": 126,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 27.1,
+    "n_aclonal_coh": 333
   },
   {
     "treatment": "ecto",
@@ -2244,7 +2562,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.73,
     "pct_meso_roc": 6.9,
-    "n_meso_roc": 37
+    "n_meso_roc": 37,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 23.2,
+    "n_aclonal_coh": 125
   },
   {
     "treatment": "ecto",
@@ -2265,7 +2586,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.64,
     "pct_meso_roc": 6.7,
-    "n_meso_roc": 38
+    "n_meso_roc": 38,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 27.3,
+    "n_aclonal_coh": 154
   },
   {
     "treatment": "ecto",
@@ -2286,7 +2610,10 @@
     "med_s_perp_roc_mHz": -0.03,
     "p90_s_perp_roc_mHz": 0.68,
     "pct_meso_roc": 6.5,
-    "n_meso_roc": 101
+    "n_meso_roc": 101,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 31.3,
+    "n_aclonal_coh": 489
   },
   {
     "treatment": "ecto",
@@ -2307,7 +2634,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.87,
     "pct_meso_roc": 10.4,
-    "n_meso_roc": 55
+    "n_meso_roc": 55,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 23.7,
+    "n_aclonal_coh": 125
   },
   {
     "treatment": "ecto",
@@ -2328,7 +2658,10 @@
     "med_s_perp_roc_mHz": -0.09,
     "p90_s_perp_roc_mHz": 0.59,
     "pct_meso_roc": 6.1,
-    "n_meso_roc": 37
+    "n_meso_roc": 37,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 37.0,
+    "n_aclonal_coh": 226
   },
   {
     "treatment": "ecto",
@@ -2349,7 +2682,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.78,
     "pct_meso_roc": 8.2,
-    "n_meso_roc": 52
+    "n_meso_roc": 52,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 31.0,
+    "n_aclonal_coh": 196
   },
   {
     "treatment": "ecto",
@@ -2370,7 +2706,10 @@
     "med_s_perp_roc_mHz": -0.02,
     "p90_s_perp_roc_mHz": 0.65,
     "pct_meso_roc": 6.4,
-    "n_meso_roc": 31
+    "n_meso_roc": 31,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 29.1,
+    "n_aclonal_coh": 140
   },
   {
     "treatment": "ecto",
@@ -2391,7 +2730,10 @@
     "med_s_perp_roc_mHz": -0.03,
     "p90_s_perp_roc_mHz": 0.68,
     "pct_meso_roc": 6.8,
-    "n_meso_roc": 36
+    "n_meso_roc": 36,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 17.8,
+    "n_aclonal_coh": 94
   },
   {
     "treatment": "ecto",
@@ -2412,7 +2754,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.71,
     "pct_meso_roc": 6.6,
-    "n_meso_roc": 41
+    "n_meso_roc": 41,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 24.7,
+    "n_aclonal_coh": 154
   },
   {
     "treatment": "ecto",
@@ -2433,7 +2778,10 @@
     "med_s_perp_roc_mHz": -0.0,
     "p90_s_perp_roc_mHz": 0.68,
     "pct_meso_roc": 6.2,
-    "n_meso_roc": 104
+    "n_meso_roc": 104,
+    "med_c_nc": 0.01,
+    "pct_aclonal_coh": 37.4,
+    "n_aclonal_coh": 624
   },
   {
     "treatment": "ecto",
@@ -2454,7 +2802,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.75,
     "pct_meso_roc": 8.9,
-    "n_meso_roc": 69
+    "n_meso_roc": 69,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 24.7,
+    "n_aclonal_coh": 191
   },
   {
     "treatment": "ecto",
@@ -2475,7 +2826,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.75,
     "pct_meso_roc": 8.0,
-    "n_meso_roc": 51
+    "n_meso_roc": 51,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 29.5,
+    "n_aclonal_coh": 189
   },
   {
     "treatment": "ecto",
@@ -2496,7 +2850,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.67,
     "pct_meso_roc": 6.5,
-    "n_meso_roc": 40
+    "n_meso_roc": 40,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 21.9,
+    "n_aclonal_coh": 135
   },
   {
     "treatment": "ecto",
@@ -2517,7 +2874,10 @@
     "med_s_perp_roc_mHz": -0.04,
     "p90_s_perp_roc_mHz": 0.62,
     "pct_meso_roc": 5.9,
-    "n_meso_roc": 49
+    "n_meso_roc": 49,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 30.9,
+    "n_aclonal_coh": 255
   },
   {
     "treatment": "ecto",
@@ -2538,7 +2898,10 @@
     "med_s_perp_roc_mHz": -0.0,
     "p90_s_perp_roc_mHz": 0.55,
     "pct_meso_roc": 3.3,
-    "n_meso_roc": 58
+    "n_meso_roc": 58,
+    "med_c_nc": 0.22,
+    "pct_aclonal_coh": 46.0,
+    "n_aclonal_coh": 810
   },
   {
     "treatment": "ecto",
@@ -2559,7 +2922,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.56,
     "pct_meso_roc": 4.7,
-    "n_meso_roc": 33
+    "n_meso_roc": 33,
+    "med_c_nc": 0.2,
+    "pct_aclonal_coh": 44.4,
+    "n_aclonal_coh": 313
   },
   {
     "treatment": "ecto",
@@ -2580,7 +2946,10 @@
     "med_s_perp_roc_mHz": -0.06,
     "p90_s_perp_roc_mHz": 0.55,
     "pct_meso_roc": 4.3,
-    "n_meso_roc": 28
+    "n_meso_roc": 28,
+    "med_c_nc": 0.22,
+    "pct_aclonal_coh": 46.7,
+    "n_aclonal_coh": 302
   },
   {
     "treatment": "ecto",
@@ -2601,7 +2970,10 @@
     "med_s_perp_roc_mHz": -0.05,
     "p90_s_perp_roc_mHz": 0.55,
     "pct_meso_roc": 3.7,
-    "n_meso_roc": 59
+    "n_meso_roc": 59,
+    "med_c_nc": 0.17,
+    "pct_aclonal_coh": 41.7,
+    "n_aclonal_coh": 673
   },
   {
     "treatment": "ecto",
@@ -2622,7 +2994,10 @@
     "med_s_perp_roc_mHz": -0.07,
     "p90_s_perp_roc_mHz": 0.56,
     "pct_meso_roc": 4.3,
-    "n_meso_roc": 31
+    "n_meso_roc": 31,
+    "med_c_nc": 0.35,
+    "pct_aclonal_coh": 60.9,
+    "n_aclonal_coh": 438
   },
   {
     "treatment": "ecto",
@@ -2643,7 +3018,10 @@
     "med_s_perp_roc_mHz": -0.05,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 2.2,
-    "n_meso_roc": 17
+    "n_meso_roc": 17,
+    "med_c_nc": 0.2,
+    "pct_aclonal_coh": 47.6,
+    "n_aclonal_coh": 368
   },
   {
     "treatment": "ecto",
@@ -2664,7 +3042,10 @@
     "med_s_perp_roc_mHz": -0.04,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 3.2,
-    "n_meso_roc": 37
+    "n_meso_roc": 37,
+    "med_c_nc": 0.13,
+    "pct_aclonal_coh": 39.1,
+    "n_aclonal_coh": 451
   },
   {
     "treatment": "ecto",
@@ -2685,7 +3066,10 @@
     "med_s_perp_roc_mHz": -0.09,
     "p90_s_perp_roc_mHz": 0.55,
     "pct_meso_roc": 3.2,
-    "n_meso_roc": 27
+    "n_meso_roc": 27,
+    "med_c_nc": 0.27,
+    "pct_aclonal_coh": 54.6,
+    "n_aclonal_coh": 463
   },
   {
     "treatment": "ecto",
@@ -2706,7 +3090,10 @@
     "med_s_perp_roc_mHz": -0.07,
     "p90_s_perp_roc_mHz": 0.43,
     "pct_meso_roc": 1.7,
-    "n_meso_roc": 13
+    "n_meso_roc": 13,
+    "med_c_nc": 0.26,
+    "pct_aclonal_coh": 51.3,
+    "n_aclonal_coh": 383
   },
   {
     "treatment": "ecto",
@@ -2727,7 +3114,10 @@
     "med_s_perp_roc_mHz": -0.13,
     "p90_s_perp_roc_mHz": 0.41,
     "pct_meso_roc": 1.6,
-    "n_meso_roc": 12
+    "n_meso_roc": 12,
+    "med_c_nc": 0.22,
+    "pct_aclonal_coh": 48.6,
+    "n_aclonal_coh": 372
   },
   {
     "treatment": "ecto",
@@ -2748,7 +3138,10 @@
     "med_s_perp_roc_mHz": -0.03,
     "p90_s_perp_roc_mHz": 0.58,
     "pct_meso_roc": 2.9,
-    "n_meso_roc": 71
+    "n_meso_roc": 71,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 53.9,
+    "n_aclonal_coh": 1306
   },
   {
     "treatment": "ecto",
@@ -2769,7 +3162,10 @@
     "med_s_perp_roc_mHz": -0.07,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 2.9,
-    "n_meso_roc": 32
+    "n_meso_roc": 32,
+    "med_c_nc": 0.21,
+    "pct_aclonal_coh": 47.5,
+    "n_aclonal_coh": 525
   },
   {
     "treatment": "ecto",
@@ -2790,7 +3186,10 @@
     "med_s_perp_roc_mHz": -0.1,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 3.8,
-    "n_meso_roc": 28
+    "n_meso_roc": 28,
+    "med_c_nc": 0.37,
+    "pct_aclonal_coh": 61.5,
+    "n_aclonal_coh": 451
   },
   {
     "treatment": "ecto",
@@ -2811,7 +3210,10 @@
     "med_s_perp_roc_mHz": -0.04,
     "p90_s_perp_roc_mHz": 0.57,
     "pct_meso_roc": 2.7,
-    "n_meso_roc": 20
+    "n_meso_roc": 20,
+    "med_c_nc": 0.05,
+    "pct_aclonal_coh": 33.1,
+    "n_aclonal_coh": 248
   },
   {
     "treatment": "ecto",
@@ -2832,7 +3234,10 @@
     "med_s_perp_roc_mHz": -0.06,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 2.2,
-    "n_meso_roc": 26
+    "n_meso_roc": 26,
+    "med_c_nc": 0.2,
+    "pct_aclonal_coh": 47.8,
+    "n_aclonal_coh": 556
   },
   {
     "treatment": "ecto",
@@ -2853,7 +3258,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.62,
     "pct_meso_roc": 4.8,
-    "n_meso_roc": 127
+    "n_meso_roc": 127,
+    "med_c_nc": 0.23,
+    "pct_aclonal_coh": 48.9,
+    "n_aclonal_coh": 1283
   },
   {
     "treatment": "ecto",
@@ -2874,7 +3282,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.63,
     "pct_meso_roc": 6.0,
-    "n_meso_roc": 55
+    "n_meso_roc": 55,
+    "med_c_nc": 0.28,
+    "pct_aclonal_coh": 55.8,
+    "n_aclonal_coh": 508
   },
   {
     "treatment": "ecto",
@@ -2895,7 +3306,10 @@
     "med_s_perp_roc_mHz": -0.05,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 3.7,
-    "n_meso_roc": 29
+    "n_meso_roc": 29,
+    "med_c_nc": 0.26,
+    "pct_aclonal_coh": 52.6,
+    "n_aclonal_coh": 408
   },
   {
     "treatment": "ecto",
@@ -2916,7 +3330,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.58,
     "pct_meso_roc": 3.7,
-    "n_meso_roc": 94
+    "n_meso_roc": 94,
+    "med_c_nc": 0.25,
+    "pct_aclonal_coh": 50.7,
+    "n_aclonal_coh": 1275
   },
   {
     "treatment": "ecto",
@@ -2937,7 +3354,10 @@
     "med_s_perp_roc_mHz": -0.04,
     "p90_s_perp_roc_mHz": 0.6,
     "pct_meso_roc": 5.3,
-    "n_meso_roc": 42
+    "n_meso_roc": 42,
+    "med_c_nc": 0.32,
+    "pct_aclonal_coh": 58.6,
+    "n_aclonal_coh": 464
   },
   {
     "treatment": "ecto",
@@ -2958,7 +3378,10 @@
     "med_s_perp_roc_mHz": -0.07,
     "p90_s_perp_roc_mHz": 0.65,
     "pct_meso_roc": 4.8,
-    "n_meso_roc": 46
+    "n_meso_roc": 46,
+    "med_c_nc": 0.26,
+    "pct_aclonal_coh": 52.7,
+    "n_aclonal_coh": 503
   },
   {
     "treatment": "ecto",
@@ -2979,7 +3402,10 @@
     "med_s_perp_roc_mHz": -0.04,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 3.4,
-    "n_meso_roc": 36
+    "n_meso_roc": 36,
+    "med_c_nc": 0.19,
+    "pct_aclonal_coh": 43.0,
+    "n_aclonal_coh": 452
   },
   {
     "treatment": "ecto",
@@ -3000,7 +3426,10 @@
     "med_s_perp_roc_mHz": -0.03,
     "p90_s_perp_roc_mHz": 0.59,
     "pct_meso_roc": 3.4,
-    "n_meso_roc": 25
+    "n_meso_roc": 25,
+    "med_c_nc": 0.22,
+    "pct_aclonal_coh": 46.1,
+    "n_aclonal_coh": 336
   },
   {
     "treatment": "ecto",
@@ -3021,7 +3450,10 @@
     "med_s_perp_roc_mHz": -0.02,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 3.7,
-    "n_meso_roc": 40
+    "n_meso_roc": 40,
+    "med_c_nc": 0.15,
+    "pct_aclonal_coh": 41.8,
+    "n_aclonal_coh": 446
   },
   {
     "treatment": "ecto",
@@ -3042,7 +3474,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 3.1,
-    "n_meso_roc": 60
+    "n_meso_roc": 60,
+    "med_c_nc": 0.13,
+    "pct_aclonal_coh": 41.3,
+    "n_aclonal_coh": 811
   },
   {
     "treatment": "ecto",
@@ -3063,7 +3498,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.55,
     "pct_meso_roc": 3.1,
-    "n_meso_roc": 100
+    "n_meso_roc": 100,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 54.1,
+    "n_aclonal_coh": 1772
   },
   {
     "treatment": "ecto",
@@ -3084,7 +3522,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.66,
     "pct_meso_roc": 4.5,
-    "n_meso_roc": 53
+    "n_meso_roc": 53,
+    "med_c_nc": 0.19,
+    "pct_aclonal_coh": 42.9,
+    "n_aclonal_coh": 507
   },
   {
     "treatment": "ecto",
@@ -3105,7 +3546,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.61,
     "pct_meso_roc": 4.2,
-    "n_meso_roc": 45
+    "n_meso_roc": 45,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 56.9,
+    "n_aclonal_coh": 615
   },
   {
     "treatment": "ecto",
@@ -3126,7 +3570,10 @@
     "med_s_perp_roc_mHz": -0.0,
     "p90_s_perp_roc_mHz": 0.61,
     "pct_meso_roc": 4.5,
-    "n_meso_roc": 40
+    "n_meso_roc": 40,
+    "med_c_nc": 0.28,
+    "pct_aclonal_coh": 56.1,
+    "n_aclonal_coh": 495
   },
   {
     "treatment": "ecto",
@@ -3147,7 +3594,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.69,
     "pct_meso_roc": 6.7,
-    "n_meso_roc": 37
+    "n_meso_roc": 37,
+    "med_c_nc": 0.11,
+    "pct_aclonal_coh": 32.0,
+    "n_aclonal_coh": 176
   },
   {
     "treatment": "ecto",
@@ -3168,7 +3618,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.77,
     "pct_meso_roc": 8.0,
-    "n_meso_roc": 203
+    "n_meso_roc": 203,
+    "med_c_nc": 0.27,
+    "pct_aclonal_coh": 53.5,
+    "n_aclonal_coh": 1355
   },
   {
     "treatment": "ecto",
@@ -3189,7 +3642,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.79,
     "pct_meso_roc": 9.4,
-    "n_meso_roc": 107
+    "n_meso_roc": 107,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 57.0,
+    "n_aclonal_coh": 648
   },
   {
     "treatment": "ecto",
@@ -3210,7 +3666,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.71,
     "pct_meso_roc": 7.9,
-    "n_meso_roc": 59
+    "n_meso_roc": 59,
+    "med_c_nc": 0.23,
+    "pct_aclonal_coh": 48.7,
+    "n_aclonal_coh": 363
   },
   {
     "treatment": "ecto",
@@ -3231,7 +3690,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.58,
     "pct_meso_roc": 4.0,
-    "n_meso_roc": 115
+    "n_meso_roc": 115,
+    "med_c_nc": 0.21,
+    "pct_aclonal_coh": 47.7,
+    "n_aclonal_coh": 1361
   },
   {
     "treatment": "ecto",
@@ -3252,7 +3714,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.65,
     "pct_meso_roc": 5.7,
-    "n_meso_roc": 57
+    "n_meso_roc": 57,
+    "med_c_nc": 0.28,
+    "pct_aclonal_coh": 55.1,
+    "n_aclonal_coh": 552
   },
   {
     "treatment": "ecto",
@@ -3273,7 +3738,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.7,
     "pct_meso_roc": 7.7,
-    "n_meso_roc": 100
+    "n_meso_roc": 100,
+    "med_c_nc": 0.22,
+    "pct_aclonal_coh": 48.2,
+    "n_aclonal_coh": 629
   },
   {
     "treatment": "ecto",
@@ -3294,7 +3762,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.66,
     "pct_meso_roc": 5.9,
-    "n_meso_roc": 72
+    "n_meso_roc": 72,
+    "med_c_nc": 0.17,
+    "pct_aclonal_coh": 40.8,
+    "n_aclonal_coh": 496
   },
   {
     "treatment": "ecto",
@@ -3315,7 +3786,10 @@
     "med_s_perp_roc_mHz": -0.04,
     "p90_s_perp_roc_mHz": 0.62,
     "pct_meso_roc": 4.4,
-    "n_meso_roc": 41
+    "n_meso_roc": 41,
+    "med_c_nc": 0.27,
+    "pct_aclonal_coh": 53.6,
+    "n_aclonal_coh": 498
   },
   {
     "treatment": "ecto",
@@ -3336,7 +3810,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.59,
     "pct_meso_roc": 3.9,
-    "n_meso_roc": 49
+    "n_meso_roc": 49,
+    "med_c_nc": 0.32,
+    "pct_aclonal_coh": 62.1,
+    "n_aclonal_coh": 781
   },
   {
     "treatment": "ecto",
@@ -3357,7 +3834,10 @@
     "med_s_perp_roc_mHz": -0.04,
     "p90_s_perp_roc_mHz": 0.62,
     "pct_meso_roc": 3.6,
-    "n_meso_roc": 54
+    "n_meso_roc": 54,
+    "med_c_nc": 0.28,
+    "pct_aclonal_coh": 53.9,
+    "n_aclonal_coh": 813
   },
   {
     "treatment": "ecto",
@@ -3378,7 +3858,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.59,
     "pct_meso_roc": 3.7,
-    "n_meso_roc": 106
+    "n_meso_roc": 106,
+    "med_c_nc": 0.23,
+    "pct_aclonal_coh": 49.3,
+    "n_aclonal_coh": 1407
   },
   {
     "treatment": "ecto",
@@ -3399,7 +3882,10 @@
     "med_s_perp_roc_mHz": 0.0,
     "p90_s_perp_roc_mHz": 0.68,
     "pct_meso_roc": 5.8,
-    "n_meso_roc": 93
+    "n_meso_roc": 93,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 54.6,
+    "n_aclonal_coh": 883
   },
   {
     "treatment": "ecto",
@@ -3420,7 +3906,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.64,
     "pct_meso_roc": 3.5,
-    "n_meso_roc": 49
+    "n_meso_roc": 49,
+    "med_c_nc": 0.26,
+    "pct_aclonal_coh": 51.8,
+    "n_aclonal_coh": 730
   },
   {
     "treatment": "ecto",
@@ -3441,7 +3930,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.63,
     "pct_meso_roc": 5.0,
-    "n_meso_roc": 56
+    "n_meso_roc": 56,
+    "med_c_nc": 0.24,
+    "pct_aclonal_coh": 50.1,
+    "n_aclonal_coh": 561
   },
   {
     "treatment": "ecto",
@@ -3462,7 +3954,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.66,
     "pct_meso_roc": 4.6,
-    "n_meso_roc": 45
+    "n_meso_roc": 45,
+    "med_c_nc": 0.24,
+    "pct_aclonal_coh": 49.8,
+    "n_aclonal_coh": 483
   },
   {
     "treatment": "ecto",
@@ -3483,7 +3978,10 @@
     "med_s_perp_roc_mHz": 0.11,
     "p90_s_perp_roc_mHz": 0.71,
     "pct_meso_roc": 6.0,
-    "n_meso_roc": 111
+    "n_meso_roc": 111,
+    "med_c_nc": 0.33,
+    "pct_aclonal_coh": 59.6,
+    "n_aclonal_coh": 1102
   },
   {
     "treatment": "ecto",
@@ -3504,7 +4002,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.56,
     "pct_meso_roc": 5.3,
-    "n_meso_roc": 40
+    "n_meso_roc": 40,
+    "med_c_nc": 0.5,
+    "pct_aclonal_coh": 77.8,
+    "n_aclonal_coh": 591
   },
   {
     "treatment": "ecto",
@@ -3525,7 +4026,10 @@
     "med_s_perp_roc_mHz": 0.07,
     "p90_s_perp_roc_mHz": 0.62,
     "pct_meso_roc": 5.4,
-    "n_meso_roc": 39
+    "n_meso_roc": 39,
+    "med_c_nc": 0.41,
+    "pct_aclonal_coh": 70.0,
+    "n_aclonal_coh": 506
   },
   {
     "treatment": "ecto",
@@ -3546,7 +4050,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 3.7,
-    "n_meso_roc": 38
+    "n_meso_roc": 38,
+    "med_c_nc": 0.31,
+    "pct_aclonal_coh": 59.6,
+    "n_aclonal_coh": 620
   },
   {
     "treatment": "ecto",
@@ -3567,7 +4074,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.59,
     "pct_meso_roc": 2.4,
-    "n_meso_roc": 18
+    "n_meso_roc": 18,
+    "med_c_nc": 0.44,
+    "pct_aclonal_coh": 76.0,
+    "n_aclonal_coh": 568
   },
   {
     "treatment": "ecto",
@@ -3588,7 +4098,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.6,
     "pct_meso_roc": 4.8,
-    "n_meso_roc": 50
+    "n_meso_roc": 50,
+    "med_c_nc": 0.32,
+    "pct_aclonal_coh": 59.4,
+    "n_aclonal_coh": 613
   },
   {
     "treatment": "ecto",
@@ -3609,7 +4122,10 @@
     "med_s_perp_roc_mHz": -0.05,
     "p90_s_perp_roc_mHz": 0.46,
     "pct_meso_roc": 2.4,
-    "n_meso_roc": 22
+    "n_meso_roc": 22,
+    "med_c_nc": 0.38,
+    "pct_aclonal_coh": 68.9,
+    "n_aclonal_coh": 627
   },
   {
     "treatment": "ecto",
@@ -3630,7 +4146,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.6,
     "pct_meso_roc": 5.2,
-    "n_meso_roc": 38
+    "n_meso_roc": 38,
+    "med_c_nc": 0.33,
+    "pct_aclonal_coh": 63.0,
+    "n_aclonal_coh": 457
   },
   {
     "treatment": "ecto",
@@ -3651,7 +4170,10 @@
     "med_s_perp_roc_mHz": 0.07,
     "p90_s_perp_roc_mHz": 0.57,
     "pct_meso_roc": 4.9,
-    "n_meso_roc": 42
+    "n_meso_roc": 42,
+    "med_c_nc": 0.34,
+    "pct_aclonal_coh": 62.1,
+    "n_aclonal_coh": 533
   },
   {
     "treatment": "ecto",
@@ -3672,7 +4194,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 3.3,
-    "n_meso_roc": 37
+    "n_meso_roc": 37,
+    "med_c_nc": 0.34,
+    "pct_aclonal_coh": 63.5,
+    "n_aclonal_coh": 711
   },
   {
     "treatment": "ecto",
@@ -3693,7 +4218,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 3.3,
-    "n_meso_roc": 30
+    "n_meso_roc": 30,
+    "med_c_nc": 0.19,
+    "pct_aclonal_coh": 45.7,
+    "n_aclonal_coh": 411
   },
   {
     "treatment": "ecto",
@@ -3714,7 +4242,10 @@
     "med_s_perp_roc_mHz": 0.11,
     "p90_s_perp_roc_mHz": 0.57,
     "pct_meso_roc": 4.2,
-    "n_meso_roc": 42
+    "n_meso_roc": 42,
+    "med_c_nc": 0.42,
+    "pct_aclonal_coh": 70.5,
+    "n_aclonal_coh": 713
   },
   {
     "treatment": "ecto",
@@ -3735,7 +4266,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.57,
     "pct_meso_roc": 3.7,
-    "n_meso_roc": 45
+    "n_meso_roc": 45,
+    "med_c_nc": 0.35,
+    "pct_aclonal_coh": 62.2,
+    "n_aclonal_coh": 751
   },
   {
     "treatment": "ecto",
@@ -3756,7 +4290,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 4.0,
-    "n_meso_roc": 33
+    "n_meso_roc": 33,
+    "med_c_nc": 0.59,
+    "pct_aclonal_coh": 77.9,
+    "n_aclonal_coh": 648
   },
   {
     "treatment": "ecto",
@@ -3777,7 +4314,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.56,
     "pct_meso_roc": 4.3,
-    "n_meso_roc": 36
+    "n_meso_roc": 36,
+    "med_c_nc": 0.25,
+    "pct_aclonal_coh": 50.7,
+    "n_aclonal_coh": 428
   },
   {
     "treatment": "ecto",
@@ -3798,7 +4338,10 @@
     "med_s_perp_roc_mHz": 0.12,
     "p90_s_perp_roc_mHz": 0.68,
     "pct_meso_roc": 6.2,
-    "n_meso_roc": 62
+    "n_meso_roc": 62,
+    "med_c_nc": 0.37,
+    "pct_aclonal_coh": 61.7,
+    "n_aclonal_coh": 621
   },
   {
     "treatment": "ecto",
@@ -3819,7 +4362,10 @@
     "med_s_perp_roc_mHz": 0.11,
     "p90_s_perp_roc_mHz": 0.56,
     "pct_meso_roc": 6.2,
-    "n_meso_roc": 19
+    "n_meso_roc": 19,
+    "med_c_nc": 0.42,
+    "pct_aclonal_coh": 64.5,
+    "n_aclonal_coh": 196
   },
   {
     "treatment": "ecto",
@@ -3840,7 +4386,10 @@
     "med_s_perp_roc_mHz": 0.13,
     "p90_s_perp_roc_mHz": 0.59,
     "pct_meso_roc": 6.7,
-    "n_meso_roc": 23
+    "n_meso_roc": 23,
+    "med_c_nc": 0.35,
+    "pct_aclonal_coh": 58.0,
+    "n_aclonal_coh": 200
   },
   {
     "treatment": "ecto",
@@ -3861,7 +4410,10 @@
     "med_s_perp_roc_mHz": 0.09,
     "p90_s_perp_roc_mHz": 0.55,
     "pct_meso_roc": 4.4,
-    "n_meso_roc": 23
+    "n_meso_roc": 23,
+    "med_c_nc": 0.19,
+    "pct_aclonal_coh": 47.0,
+    "n_aclonal_coh": 245
   },
   {
     "treatment": "ecto",
@@ -3882,7 +4434,10 @@
     "med_s_perp_roc_mHz": 0.13,
     "p90_s_perp_roc_mHz": 0.85,
     "pct_meso_roc": 10.2,
-    "n_meso_roc": 31
+    "n_meso_roc": 31,
+    "med_c_nc": 0.48,
+    "pct_aclonal_coh": 74.0,
+    "n_aclonal_coh": 225
   },
   {
     "treatment": "ecto",
@@ -3903,7 +4458,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.61,
     "pct_meso_roc": 4.3,
-    "n_meso_roc": 22
+    "n_meso_roc": 22,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 55.9,
+    "n_aclonal_coh": 286
   },
   {
     "treatment": "ecto",
@@ -3924,7 +4482,10 @@
     "med_s_perp_roc_mHz": 0.1,
     "p90_s_perp_roc_mHz": 0.56,
     "pct_meso_roc": 6.5,
-    "n_meso_roc": 26
+    "n_meso_roc": 26,
+    "med_c_nc": 0.33,
+    "pct_aclonal_coh": 55.3,
+    "n_aclonal_coh": 223
   },
   {
     "treatment": "ecto",
@@ -3945,7 +4506,10 @@
     "med_s_perp_roc_mHz": 0.09,
     "p90_s_perp_roc_mHz": 0.59,
     "pct_meso_roc": 5.0,
-    "n_meso_roc": 16
+    "n_meso_roc": 16,
+    "med_c_nc": 0.4,
+    "pct_aclonal_coh": 64.7,
+    "n_aclonal_coh": 209
   },
   {
     "treatment": "ecto",
@@ -3966,7 +4530,10 @@
     "med_s_perp_roc_mHz": 0.15,
     "p90_s_perp_roc_mHz": 0.83,
     "pct_meso_roc": 9.7,
-    "n_meso_roc": 37
+    "n_meso_roc": 37,
+    "med_c_nc": 0.08,
+    "pct_aclonal_coh": 35.4,
+    "n_aclonal_coh": 135
   },
   {
     "treatment": "ecto",
@@ -3987,7 +4554,10 @@
     "med_s_perp_roc_mHz": 0.14,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 2.5,
-    "n_meso_roc": 13
+    "n_meso_roc": 13,
+    "med_c_nc": 0.31,
+    "pct_aclonal_coh": 55.4,
+    "n_aclonal_coh": 286
   },
   {
     "treatment": "ecto",
@@ -4008,7 +4578,10 @@
     "med_s_perp_roc_mHz": 0.19,
     "p90_s_perp_roc_mHz": 0.77,
     "pct_meso_roc": 9.1,
-    "n_meso_roc": 41
+    "n_meso_roc": 41,
+    "med_c_nc": 0.25,
+    "pct_aclonal_coh": 50.3,
+    "n_aclonal_coh": 227
   },
   {
     "treatment": "ecto",
@@ -4029,7 +4602,10 @@
     "med_s_perp_roc_mHz": 0.17,
     "p90_s_perp_roc_mHz": 0.6,
     "pct_meso_roc": 5.7,
-    "n_meso_roc": 27
+    "n_meso_roc": 27,
+    "med_c_nc": 0.48,
+    "pct_aclonal_coh": 71.1,
+    "n_aclonal_coh": 335
   },
   {
     "treatment": "ecto",
@@ -4050,7 +4626,10 @@
     "med_s_perp_roc_mHz": 0.16,
     "p90_s_perp_roc_mHz": 0.65,
     "pct_meso_roc": 4.4,
-    "n_meso_roc": 18
+    "n_meso_roc": 18,
+    "med_c_nc": 0.17,
+    "pct_aclonal_coh": 41.2,
+    "n_aclonal_coh": 170
   },
   {
     "treatment": "ecto",
@@ -4071,7 +4650,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.55,
     "pct_meso_roc": 3.6,
-    "n_meso_roc": 12
+    "n_meso_roc": 12,
+    "med_c_nc": 0.32,
+    "pct_aclonal_coh": 56.3,
+    "n_aclonal_coh": 187
   },
   {
     "treatment": "ecto",
@@ -4092,7 +4674,10 @@
     "med_s_perp_roc_mHz": 0.07,
     "p90_s_perp_roc_mHz": 0.61,
     "pct_meso_roc": 3.5,
-    "n_meso_roc": 11
+    "n_meso_roc": 11,
+    "med_c_nc": 0.07,
+    "pct_aclonal_coh": 30.5,
+    "n_aclonal_coh": 97
   },
   {
     "treatment": "ecto",
@@ -4113,7 +4698,10 @@
     "med_s_perp_roc_mHz": 0.19,
     "p90_s_perp_roc_mHz": 0.56,
     "pct_meso_roc": 5.2,
-    "n_meso_roc": 37
+    "n_meso_roc": 37,
+    "med_c_nc": 0.51,
+    "pct_aclonal_coh": 69.1,
+    "n_aclonal_coh": 492
   },
   {
     "treatment": "ecto",
@@ -4134,7 +4722,10 @@
     "med_s_perp_roc_mHz": 0.22,
     "p90_s_perp_roc_mHz": 0.7,
     "pct_meso_roc": 8.0,
-    "n_meso_roc": 30
+    "n_meso_roc": 30,
+    "med_c_nc": 0.44,
+    "pct_aclonal_coh": 61.2,
+    "n_aclonal_coh": 229
   },
   {
     "treatment": "ecto",
@@ -4155,7 +4746,10 @@
     "med_s_perp_roc_mHz": 0.27,
     "p90_s_perp_roc_mHz": 0.74,
     "pct_meso_roc": 8.1,
-    "n_meso_roc": 28
+    "n_meso_roc": 28,
+    "med_c_nc": 0.81,
+    "pct_aclonal_coh": 74.9,
+    "n_aclonal_coh": 260
   },
   {
     "treatment": "ecto",
@@ -4176,7 +4770,10 @@
     "med_s_perp_roc_mHz": 0.11,
     "p90_s_perp_roc_mHz": 0.47,
     "pct_meso_roc": 2.8,
-    "n_meso_roc": 19
+    "n_meso_roc": 19,
+    "med_c_nc": 0.3,
+    "pct_aclonal_coh": 54.3,
+    "n_aclonal_coh": 367
   },
   {
     "treatment": "ecto",
@@ -4197,7 +4794,10 @@
     "med_s_perp_roc_mHz": 0.12,
     "p90_s_perp_roc_mHz": 0.57,
     "pct_meso_roc": 4.9,
-    "n_meso_roc": 18
+    "n_meso_roc": 18,
+    "med_c_nc": 0.14,
+    "pct_aclonal_coh": 44.0,
+    "n_aclonal_coh": 160
   },
   {
     "treatment": "ecto",
@@ -4218,7 +4818,10 @@
     "med_s_perp_roc_mHz": 0.09,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 6.4,
-    "n_meso_roc": 19
+    "n_meso_roc": 19,
+    "med_c_nc": 0.12,
+    "pct_aclonal_coh": 45.6,
+    "n_aclonal_coh": 135
   },
   {
     "treatment": "ecto",
@@ -4239,7 +4842,10 @@
     "med_s_perp_roc_mHz": 0.2,
     "p90_s_perp_roc_mHz": 0.56,
     "pct_meso_roc": 5.6,
-    "n_meso_roc": 25
+    "n_meso_roc": 25,
+    "med_c_nc": 0.41,
+    "pct_aclonal_coh": 59.4,
+    "n_aclonal_coh": 266
   },
   {
     "treatment": "ecto",
@@ -4260,7 +4866,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 2.6,
-    "n_meso_roc": 8
+    "n_meso_roc": 8,
+    "med_c_nc": 0.39,
+    "pct_aclonal_coh": 59.9,
+    "n_aclonal_coh": 184
   },
   {
     "treatment": "ecto",
@@ -4281,7 +4890,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 6.6,
-    "n_meso_roc": 25
+    "n_meso_roc": 25,
+    "med_c_nc": 0.27,
+    "pct_aclonal_coh": 53.8,
+    "n_aclonal_coh": 203
   },
   {
     "treatment": "ecto",
@@ -4302,7 +4914,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 4.7,
-    "n_meso_roc": 20
+    "n_meso_roc": 20,
+    "med_c_nc": 0.43,
+    "pct_aclonal_coh": 57.2,
+    "n_aclonal_coh": 245
   },
   {
     "treatment": "ecto",
@@ -4323,7 +4938,10 @@
     "med_s_perp_roc_mHz": 0.14,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 4.0,
-    "n_meso_roc": 14
+    "n_meso_roc": 14,
+    "med_c_nc": 0.21,
+    "pct_aclonal_coh": 49.3,
+    "n_aclonal_coh": 174
   },
   {
     "treatment": "ecto",
@@ -4344,7 +4962,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.66,
     "pct_meso_roc": 6.1,
-    "n_meso_roc": 24
+    "n_meso_roc": 24,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 31.2,
+    "n_aclonal_coh": 122
   },
   {
     "treatment": "ecto",
@@ -4365,7 +4986,10 @@
     "med_s_perp_roc_mHz": 0.19,
     "p90_s_perp_roc_mHz": 0.72,
     "pct_meso_roc": 7.1,
-    "n_meso_roc": 28
+    "n_meso_roc": 28,
+    "med_c_nc": 0.18,
+    "pct_aclonal_coh": 46.4,
+    "n_aclonal_coh": 182
   },
   {
     "treatment": "ecto",
@@ -4386,7 +5010,10 @@
     "med_s_perp_roc_mHz": 0.2,
     "p90_s_perp_roc_mHz": 0.68,
     "pct_meso_roc": 7.0,
-    "n_meso_roc": 25
+    "n_meso_roc": 25,
+    "med_c_nc": 0.79,
+    "pct_aclonal_coh": 70.3,
+    "n_aclonal_coh": 251
   },
   {
     "treatment": "ecto",
@@ -4407,7 +5034,10 @@
     "med_s_perp_roc_mHz": 0.16,
     "p90_s_perp_roc_mHz": 0.57,
     "pct_meso_roc": 4.1,
-    "n_meso_roc": 14
+    "n_meso_roc": 14,
+    "med_c_nc": 0.35,
+    "pct_aclonal_coh": 62.3,
+    "n_aclonal_coh": 215
   },
   {
     "treatment": "endo",
@@ -4428,7 +5058,10 @@
     "med_s_perp_roc_mHz": -0.03,
     "p90_s_perp_roc_mHz": 0.56,
     "pct_meso_roc": 4.8,
-    "n_meso_roc": 25
+    "n_meso_roc": 25,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 14.1,
+    "n_aclonal_coh": 74
   },
   {
     "treatment": "endo",
@@ -4449,7 +5082,10 @@
     "med_s_perp_roc_mHz": -0.02,
     "p90_s_perp_roc_mHz": 0.85,
     "pct_meso_roc": 10.0,
-    "n_meso_roc": 72
+    "n_meso_roc": 72,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 25.2,
+    "n_aclonal_coh": 181
   },
   {
     "treatment": "endo",
@@ -4470,7 +5106,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.78,
     "pct_meso_roc": 7.8,
-    "n_meso_roc": 87
+    "n_meso_roc": 87,
+    "med_c_nc": 0.12,
+    "pct_aclonal_coh": 39.3,
+    "n_aclonal_coh": 439
   },
   {
     "treatment": "endo",
@@ -4491,7 +5130,10 @@
     "med_s_perp_roc_mHz": -0.05,
     "p90_s_perp_roc_mHz": 0.72,
     "pct_meso_roc": 7.0,
-    "n_meso_roc": 51
+    "n_meso_roc": 51,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 26.2,
+    "n_aclonal_coh": 191
   },
   {
     "treatment": "endo",
@@ -4512,7 +5154,10 @@
     "med_s_perp_roc_mHz": -0.0,
     "p90_s_perp_roc_mHz": 0.66,
     "pct_meso_roc": 5.5,
-    "n_meso_roc": 27
+    "n_meso_roc": 27,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 19.4,
+    "n_aclonal_coh": 95
   },
   {
     "treatment": "endo",
@@ -4533,7 +5178,10 @@
     "med_s_perp_roc_mHz": -0.0,
     "p90_s_perp_roc_mHz": 0.86,
     "pct_meso_roc": 10.5,
-    "n_meso_roc": 70
+    "n_meso_roc": 70,
+    "med_c_nc": 0.03,
+    "pct_aclonal_coh": 38.5,
+    "n_aclonal_coh": 257
   },
   {
     "treatment": "endo",
@@ -4554,7 +5202,10 @@
     "med_s_perp_roc_mHz": -0.02,
     "p90_s_perp_roc_mHz": 0.62,
     "pct_meso_roc": 5.2,
-    "n_meso_roc": 30
+    "n_meso_roc": 30,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 19.8,
+    "n_aclonal_coh": 115
   },
   {
     "treatment": "endo",
@@ -4575,7 +5226,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.66,
     "pct_meso_roc": 5.6,
-    "n_meso_roc": 24
+    "n_meso_roc": 24,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 32.2,
+    "n_aclonal_coh": 138
   },
   {
     "treatment": "endo",
@@ -4596,7 +5250,10 @@
     "med_s_perp_roc_mHz": -0.05,
     "p90_s_perp_roc_mHz": 0.72,
     "pct_meso_roc": 7.0,
-    "n_meso_roc": 44
+    "n_meso_roc": 44,
+    "med_c_nc": 0.12,
+    "pct_aclonal_coh": 44.1,
+    "n_aclonal_coh": 278
   },
   {
     "treatment": "endo",
@@ -4617,7 +5274,10 @@
     "med_s_perp_roc_mHz": 0.07,
     "p90_s_perp_roc_mHz": 0.83,
     "pct_meso_roc": 9.7,
-    "n_meso_roc": 58
+    "n_meso_roc": 58,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 26.3,
+    "n_aclonal_coh": 158
   },
   {
     "treatment": "endo",
@@ -4638,7 +5298,10 @@
     "med_s_perp_roc_mHz": -0.03,
     "p90_s_perp_roc_mHz": 0.6,
     "pct_meso_roc": 4.5,
-    "n_meso_roc": 31
+    "n_meso_roc": 31,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 28.4,
+    "n_aclonal_coh": 196
   },
   {
     "treatment": "endo",
@@ -4659,7 +5322,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.69,
     "pct_meso_roc": 6.1,
-    "n_meso_roc": 27
+    "n_meso_roc": 27,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 23.6,
+    "n_aclonal_coh": 104
   },
   {
     "treatment": "endo",
@@ -4680,7 +5346,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.61,
     "pct_meso_roc": 5.7,
-    "n_meso_roc": 46
+    "n_meso_roc": 46,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 26.2,
+    "n_aclonal_coh": 211
   },
   {
     "treatment": "endo",
@@ -4701,7 +5370,10 @@
     "med_s_perp_roc_mHz": 0.1,
     "p90_s_perp_roc_mHz": 0.77,
     "pct_meso_roc": 9.0,
-    "n_meso_roc": 45
+    "n_meso_roc": 45,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 26.9,
+    "n_aclonal_coh": 135
   },
   {
     "treatment": "endo",
@@ -4722,7 +5394,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.59,
     "pct_meso_roc": 3.7,
-    "n_meso_roc": 19
+    "n_meso_roc": 19,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 20.2,
+    "n_aclonal_coh": 105
   },
   {
     "treatment": "endo",
@@ -4743,7 +5418,10 @@
     "med_s_perp_roc_mHz": -0.02,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 5.6,
-    "n_meso_roc": 16
+    "n_meso_roc": 16,
+    "med_c_nc": 0.16,
+    "pct_aclonal_coh": 43.3,
+    "n_aclonal_coh": 123
   },
   {
     "treatment": "endo",
@@ -4764,7 +5442,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 5.1,
-    "n_meso_roc": 25
+    "n_meso_roc": 25,
+    "med_c_nc": 0.18,
+    "pct_aclonal_coh": 42.7,
+    "n_aclonal_coh": 211
   },
   {
     "treatment": "endo",
@@ -4785,7 +5466,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.43,
     "pct_meso_roc": 2.9,
-    "n_meso_roc": 33
+    "n_meso_roc": 33,
+    "med_c_nc": 0.31,
+    "pct_aclonal_coh": 58.0,
+    "n_aclonal_coh": 663
   },
   {
     "treatment": "endo",
@@ -4806,7 +5490,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.48,
     "pct_meso_roc": 2.6,
-    "n_meso_roc": 14
+    "n_meso_roc": 14,
+    "med_c_nc": 0.33,
+    "pct_aclonal_coh": 58.7,
+    "n_aclonal_coh": 311
   },
   {
     "treatment": "endo",
@@ -4827,7 +5514,10 @@
     "med_s_perp_roc_mHz": -0.03,
     "p90_s_perp_roc_mHz": 0.46,
     "pct_meso_roc": 4.2,
-    "n_meso_roc": 16
+    "n_meso_roc": 16,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 53.4,
+    "n_aclonal_coh": 205
   },
   {
     "treatment": "endo",
@@ -4848,7 +5538,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.48,
     "pct_meso_roc": 3.4,
-    "n_meso_roc": 22
+    "n_meso_roc": 22,
+    "med_c_nc": 0.35,
+    "pct_aclonal_coh": 68.4,
+    "n_aclonal_coh": 442
   },
   {
     "treatment": "endo",
@@ -4869,7 +5562,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 4.6,
-    "n_meso_roc": 17
+    "n_meso_roc": 17,
+    "med_c_nc": 0.31,
+    "pct_aclonal_coh": 55.9,
+    "n_aclonal_coh": 208
   },
   {
     "treatment": "endo",
@@ -4890,7 +5586,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.43,
     "pct_meso_roc": 3.9,
-    "n_meso_roc": 16
+    "n_meso_roc": 16,
+    "med_c_nc": 0.11,
+    "pct_aclonal_coh": 32.7,
+    "n_aclonal_coh": 133
   },
   {
     "treatment": "endo",
@@ -4911,7 +5610,10 @@
     "med_s_perp_roc_mHz": -0.06,
     "p90_s_perp_roc_mHz": 0.41,
     "pct_meso_roc": 2.7,
-    "n_meso_roc": 12
+    "n_meso_roc": 12,
+    "med_c_nc": 0.4,
+    "pct_aclonal_coh": 61.5,
+    "n_aclonal_coh": 278
   },
   {
     "treatment": "endo",
@@ -4932,7 +5634,10 @@
     "med_s_perp_roc_mHz": -0.05,
     "p90_s_perp_roc_mHz": 0.42,
     "pct_meso_roc": 3.5,
-    "n_meso_roc": 18
+    "n_meso_roc": 18,
+    "med_c_nc": 0.31,
+    "pct_aclonal_coh": 57.5,
+    "n_aclonal_coh": 296
   },
   {
     "treatment": "endo",
@@ -4953,7 +5658,10 @@
     "med_s_perp_roc_mHz": -0.05,
     "p90_s_perp_roc_mHz": 0.42,
     "pct_meso_roc": 2.7,
-    "n_meso_roc": 16
+    "n_meso_roc": 16,
+    "med_c_nc": 0.39,
+    "pct_aclonal_coh": 64.2,
+    "n_aclonal_coh": 382
   },
   {
     "treatment": "endo",
@@ -4974,7 +5682,10 @@
     "med_s_perp_roc_mHz": -0.06,
     "p90_s_perp_roc_mHz": 0.55,
     "pct_meso_roc": 5.6,
-    "n_meso_roc": 24
+    "n_meso_roc": 24,
+    "med_c_nc": 0.08,
+    "pct_aclonal_coh": 33.1,
+    "n_aclonal_coh": 141
   },
   {
     "treatment": "endo",
@@ -4995,7 +5706,10 @@
     "med_s_perp_roc_mHz": -0.06,
     "p90_s_perp_roc_mHz": 0.48,
     "pct_meso_roc": 3.1,
-    "n_meso_roc": 24
+    "n_meso_roc": 24,
+    "med_c_nc": 0.24,
+    "pct_aclonal_coh": 50.3,
+    "n_aclonal_coh": 390
   },
   {
     "treatment": "endo",
@@ -5016,7 +5730,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.58,
     "pct_meso_roc": 4.1,
-    "n_meso_roc": 16
+    "n_meso_roc": 16,
+    "med_c_nc": 0.05,
+    "pct_aclonal_coh": 29.5,
+    "n_aclonal_coh": 116
   },
   {
     "treatment": "endo",
@@ -5037,7 +5754,10 @@
     "med_s_perp_roc_mHz": -0.03,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 3.3,
-    "n_meso_roc": 17
+    "n_meso_roc": 17,
+    "med_c_nc": 0.13,
+    "pct_aclonal_coh": 41.0,
+    "n_aclonal_coh": 213
   },
   {
     "treatment": "endo",
@@ -5058,7 +5778,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.45,
     "pct_meso_roc": 2.2,
-    "n_meso_roc": 5
+    "n_meso_roc": 5,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 21.9,
+    "n_aclonal_coh": 49
   },
   {
     "treatment": "endo",
@@ -5079,7 +5802,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.61,
     "pct_meso_roc": 6.4,
-    "n_meso_roc": 31
+    "n_meso_roc": 31,
+    "med_c_nc": 0.26,
+    "pct_aclonal_coh": 52.6,
+    "n_aclonal_coh": 253
   },
   {
     "treatment": "endo",
@@ -5100,7 +5826,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 2.5,
-    "n_meso_roc": 26
+    "n_meso_roc": 26,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 55.1,
+    "n_aclonal_coh": 570
   },
   {
     "treatment": "endo",
@@ -5121,7 +5850,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 3.3,
-    "n_meso_roc": 21
+    "n_meso_roc": 21,
+    "med_c_nc": 0.14,
+    "pct_aclonal_coh": 40.7,
+    "n_aclonal_coh": 263
   },
   {
     "treatment": "endo",
@@ -5142,7 +5874,10 @@
     "med_s_perp_roc_mHz": 0.07,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 5.2,
-    "n_meso_roc": 22
+    "n_meso_roc": 22,
+    "med_c_nc": 0.41,
+    "pct_aclonal_coh": 72.9,
+    "n_aclonal_coh": 310
   },
   {
     "treatment": "endo",
@@ -5163,7 +5898,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.48,
     "pct_meso_roc": 3.4,
-    "n_meso_roc": 24
+    "n_meso_roc": 24,
+    "med_c_nc": 0.31,
+    "pct_aclonal_coh": 60.2,
+    "n_aclonal_coh": 430
   },
   {
     "treatment": "endo",
@@ -5184,7 +5922,10 @@
     "med_s_perp_roc_mHz": 0.07,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 2.5,
-    "n_meso_roc": 8
+    "n_meso_roc": 8,
+    "med_c_nc": 0.18,
+    "pct_aclonal_coh": 39.9,
+    "n_aclonal_coh": 126
   },
   {
     "treatment": "endo",
@@ -5205,7 +5946,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.48,
     "pct_meso_roc": 5.3,
-    "n_meso_roc": 19
+    "n_meso_roc": 19,
+    "med_c_nc": 0.1,
+    "pct_aclonal_coh": 38.5,
+    "n_aclonal_coh": 139
   },
   {
     "treatment": "endo",
@@ -5226,7 +5970,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.56,
     "pct_meso_roc": 3.5,
-    "n_meso_roc": 20
+    "n_meso_roc": 20,
+    "med_c_nc": 0.18,
+    "pct_aclonal_coh": 45.3,
+    "n_aclonal_coh": 259
   },
   {
     "treatment": "endo",
@@ -5247,7 +5994,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.55,
     "pct_meso_roc": 4.0,
-    "n_meso_roc": 23
+    "n_meso_roc": 23,
+    "med_c_nc": 0.33,
+    "pct_aclonal_coh": 59.6,
+    "n_aclonal_coh": 341
   },
   {
     "treatment": "endo",
@@ -5268,7 +6018,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.43,
     "pct_meso_roc": 1.5,
-    "n_meso_roc": 8
+    "n_meso_roc": 8,
+    "med_c_nc": 0.13,
+    "pct_aclonal_coh": 35.2,
+    "n_aclonal_coh": 183
   },
   {
     "treatment": "endo",
@@ -5289,7 +6042,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 5.7,
-    "n_meso_roc": 25
+    "n_meso_roc": 25,
+    "med_c_nc": 0.27,
+    "pct_aclonal_coh": 51.6,
+    "n_aclonal_coh": 225
   },
   {
     "treatment": "endo",
@@ -5310,7 +6066,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 3.9,
-    "n_meso_roc": 26
+    "n_meso_roc": 26,
+    "med_c_nc": 0.19,
+    "pct_aclonal_coh": 43.7,
+    "n_aclonal_coh": 292
   },
   {
     "treatment": "endo",
@@ -5331,7 +6090,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 2.0,
-    "n_meso_roc": 8
+    "n_meso_roc": 8,
+    "med_c_nc": 0.24,
+    "pct_aclonal_coh": 49.9,
+    "n_aclonal_coh": 204
   },
   {
     "treatment": "endo",
@@ -5352,7 +6114,10 @@
     "med_s_perp_roc_mHz": -0.04,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 3.1,
-    "n_meso_roc": 11
+    "n_meso_roc": 11,
+    "med_c_nc": 0.14,
+    "pct_aclonal_coh": 43.8,
+    "n_aclonal_coh": 155
   },
   {
     "treatment": "endo",
@@ -5373,7 +6138,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 2.7,
-    "n_meso_roc": 7
+    "n_meso_roc": 7,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 52.1,
+    "n_aclonal_coh": 134
   },
   {
     "treatment": "endo",
@@ -5394,7 +6162,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 4.2,
-    "n_meso_roc": 22
+    "n_meso_roc": 22,
+    "med_c_nc": 0.15,
+    "pct_aclonal_coh": 40.5,
+    "n_aclonal_coh": 214
   },
   {
     "treatment": "endo",
@@ -5415,7 +6186,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.45,
     "pct_meso_roc": 2.7,
-    "n_meso_roc": 32
+    "n_meso_roc": 32,
+    "med_c_nc": 0.37,
+    "pct_aclonal_coh": 66.5,
+    "n_aclonal_coh": 779
   },
   {
     "treatment": "endo",
@@ -5436,7 +6210,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.48,
     "pct_meso_roc": 3.6,
-    "n_meso_roc": 18
+    "n_meso_roc": 18,
+    "med_c_nc": 0.38,
+    "pct_aclonal_coh": 62.1,
+    "n_aclonal_coh": 308
   },
   {
     "treatment": "endo",
@@ -5457,7 +6234,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.47,
     "pct_meso_roc": 2.9,
-    "n_meso_roc": 14
+    "n_meso_roc": 14,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 58.7,
+    "n_aclonal_coh": 279
   },
   {
     "treatment": "endo",
@@ -5478,7 +6258,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.58,
     "pct_meso_roc": 5.4,
-    "n_meso_roc": 34
+    "n_meso_roc": 34,
+    "med_c_nc": 0.27,
+    "pct_aclonal_coh": 54.7,
+    "n_aclonal_coh": 346
   },
   {
     "treatment": "endo",
@@ -5499,7 +6282,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.42,
     "pct_meso_roc": 2.0,
-    "n_meso_roc": 8
+    "n_meso_roc": 8,
+    "med_c_nc": 0.28,
+    "pct_aclonal_coh": 55.6,
+    "n_aclonal_coh": 219
   },
   {
     "treatment": "endo",
@@ -5520,7 +6306,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 4.2,
-    "n_meso_roc": 14
+    "n_meso_roc": 14,
+    "med_c_nc": 0.26,
+    "pct_aclonal_coh": 51.8,
+    "n_aclonal_coh": 172
   },
   {
     "treatment": "endo",
@@ -5541,7 +6330,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 4.2,
-    "n_meso_roc": 22
+    "n_meso_roc": 22,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 59.6,
+    "n_aclonal_coh": 313
   },
   {
     "treatment": "endo",
@@ -5562,7 +6354,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 4.1,
-    "n_meso_roc": 22
+    "n_meso_roc": 22,
+    "med_c_nc": 0.37,
+    "pct_aclonal_coh": 68.4,
+    "n_aclonal_coh": 368
   },
   {
     "treatment": "endo",
@@ -5583,7 +6378,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.45,
     "pct_meso_roc": 2.6,
-    "n_meso_roc": 13
+    "n_meso_roc": 13,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 57.5,
+    "n_aclonal_coh": 285
   },
   {
     "treatment": "endo",
@@ -5604,7 +6402,10 @@
     "med_s_perp_roc_mHz": -0.05,
     "p90_s_perp_roc_mHz": 0.46,
     "pct_meso_roc": 2.9,
-    "n_meso_roc": 16
+    "n_meso_roc": 16,
+    "med_c_nc": 0.28,
+    "pct_aclonal_coh": 53.5,
+    "n_aclonal_coh": 291
   },
   {
     "treatment": "endo",
@@ -5625,7 +6426,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.65,
     "pct_meso_roc": 6.1,
-    "n_meso_roc": 37
+    "n_meso_roc": 37,
+    "med_c_nc": 0.3,
+    "pct_aclonal_coh": 58.6,
+    "n_aclonal_coh": 355
   },
   {
     "treatment": "endo",
@@ -5646,7 +6450,10 @@
     "med_s_perp_roc_mHz": 0.0,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 3.6,
-    "n_meso_roc": 16
+    "n_meso_roc": 16,
+    "med_c_nc": 0.24,
+    "pct_aclonal_coh": 51.0,
+    "n_aclonal_coh": 229
   },
   {
     "treatment": "endo",
@@ -5667,7 +6474,10 @@
     "med_s_perp_roc_mHz": -0.0,
     "p90_s_perp_roc_mHz": 0.44,
     "pct_meso_roc": 2.2,
-    "n_meso_roc": 7
+    "n_meso_roc": 7,
+    "med_c_nc": 0.32,
+    "pct_aclonal_coh": 59.2,
+    "n_aclonal_coh": 190
   },
   {
     "treatment": "endo",
@@ -5688,7 +6498,10 @@
     "med_s_perp_roc_mHz": 0.14,
     "p90_s_perp_roc_mHz": 0.46,
     "pct_meso_roc": 2.1,
-    "n_meso_roc": 8
+    "n_meso_roc": 8,
+    "med_c_nc": 0.23,
+    "pct_aclonal_coh": 49.2,
+    "n_aclonal_coh": 184
   },
   {
     "treatment": "endo",
@@ -5709,7 +6522,10 @@
     "med_s_perp_roc_mHz": 0.16,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 3.6,
-    "n_meso_roc": 24
+    "n_meso_roc": 24,
+    "med_c_nc": 0.13,
+    "pct_aclonal_coh": 37.9,
+    "n_aclonal_coh": 255
   },
   {
     "treatment": "endo",
@@ -5730,7 +6546,10 @@
     "med_s_perp_roc_mHz": 0.15,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 2.5,
-    "n_meso_roc": 43
+    "n_meso_roc": 43,
+    "med_c_nc": 0.3,
+    "pct_aclonal_coh": 53.7,
+    "n_aclonal_coh": 908
   },
   {
     "treatment": "endo",
@@ -5751,7 +6570,10 @@
     "med_s_perp_roc_mHz": 0.18,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 3.2,
-    "n_meso_roc": 28
+    "n_meso_roc": 28,
+    "med_c_nc": 0.25,
+    "pct_aclonal_coh": 51.2,
+    "n_aclonal_coh": 454
   },
   {
     "treatment": "endo",
@@ -5772,7 +6594,10 @@
     "med_s_perp_roc_mHz": 0.18,
     "p90_s_perp_roc_mHz": 0.47,
     "pct_meso_roc": 2.3,
-    "n_meso_roc": 12
+    "n_meso_roc": 12,
+    "med_c_nc": 0.41,
+    "pct_aclonal_coh": 62.4,
+    "n_aclonal_coh": 319
   },
   {
     "treatment": "endo",
@@ -5793,7 +6618,10 @@
     "med_s_perp_roc_mHz": 0.14,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 2.8,
-    "n_meso_roc": 25
+    "n_meso_roc": 25,
+    "med_c_nc": 0.27,
+    "pct_aclonal_coh": 54.4,
+    "n_aclonal_coh": 487
   },
   {
     "treatment": "endo",
@@ -5814,7 +6642,10 @@
     "med_s_perp_roc_mHz": 0.16,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 3.7,
-    "n_meso_roc": 17
+    "n_meso_roc": 17,
+    "med_c_nc": 0.3,
+    "pct_aclonal_coh": 57.8,
+    "n_aclonal_coh": 268
   },
   {
     "treatment": "endo",
@@ -5835,7 +6666,10 @@
     "med_s_perp_roc_mHz": 0.2,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 2.6,
-    "n_meso_roc": 10
+    "n_meso_roc": 10,
+    "med_c_nc": 0.22,
+    "pct_aclonal_coh": 47.0,
+    "n_aclonal_coh": 182
   },
   {
     "treatment": "endo",
@@ -5856,7 +6690,10 @@
     "med_s_perp_roc_mHz": 0.23,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 3.4,
-    "n_meso_roc": 14
+    "n_meso_roc": 14,
+    "med_c_nc": 0.5,
+    "pct_aclonal_coh": 74.9,
+    "n_aclonal_coh": 308
   },
   {
     "treatment": "endo",
@@ -5877,7 +6714,10 @@
     "med_s_perp_roc_mHz": 0.14,
     "p90_s_perp_roc_mHz": 0.48,
     "pct_meso_roc": 2.1,
-    "n_meso_roc": 16
+    "n_meso_roc": 16,
+    "med_c_nc": 0.34,
+    "pct_aclonal_coh": 60.5,
+    "n_aclonal_coh": 466
   },
   {
     "treatment": "endo",
@@ -5898,7 +6738,10 @@
     "med_s_perp_roc_mHz": 0.15,
     "p90_s_perp_roc_mHz": 0.47,
     "pct_meso_roc": 1.4,
-    "n_meso_roc": 7
+    "n_meso_roc": 7,
+    "med_c_nc": 0.34,
+    "pct_aclonal_coh": 63.0,
+    "n_aclonal_coh": 320
   },
   {
     "treatment": "endo",
@@ -5919,7 +6762,10 @@
     "med_s_perp_roc_mHz": 0.14,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 4.7,
-    "n_meso_roc": 30
+    "n_meso_roc": 30,
+    "med_c_nc": 0.11,
+    "pct_aclonal_coh": 39.9,
+    "n_aclonal_coh": 254
   },
   {
     "treatment": "endo",
@@ -5940,7 +6786,10 @@
     "med_s_perp_roc_mHz": 0.17,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 4.6,
-    "n_meso_roc": 30
+    "n_meso_roc": 30,
+    "med_c_nc": 0.24,
+    "pct_aclonal_coh": 50.1,
+    "n_aclonal_coh": 330
   },
   {
     "treatment": "endo",
@@ -5961,7 +6810,10 @@
     "med_s_perp_roc_mHz": 0.07,
     "p90_s_perp_roc_mHz": 0.48,
     "pct_meso_roc": 3.4,
-    "n_meso_roc": 18
+    "n_meso_roc": 18,
+    "med_c_nc": 0.24,
+    "pct_aclonal_coh": 49.9,
+    "n_aclonal_coh": 266
   },
   {
     "treatment": "endo",
@@ -5982,7 +6834,10 @@
     "med_s_perp_roc_mHz": 0.15,
     "p90_s_perp_roc_mHz": 0.55,
     "pct_meso_roc": 2.9,
-    "n_meso_roc": 19
+    "n_meso_roc": 19,
+    "med_c_nc": 0.17,
+    "pct_aclonal_coh": 37.8,
+    "n_aclonal_coh": 248
   },
   {
     "treatment": "endo",
@@ -6003,7 +6858,10 @@
     "med_s_perp_roc_mHz": 0.18,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 3.2,
-    "n_meso_roc": 9
+    "n_meso_roc": 9,
+    "med_c_nc": 0.4,
+    "pct_aclonal_coh": 75.4,
+    "n_aclonal_coh": 214
   },
   {
     "treatment": "endo",
@@ -6024,7 +6882,10 @@
     "med_s_perp_roc_mHz": 0.15,
     "p90_s_perp_roc_mHz": 0.48,
     "pct_meso_roc": 1.9,
-    "n_meso_roc": 13
+    "n_meso_roc": 13,
+    "med_c_nc": 0.21,
+    "pct_aclonal_coh": 46.0,
+    "n_aclonal_coh": 314
   },
   {
     "treatment": "endo",
@@ -6045,7 +6906,10 @@
     "med_s_perp_roc_mHz": 0.17,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 2.8,
-    "n_meso_roc": 60
+    "n_meso_roc": 60,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 53.5,
+    "n_aclonal_coh": 1154
   },
   {
     "treatment": "endo",
@@ -6066,7 +6930,10 @@
     "med_s_perp_roc_mHz": 0.18,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 3.2,
-    "n_meso_roc": 39
+    "n_meso_roc": 39,
+    "med_c_nc": 0.23,
+    "pct_aclonal_coh": 49.5,
+    "n_aclonal_coh": 597
   },
   {
     "treatment": "endo",
@@ -6087,7 +6954,10 @@
     "med_s_perp_roc_mHz": 0.2,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 2.7,
-    "n_meso_roc": 15
+    "n_meso_roc": 15,
+    "med_c_nc": 0.36,
+    "pct_aclonal_coh": 62.9,
+    "n_aclonal_coh": 352
   },
   {
     "treatment": "endo",
@@ -6108,7 +6978,10 @@
     "med_s_perp_roc_mHz": 0.14,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 1.8,
-    "n_meso_roc": 21
+    "n_meso_roc": 21,
+    "med_c_nc": 0.22,
+    "pct_aclonal_coh": 46.0,
+    "n_aclonal_coh": 534
   },
   {
     "treatment": "endo",
@@ -6129,7 +7002,10 @@
     "med_s_perp_roc_mHz": 0.14,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 3.7,
-    "n_meso_roc": 19
+    "n_meso_roc": 19,
+    "med_c_nc": 0.31,
+    "pct_aclonal_coh": 55.9,
+    "n_aclonal_coh": 286
   },
   {
     "treatment": "endo",
@@ -6150,7 +7026,10 @@
     "med_s_perp_roc_mHz": 0.14,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 3.2,
-    "n_meso_roc": 15
+    "n_meso_roc": 15,
+    "med_c_nc": 0.36,
+    "pct_aclonal_coh": 63.2,
+    "n_aclonal_coh": 301
   },
   {
     "treatment": "endo",
@@ -6171,7 +7050,10 @@
     "med_s_perp_roc_mHz": 0.18,
     "p90_s_perp_roc_mHz": 0.46,
     "pct_meso_roc": 1.5,
-    "n_meso_roc": 9
+    "n_meso_roc": 9,
+    "med_c_nc": 0.4,
+    "pct_aclonal_coh": 63.2,
+    "n_aclonal_coh": 378
   },
   {
     "treatment": "endo",
@@ -6192,7 +7074,10 @@
     "med_s_perp_roc_mHz": 0.14,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 2.2,
-    "n_meso_roc": 19
+    "n_meso_roc": 19,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 54.6,
+    "n_aclonal_coh": 476
   },
   {
     "treatment": "endo",
@@ -6213,7 +7098,10 @@
     "med_s_perp_roc_mHz": 0.17,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 2.7,
-    "n_meso_roc": 22
+    "n_meso_roc": 22,
+    "med_c_nc": 0.24,
+    "pct_aclonal_coh": 49.3,
+    "n_aclonal_coh": 399
   },
   {
     "treatment": "endo",
@@ -6234,7 +7122,10 @@
     "med_s_perp_roc_mHz": 0.15,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 2.6,
-    "n_meso_roc": 18
+    "n_meso_roc": 18,
+    "med_c_nc": 0.16,
+    "pct_aclonal_coh": 37.4,
+    "n_aclonal_coh": 258
   },
   {
     "treatment": "endo",
@@ -6255,7 +7146,10 @@
     "med_s_perp_roc_mHz": 0.15,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 3.1,
-    "n_meso_roc": 26
+    "n_meso_roc": 26,
+    "med_c_nc": 0.22,
+    "pct_aclonal_coh": 47.3,
+    "n_aclonal_coh": 402
   },
   {
     "treatment": "endo",
@@ -6276,7 +7170,10 @@
     "med_s_perp_roc_mHz": 0.1,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 3.6,
-    "n_meso_roc": 23
+    "n_meso_roc": 23,
+    "med_c_nc": 0.26,
+    "pct_aclonal_coh": 51.1,
+    "n_aclonal_coh": 329
   },
   {
     "treatment": "endo",
@@ -6297,7 +7194,10 @@
     "med_s_perp_roc_mHz": 0.14,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 3.6,
-    "n_meso_roc": 29
+    "n_meso_roc": 29,
+    "med_c_nc": 0.18,
+    "pct_aclonal_coh": 42.2,
+    "n_aclonal_coh": 344
   },
   {
     "treatment": "endo",
@@ -6318,7 +7218,10 @@
     "med_s_perp_roc_mHz": 0.14,
     "p90_s_perp_roc_mHz": 0.59,
     "pct_meso_roc": 5.9,
-    "n_meso_roc": 31
+    "n_meso_roc": 31,
+    "med_c_nc": 0.38,
+    "pct_aclonal_coh": 56.7,
+    "n_aclonal_coh": 300
   },
   {
     "treatment": "endo",
@@ -6339,7 +7242,10 @@
     "med_s_perp_roc_mHz": 0.13,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 2.6,
-    "n_meso_roc": 19
+    "n_meso_roc": 19,
+    "med_c_nc": 0.43,
+    "pct_aclonal_coh": 68.8,
+    "n_aclonal_coh": 496
   },
   {
     "treatment": "endo",
@@ -6360,7 +7266,10 @@
     "med_s_perp_roc_mHz": 0.12,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 2.9,
-    "n_meso_roc": 58
+    "n_meso_roc": 58,
+    "med_c_nc": 0.31,
+    "pct_aclonal_coh": 57.2,
+    "n_aclonal_coh": 1164
   },
   {
     "treatment": "endo",
@@ -6381,7 +7290,10 @@
     "med_s_perp_roc_mHz": 0.14,
     "p90_s_perp_roc_mHz": 0.57,
     "pct_meso_roc": 4.2,
-    "n_meso_roc": 54
+    "n_meso_roc": 54,
+    "med_c_nc": 0.3,
+    "pct_aclonal_coh": 54.2,
+    "n_aclonal_coh": 703
   },
   {
     "treatment": "endo",
@@ -6402,7 +7314,10 @@
     "med_s_perp_roc_mHz": 0.18,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 1.8,
-    "n_meso_roc": 10
+    "n_meso_roc": 10,
+    "med_c_nc": 0.17,
+    "pct_aclonal_coh": 45.1,
+    "n_aclonal_coh": 251
   },
   {
     "treatment": "endo",
@@ -6423,7 +7338,10 @@
     "med_s_perp_roc_mHz": 0.14,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 2.1,
-    "n_meso_roc": 44
+    "n_meso_roc": 44,
+    "med_c_nc": 0.36,
+    "pct_aclonal_coh": 59.9,
+    "n_aclonal_coh": 1263
   },
   {
     "treatment": "endo",
@@ -6444,7 +7362,10 @@
     "med_s_perp_roc_mHz": 0.15,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 2.4,
-    "n_meso_roc": 29
+    "n_meso_roc": 29,
+    "med_c_nc": 0.3,
+    "pct_aclonal_coh": 57.1,
+    "n_aclonal_coh": 693
   },
   {
     "treatment": "endo",
@@ -6465,7 +7386,10 @@
     "med_s_perp_roc_mHz": 0.21,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 1.5,
-    "n_meso_roc": 10
+    "n_meso_roc": 10,
+    "med_c_nc": 0.31,
+    "pct_aclonal_coh": 59.6,
+    "n_aclonal_coh": 390
   },
   {
     "treatment": "endo",
@@ -6486,7 +7410,10 @@
     "med_s_perp_roc_mHz": 0.16,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 1.8,
-    "n_meso_roc": 21
+    "n_meso_roc": 21,
+    "med_c_nc": 0.32,
+    "pct_aclonal_coh": 56.5,
+    "n_aclonal_coh": 676
   },
   {
     "treatment": "endo",
@@ -6507,7 +7434,10 @@
     "med_s_perp_roc_mHz": 0.1,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 3.2,
-    "n_meso_roc": 46
+    "n_meso_roc": 46,
+    "med_c_nc": 0.43,
+    "pct_aclonal_coh": 66.3,
+    "n_aclonal_coh": 966
   },
   {
     "treatment": "endo",
@@ -6528,7 +7458,10 @@
     "med_s_perp_roc_mHz": 0.09,
     "p90_s_perp_roc_mHz": 0.5,
     "pct_meso_roc": 2.1,
-    "n_meso_roc": 36
+    "n_meso_roc": 36,
+    "med_c_nc": 0.4,
+    "pct_aclonal_coh": 65.1,
+    "n_aclonal_coh": 1104
   },
   {
     "treatment": "endo",
@@ -6549,7 +7482,10 @@
     "med_s_perp_roc_mHz": 0.17,
     "p90_s_perp_roc_mHz": 0.6,
     "pct_meso_roc": 5.6,
-    "n_meso_roc": 61
+    "n_meso_roc": 61,
+    "med_c_nc": 0.32,
+    "pct_aclonal_coh": 57.3,
+    "n_aclonal_coh": 628
   },
   {
     "treatment": "endo",
@@ -6570,7 +7506,10 @@
     "med_s_perp_roc_mHz": 0.15,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 3.4,
-    "n_meso_roc": 54
+    "n_meso_roc": 54,
+    "med_c_nc": 0.32,
+    "pct_aclonal_coh": 56.1,
+    "n_aclonal_coh": 893
   },
   {
     "treatment": "endo",
@@ -6591,7 +7530,10 @@
     "med_s_perp_roc_mHz": 0.1,
     "p90_s_perp_roc_mHz": 0.54,
     "pct_meso_roc": 3.5,
-    "n_meso_roc": 50
+    "n_meso_roc": 50,
+    "med_c_nc": 0.36,
+    "pct_aclonal_coh": 62.3,
+    "n_aclonal_coh": 895
   },
   {
     "treatment": "endo",
@@ -6612,7 +7554,10 @@
     "med_s_perp_roc_mHz": 0.16,
     "p90_s_perp_roc_mHz": 0.56,
     "pct_meso_roc": 3.1,
-    "n_meso_roc": 39
+    "n_meso_roc": 39,
+    "med_c_nc": 0.31,
+    "pct_aclonal_coh": 57.0,
+    "n_aclonal_coh": 717
   },
   {
     "treatment": "meso",
@@ -6633,7 +7578,10 @@
     "med_s_perp_roc_mHz": -0.04,
     "p90_s_perp_roc_mHz": 0.64,
     "pct_meso_roc": 5.9,
-    "n_meso_roc": 72
+    "n_meso_roc": 72,
+    "med_c_nc": 0.2,
+    "pct_aclonal_coh": 45.1,
+    "n_aclonal_coh": 550
   },
   {
     "treatment": "meso",
@@ -6654,7 +7602,10 @@
     "med_s_perp_roc_mHz": 0.04,
     "p90_s_perp_roc_mHz": 0.8,
     "pct_meso_roc": 9.0,
-    "n_meso_roc": 80
+    "n_meso_roc": 80,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 28.9,
+    "n_aclonal_coh": 256
   },
   {
     "treatment": "meso",
@@ -6675,7 +7626,10 @@
     "med_s_perp_roc_mHz": 0.0,
     "p90_s_perp_roc_mHz": 0.79,
     "pct_meso_roc": 8.9,
-    "n_meso_roc": 63
+    "n_meso_roc": 63,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 33.8,
+    "n_aclonal_coh": 239
   },
   {
     "treatment": "meso",
@@ -6696,7 +7650,10 @@
     "med_s_perp_roc_mHz": -0.03,
     "p90_s_perp_roc_mHz": 0.8,
     "pct_meso_roc": 8.8,
-    "n_meso_roc": 60
+    "n_meso_roc": 60,
+    "med_c_nc": 0.05,
+    "pct_aclonal_coh": 28.0,
+    "n_aclonal_coh": 191
   },
   {
     "treatment": "meso",
@@ -6717,7 +7674,10 @@
     "med_s_perp_roc_mHz": 0.09,
     "p90_s_perp_roc_mHz": 0.78,
     "pct_meso_roc": 9.2,
-    "n_meso_roc": 65
+    "n_meso_roc": 65,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 29.5,
+    "n_aclonal_coh": 208
   },
   {
     "treatment": "meso",
@@ -6738,7 +7698,10 @@
     "med_s_perp_roc_mHz": -0.09,
     "p90_s_perp_roc_mHz": 0.75,
     "pct_meso_roc": 7.9,
-    "n_meso_roc": 54
+    "n_meso_roc": 54,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 33.8,
+    "n_aclonal_coh": 230
   },
   {
     "treatment": "meso",
@@ -6759,7 +7722,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.87,
     "pct_meso_roc": 10.5,
-    "n_meso_roc": 64
+    "n_meso_roc": 64,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 33.1,
+    "n_aclonal_coh": 201
   },
   {
     "treatment": "meso",
@@ -6780,7 +7746,10 @@
     "med_s_perp_roc_mHz": -0.06,
     "p90_s_perp_roc_mHz": 0.64,
     "pct_meso_roc": 6.2,
-    "n_meso_roc": 34
+    "n_meso_roc": 34,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 31.0,
+    "n_aclonal_coh": 171
   },
   {
     "treatment": "meso",
@@ -6801,7 +7770,10 @@
     "med_s_perp_roc_mHz": 0.0,
     "p90_s_perp_roc_mHz": 0.66,
     "pct_meso_roc": 5.0,
-    "n_meso_roc": 29
+    "n_meso_roc": 29,
+    "med_c_nc": 0.07,
+    "pct_aclonal_coh": 39.4,
+    "n_aclonal_coh": 227
   },
   {
     "treatment": "meso",
@@ -6822,7 +7794,10 @@
     "med_s_perp_roc_mHz": -0.04,
     "p90_s_perp_roc_mHz": 0.71,
     "pct_meso_roc": 7.8,
-    "n_meso_roc": 39
+    "n_meso_roc": 39,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 15.9,
+    "n_aclonal_coh": 80
   },
   {
     "treatment": "meso",
@@ -6843,7 +7818,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.67,
     "pct_meso_roc": 6.0,
-    "n_meso_roc": 27
+    "n_meso_roc": 27,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 23.1,
+    "n_aclonal_coh": 104
   },
   {
     "treatment": "meso",
@@ -6864,7 +7842,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.63,
     "pct_meso_roc": 4.4,
-    "n_meso_roc": 25
+    "n_meso_roc": 25,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 10.7,
+    "n_aclonal_coh": 61
   },
   {
     "treatment": "meso",
@@ -6885,7 +7866,10 @@
     "med_s_perp_roc_mHz": -0.06,
     "p90_s_perp_roc_mHz": 0.63,
     "pct_meso_roc": 6.0,
-    "n_meso_roc": 34
+    "n_meso_roc": 34,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 30.5,
+    "n_aclonal_coh": 173
   },
   {
     "treatment": "meso",
@@ -6906,7 +7890,10 @@
     "med_s_perp_roc_mHz": -0.04,
     "p90_s_perp_roc_mHz": 1.0,
     "pct_meso_roc": 13.9,
-    "n_meso_roc": 44
+    "n_meso_roc": 44,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 17.0,
+    "n_aclonal_coh": 54
   },
   {
     "treatment": "meso",
@@ -6927,7 +7914,10 @@
     "med_s_perp_roc_mHz": -0.05,
     "p90_s_perp_roc_mHz": 0.69,
     "pct_meso_roc": 7.8,
-    "n_meso_roc": 44
+    "n_meso_roc": 44,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 25.1,
+    "n_aclonal_coh": 142
   },
   {
     "treatment": "meso",
@@ -6948,7 +7938,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.62,
     "pct_meso_roc": 6.5,
-    "n_meso_roc": 65
+    "n_meso_roc": 65,
+    "med_c_nc": 0.22,
+    "pct_aclonal_coh": 47.5,
+    "n_aclonal_coh": 476
   },
   {
     "treatment": "meso",
@@ -6969,7 +7962,10 @@
     "med_s_perp_roc_mHz": -0.02,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 3.7,
-    "n_meso_roc": 19
+    "n_meso_roc": 19,
+    "med_c_nc": 0.17,
+    "pct_aclonal_coh": 45.7,
+    "n_aclonal_coh": 233
   },
   {
     "treatment": "meso",
@@ -6990,7 +7986,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.62,
     "pct_meso_roc": 5.4,
-    "n_meso_roc": 25
+    "n_meso_roc": 25,
+    "med_c_nc": 0.17,
+    "pct_aclonal_coh": 46.6,
+    "n_aclonal_coh": 217
   },
   {
     "treatment": "meso",
@@ -7011,7 +8010,10 @@
     "med_s_perp_roc_mHz": -0.0,
     "p90_s_perp_roc_mHz": 0.6,
     "pct_meso_roc": 5.9,
-    "n_meso_roc": 34
+    "n_meso_roc": 34,
+    "med_c_nc": 0.14,
+    "pct_aclonal_coh": 40.1,
+    "n_aclonal_coh": 231
   },
   {
     "treatment": "meso",
@@ -7032,7 +8034,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.66,
     "pct_meso_roc": 7.7,
-    "n_meso_roc": 37
+    "n_meso_roc": 37,
+    "med_c_nc": 0.08,
+    "pct_aclonal_coh": 38.4,
+    "n_aclonal_coh": 185
   },
   {
     "treatment": "meso",
@@ -7053,7 +8058,10 @@
     "med_s_perp_roc_mHz": -0.07,
     "p90_s_perp_roc_mHz": 0.56,
     "pct_meso_roc": 5.7,
-    "n_meso_roc": 33
+    "n_meso_roc": 33,
+    "med_c_nc": 0.26,
+    "pct_aclonal_coh": 51.0,
+    "n_aclonal_coh": 297
   },
   {
     "treatment": "meso",
@@ -7074,7 +8082,10 @@
     "med_s_perp_roc_mHz": -0.03,
     "p90_s_perp_roc_mHz": 0.63,
     "pct_meso_roc": 6.0,
-    "n_meso_roc": 26
+    "n_meso_roc": 26,
+    "med_c_nc": 0.35,
+    "pct_aclonal_coh": 56.1,
+    "n_aclonal_coh": 244
   },
   {
     "treatment": "meso",
@@ -7095,7 +8106,10 @@
     "med_s_perp_roc_mHz": -0.0,
     "p90_s_perp_roc_mHz": 0.56,
     "pct_meso_roc": 4.7,
-    "n_meso_roc": 18
+    "n_meso_roc": 18,
+    "med_c_nc": 0.03,
+    "pct_aclonal_coh": 34.5,
+    "n_aclonal_coh": 133
   },
   {
     "treatment": "meso",
@@ -7116,7 +8130,10 @@
     "med_s_perp_roc_mHz": -0.07,
     "p90_s_perp_roc_mHz": 0.51,
     "pct_meso_roc": 3.5,
-    "n_meso_roc": 11
+    "n_meso_roc": 11,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 36.6,
+    "n_aclonal_coh": 115
   },
   {
     "treatment": "meso",
@@ -7137,7 +8154,10 @@
     "med_s_perp_roc_mHz": -0.04,
     "p90_s_perp_roc_mHz": 0.53,
     "pct_meso_roc": 5.6,
-    "n_meso_roc": 21
+    "n_meso_roc": 21,
+    "med_c_nc": 0.23,
+    "pct_aclonal_coh": 49.1,
+    "n_aclonal_coh": 185
   },
   {
     "treatment": "meso",
@@ -7158,7 +8178,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.65,
     "pct_meso_roc": 7.1,
-    "n_meso_roc": 25
+    "n_meso_roc": 25,
+    "med_c_nc": 0.28,
+    "pct_aclonal_coh": 53.1,
+    "n_aclonal_coh": 187
   },
   {
     "treatment": "meso",
@@ -7179,7 +8202,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.6,
     "pct_meso_roc": 4.4,
-    "n_meso_roc": 18
+    "n_meso_roc": 18,
+    "med_c_nc": 0.29,
+    "pct_aclonal_coh": 52.9,
+    "n_aclonal_coh": 218
   },
   {
     "treatment": "meso",
@@ -7200,7 +8226,10 @@
     "med_s_perp_roc_mHz": -0.08,
     "p90_s_perp_roc_mHz": 0.52,
     "pct_meso_roc": 4.3,
-    "n_meso_roc": 19
+    "n_meso_roc": 19,
+    "med_c_nc": 0.22,
+    "pct_aclonal_coh": 47.3,
+    "n_aclonal_coh": 210
   },
   {
     "treatment": "meso",
@@ -7221,7 +8250,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.48,
     "pct_meso_roc": 2.2,
-    "n_meso_roc": 7
+    "n_meso_roc": 7,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 33.9,
+    "n_aclonal_coh": 106
   },
   {
     "treatment": "meso",
@@ -7242,7 +8274,10 @@
     "med_s_perp_roc_mHz": -0.05,
     "p90_s_perp_roc_mHz": 0.6,
     "pct_meso_roc": 6.0,
-    "n_meso_roc": 27
+    "n_meso_roc": 27,
+    "med_c_nc": 0.12,
+    "pct_aclonal_coh": 44.1,
+    "n_aclonal_coh": 199
   },
   {
     "treatment": "meso",
@@ -7263,7 +8298,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.67,
     "pct_meso_roc": 7.6,
-    "n_meso_roc": 77
+    "n_meso_roc": 77,
+    "med_c_nc": 0.24,
+    "pct_aclonal_coh": 49.9,
+    "n_aclonal_coh": 505
   },
   {
     "treatment": "meso",
@@ -7284,7 +8322,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.74,
     "pct_meso_roc": 8.4,
-    "n_meso_roc": 62
+    "n_meso_roc": 62,
+    "med_c_nc": 0.33,
+    "pct_aclonal_coh": 57.9,
+    "n_aclonal_coh": 429
   },
   {
     "treatment": "meso",
@@ -7305,7 +8346,10 @@
     "med_s_perp_roc_mHz": 0.0,
     "p90_s_perp_roc_mHz": 0.85,
     "pct_meso_roc": 10.0,
-    "n_meso_roc": 44
+    "n_meso_roc": 44,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 34.9,
+    "n_aclonal_coh": 153
   },
   {
     "treatment": "meso",
@@ -7326,7 +8370,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.78,
     "pct_meso_roc": 8.9,
-    "n_meso_roc": 49
+    "n_meso_roc": 49,
+    "med_c_nc": 0.18,
+    "pct_aclonal_coh": 43.4,
+    "n_aclonal_coh": 238
   },
   {
     "treatment": "meso",
@@ -7347,7 +8394,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.63,
     "pct_meso_roc": 5.8,
-    "n_meso_roc": 32
+    "n_meso_roc": 32,
+    "med_c_nc": 0.22,
+    "pct_aclonal_coh": 48.3,
+    "n_aclonal_coh": 265
   },
   {
     "treatment": "meso",
@@ -7368,7 +8418,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.69,
     "pct_meso_roc": 6.7,
-    "n_meso_roc": 29
+    "n_meso_roc": 29,
+    "med_c_nc": 0.21,
+    "pct_aclonal_coh": 47.0,
+    "n_aclonal_coh": 203
   },
   {
     "treatment": "meso",
@@ -7389,7 +8442,10 @@
     "med_s_perp_roc_mHz": -0.05,
     "p90_s_perp_roc_mHz": 0.62,
     "pct_meso_roc": 6.4,
-    "n_meso_roc": 28
+    "n_meso_roc": 28,
+    "med_c_nc": 0.13,
+    "pct_aclonal_coh": 40.9,
+    "n_aclonal_coh": 179
   },
   {
     "treatment": "meso",
@@ -7410,7 +8466,10 @@
     "med_s_perp_roc_mHz": -0.0,
     "p90_s_perp_roc_mHz": 0.81,
     "pct_meso_roc": 9.6,
-    "n_meso_roc": 33
+    "n_meso_roc": 33,
+    "med_c_nc": 0.34,
+    "pct_aclonal_coh": 57.3,
+    "n_aclonal_coh": 197
   },
   {
     "treatment": "meso",
@@ -7431,7 +8490,10 @@
     "med_s_perp_roc_mHz": -0.04,
     "p90_s_perp_roc_mHz": 0.49,
     "pct_meso_roc": 4.6,
-    "n_meso_roc": 22
+    "n_meso_roc": 22,
+    "med_c_nc": 0.16,
+    "pct_aclonal_coh": 47.1,
+    "n_aclonal_coh": 224
   },
   {
     "treatment": "meso",
@@ -7452,7 +8514,10 @@
     "med_s_perp_roc_mHz": -0.04,
     "p90_s_perp_roc_mHz": 0.7,
     "pct_meso_roc": 5.2,
-    "n_meso_roc": 19
+    "n_meso_roc": 19,
+    "med_c_nc": 0.26,
+    "pct_aclonal_coh": 51.6,
+    "n_aclonal_coh": 189
   },
   {
     "treatment": "meso",
@@ -7473,7 +8538,10 @@
     "med_s_perp_roc_mHz": -0.03,
     "p90_s_perp_roc_mHz": 0.66,
     "pct_meso_roc": 6.8,
-    "n_meso_roc": 27
+    "n_meso_roc": 27,
+    "med_c_nc": 0.32,
+    "pct_aclonal_coh": 56.3,
+    "n_aclonal_coh": 223
   },
   {
     "treatment": "meso",
@@ -7494,7 +8562,10 @@
     "med_s_perp_roc_mHz": -0.02,
     "p90_s_perp_roc_mHz": 0.67,
     "pct_meso_roc": 6.1,
-    "n_meso_roc": 28
+    "n_meso_roc": 28,
+    "med_c_nc": 0.25,
+    "pct_aclonal_coh": 50.3,
+    "n_aclonal_coh": 232
   },
   {
     "treatment": "meso",
@@ -7515,7 +8586,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.58,
     "pct_meso_roc": 6.4,
-    "n_meso_roc": 22
+    "n_meso_roc": 22,
+    "med_c_nc": 0.27,
+    "pct_aclonal_coh": 51.0,
+    "n_aclonal_coh": 175
   },
   {
     "treatment": "meso",
@@ -7536,7 +8610,10 @@
     "med_s_perp_roc_mHz": -0.02,
     "p90_s_perp_roc_mHz": 0.69,
     "pct_meso_roc": 7.4,
-    "n_meso_roc": 26
+    "n_meso_roc": 26,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 32.7,
+    "n_aclonal_coh": 114
   },
   {
     "treatment": "meso",
@@ -7557,7 +8634,10 @@
     "med_s_perp_roc_mHz": -0.03,
     "p90_s_perp_roc_mHz": 0.7,
     "pct_meso_roc": 6.7,
-    "n_meso_roc": 24
+    "n_meso_roc": 24,
+    "med_c_nc": 0.44,
+    "pct_aclonal_coh": 56.3,
+    "n_aclonal_coh": 202
   },
   {
     "treatment": "meso",
@@ -7578,7 +8658,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.92,
     "pct_meso_roc": 11.4,
-    "n_meso_roc": 137
+    "n_meso_roc": 137,
+    "med_c_nc": 0.22,
+    "pct_aclonal_coh": 48.3,
+    "n_aclonal_coh": 578
   },
   {
     "treatment": "meso",
@@ -7599,7 +8682,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 1.02,
     "pct_meso_roc": 12.1,
-    "n_meso_roc": 69
+    "n_meso_roc": 69,
+    "med_c_nc": 0.02,
+    "pct_aclonal_coh": 41.0,
+    "n_aclonal_coh": 233
   },
   {
     "treatment": "meso",
@@ -7620,7 +8706,10 @@
     "med_s_perp_roc_mHz": 0.09,
     "p90_s_perp_roc_mHz": 1.3,
     "pct_meso_roc": 16.7,
-    "n_meso_roc": 99
+    "n_meso_roc": 99,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 34.1,
+    "n_aclonal_coh": 202
   },
   {
     "treatment": "meso",
@@ -7641,7 +8730,10 @@
     "med_s_perp_roc_mHz": 0.03,
     "p90_s_perp_roc_mHz": 0.9,
     "pct_meso_roc": 10.7,
-    "n_meso_roc": 73
+    "n_meso_roc": 73,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 32.8,
+    "n_aclonal_coh": 224
   },
   {
     "treatment": "meso",
@@ -7662,7 +8754,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 1.02,
     "pct_meso_roc": 13.6,
-    "n_meso_roc": 88
+    "n_meso_roc": 88,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 32.4,
+    "n_aclonal_coh": 209
   },
   {
     "treatment": "meso",
@@ -7683,7 +8778,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 1.07,
     "pct_meso_roc": 12.2,
-    "n_meso_roc": 65
+    "n_meso_roc": 65,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 35.9,
+    "n_aclonal_coh": 191
   },
   {
     "treatment": "meso",
@@ -7704,7 +8802,10 @@
     "med_s_perp_roc_mHz": 0.08,
     "p90_s_perp_roc_mHz": 0.94,
     "pct_meso_roc": 11.1,
-    "n_meso_roc": 67
+    "n_meso_roc": 67,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 40.1,
+    "n_aclonal_coh": 242
   },
   {
     "treatment": "meso",
@@ -7725,7 +8826,10 @@
     "med_s_perp_roc_mHz": -0.01,
     "p90_s_perp_roc_mHz": 0.89,
     "pct_meso_roc": 10.1,
-    "n_meso_roc": 37
+    "n_meso_roc": 37,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 35.9,
+    "n_aclonal_coh": 131
   },
   {
     "treatment": "meso",
@@ -7746,7 +8850,10 @@
     "med_s_perp_roc_mHz": 0.05,
     "p90_s_perp_roc_mHz": 1.06,
     "pct_meso_roc": 13.9,
-    "n_meso_roc": 68
+    "n_meso_roc": 68,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 36.5,
+    "n_aclonal_coh": 178
   },
   {
     "treatment": "meso",
@@ -7767,7 +8874,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 1.2,
     "pct_meso_roc": 16.2,
-    "n_meso_roc": 90
+    "n_meso_roc": 90,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 35.9,
+    "n_aclonal_coh": 199
   },
   {
     "treatment": "meso",
@@ -7788,7 +8898,10 @@
     "med_s_perp_roc_mHz": 0.06,
     "p90_s_perp_roc_mHz": 0.88,
     "pct_meso_roc": 10.9,
-    "n_meso_roc": 55
+    "n_meso_roc": 55,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 38.2,
+    "n_aclonal_coh": 193
   },
   {
     "treatment": "meso",
@@ -7809,7 +8922,10 @@
     "med_s_perp_roc_mHz": 0.02,
     "p90_s_perp_roc_mHz": 0.76,
     "pct_meso_roc": 7.1,
-    "n_meso_roc": 44
+    "n_meso_roc": 44,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 37.3,
+    "n_aclonal_coh": 230
   },
   {
     "treatment": "meso",
@@ -7830,7 +8946,10 @@
     "med_s_perp_roc_mHz": 0.01,
     "p90_s_perp_roc_mHz": 0.87,
     "pct_meso_roc": 10.4,
-    "n_meso_roc": 49
+    "n_meso_roc": 49,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 39.9,
+    "n_aclonal_coh": 187
   },
   {
     "treatment": "meso",
@@ -7851,7 +8970,10 @@
     "med_s_perp_roc_mHz": -0.02,
     "p90_s_perp_roc_mHz": 0.82,
     "pct_meso_roc": 9.0,
-    "n_meso_roc": 31
+    "n_meso_roc": 31,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 25.8,
+    "n_aclonal_coh": 89
   },
   {
     "treatment": "meso",
@@ -7872,7 +8994,10 @@
     "med_s_perp_roc_mHz": -0.09,
     "p90_s_perp_roc_mHz": 0.74,
     "pct_meso_roc": 7.8,
-    "n_meso_roc": 55
+    "n_meso_roc": 55,
+    "med_c_nc": 0.13,
+    "pct_aclonal_coh": 42.9,
+    "n_aclonal_coh": 303
   },
   {
     "treatment": "meso",
@@ -7893,7 +9018,10 @@
     "med_s_perp_roc_mHz": 0.28,
     "p90_s_perp_roc_mHz": 1.38,
     "pct_meso_roc": 17.8,
-    "n_meso_roc": 293
+    "n_meso_roc": 293,
+    "med_c_nc": 0.17,
+    "pct_aclonal_coh": 43.8,
+    "n_aclonal_coh": 720
   },
   {
     "treatment": "meso",
@@ -7914,7 +9042,10 @@
     "med_s_perp_roc_mHz": 0.41,
     "p90_s_perp_roc_mHz": 2.58,
     "pct_meso_roc": 35.2,
-    "n_meso_roc": 248
+    "n_meso_roc": 248,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 37.9,
+    "n_aclonal_coh": 267
   },
   {
     "treatment": "meso",
@@ -7935,7 +9066,10 @@
     "med_s_perp_roc_mHz": 0.36,
     "p90_s_perp_roc_mHz": 1.94,
     "pct_meso_roc": 27.9,
-    "n_meso_roc": 182
+    "n_meso_roc": 182,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 36.3,
+    "n_aclonal_coh": 237
   },
   {
     "treatment": "meso",
@@ -7956,7 +9090,10 @@
     "med_s_perp_roc_mHz": 0.33,
     "p90_s_perp_roc_mHz": 2.11,
     "pct_meso_roc": 28.5,
-    "n_meso_roc": 194
+    "n_meso_roc": 194,
+    "med_c_nc": 0.1,
+    "pct_aclonal_coh": 44.7,
+    "n_aclonal_coh": 304
   },
   {
     "treatment": "meso",
@@ -7977,7 +9114,10 @@
     "med_s_perp_roc_mHz": 0.38,
     "p90_s_perp_roc_mHz": 1.81,
     "pct_meso_roc": 27.8,
-    "n_meso_roc": 189
+    "n_meso_roc": 189,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 31.3,
+    "n_aclonal_coh": 213
   },
   {
     "treatment": "meso",
@@ -7998,7 +9138,10 @@
     "med_s_perp_roc_mHz": 0.38,
     "p90_s_perp_roc_mHz": 1.88,
     "pct_meso_roc": 29.8,
-    "n_meso_roc": 183
+    "n_meso_roc": 183,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 30.0,
+    "n_aclonal_coh": 184
   },
   {
     "treatment": "meso",
@@ -8019,7 +9162,10 @@
     "med_s_perp_roc_mHz": 0.47,
     "p90_s_perp_roc_mHz": 1.95,
     "pct_meso_roc": 31.9,
-    "n_meso_roc": 246
+    "n_meso_roc": 246,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 26.2,
+    "n_aclonal_coh": 202
   },
   {
     "treatment": "meso",
@@ -8040,7 +9186,10 @@
     "med_s_perp_roc_mHz": 0.34,
     "p90_s_perp_roc_mHz": 2.67,
     "pct_meso_roc": 32.9,
-    "n_meso_roc": 192
+    "n_meso_roc": 192,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 19.0,
+    "n_aclonal_coh": 111
   },
   {
     "treatment": "meso",
@@ -8061,7 +9210,10 @@
     "med_s_perp_roc_mHz": 0.68,
     "p90_s_perp_roc_mHz": 3.34,
     "pct_meso_roc": 46.6,
-    "n_meso_roc": 380
+    "n_meso_roc": 380,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 21.8,
+    "n_aclonal_coh": 178
   },
   {
     "treatment": "meso",
@@ -8082,7 +9234,10 @@
     "med_s_perp_roc_mHz": 0.4,
     "p90_s_perp_roc_mHz": 2.44,
     "pct_meso_roc": 33.1,
-    "n_meso_roc": 247
+    "n_meso_roc": 247,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 31.7,
+    "n_aclonal_coh": 237
   },
   {
     "treatment": "meso",
@@ -8103,7 +9258,10 @@
     "med_s_perp_roc_mHz": 0.31,
     "p90_s_perp_roc_mHz": 1.37,
     "pct_meso_roc": 20.5,
-    "n_meso_roc": 106
+    "n_meso_roc": 106,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 36.9,
+    "n_aclonal_coh": 191
   },
   {
     "treatment": "meso",
@@ -8124,7 +9282,10 @@
     "med_s_perp_roc_mHz": 0.32,
     "p90_s_perp_roc_mHz": 2.13,
     "pct_meso_roc": 30.0,
-    "n_meso_roc": 207
+    "n_meso_roc": 207,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 21.3,
+    "n_aclonal_coh": 147
   },
   {
     "treatment": "meso",
@@ -8145,7 +9306,10 @@
     "med_s_perp_roc_mHz": 0.19,
     "p90_s_perp_roc_mHz": 2.41,
     "pct_meso_roc": 26.1,
-    "n_meso_roc": 233
+    "n_meso_roc": 233,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 23.0,
+    "n_aclonal_coh": 205
   },
   {
     "treatment": "meso",
@@ -8166,7 +9330,10 @@
     "med_s_perp_roc_mHz": 0.55,
     "p90_s_perp_roc_mHz": 2.64,
     "pct_meso_roc": 41.4,
-    "n_meso_roc": 270
+    "n_meso_roc": 270,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 35.9,
+    "n_aclonal_coh": 234
   },
   {
     "treatment": "meso",
@@ -8187,7 +9354,10 @@
     "med_s_perp_roc_mHz": 0.4,
     "p90_s_perp_roc_mHz": 1.93,
     "pct_meso_roc": 30.0,
-    "n_meso_roc": 247
+    "n_meso_roc": 247,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 41.1,
+    "n_aclonal_coh": 339
   },
   {
     "treatment": "meso",
@@ -8208,7 +9378,10 @@
     "med_s_perp_roc_mHz": 0.3,
     "p90_s_perp_roc_mHz": 1.23,
     "pct_meso_roc": 15.7,
-    "n_meso_roc": 304
+    "n_meso_roc": 304,
+    "med_c_nc": 0.16,
+    "pct_aclonal_coh": 42.4,
+    "n_aclonal_coh": 822
   },
   {
     "treatment": "meso",
@@ -8229,7 +9402,10 @@
     "med_s_perp_roc_mHz": 0.38,
     "p90_s_perp_roc_mHz": 2.28,
     "pct_meso_roc": 30.0,
-    "n_meso_roc": 225
+    "n_meso_roc": 225,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 31.8,
+    "n_aclonal_coh": 238
   },
   {
     "treatment": "meso",
@@ -8250,7 +9426,10 @@
     "med_s_perp_roc_mHz": 0.38,
     "p90_s_perp_roc_mHz": 1.94,
     "pct_meso_roc": 21.9,
-    "n_meso_roc": 143
+    "n_meso_roc": 143,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 33.4,
+    "n_aclonal_coh": 218
   },
   {
     "treatment": "meso",
@@ -8271,7 +9450,10 @@
     "med_s_perp_roc_mHz": 0.39,
     "p90_s_perp_roc_mHz": 2.08,
     "pct_meso_roc": 30.1,
-    "n_meso_roc": 207
+    "n_meso_roc": 207,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 38.5,
+    "n_aclonal_coh": 265
   },
   {
     "treatment": "meso",
@@ -8292,7 +9474,10 @@
     "med_s_perp_roc_mHz": 0.42,
     "p90_s_perp_roc_mHz": 2.1,
     "pct_meso_roc": 30.0,
-    "n_meso_roc": 178
+    "n_meso_roc": 178,
+    "med_c_nc": 0.05,
+    "pct_aclonal_coh": 42.8,
+    "n_aclonal_coh": 254
   },
   {
     "treatment": "meso",
@@ -8313,7 +9498,10 @@
     "med_s_perp_roc_mHz": 0.31,
     "p90_s_perp_roc_mHz": 1.24,
     "pct_meso_roc": 16.3,
-    "n_meso_roc": 172
+    "n_meso_roc": 172,
+    "med_c_nc": 0.01,
+    "pct_aclonal_coh": 41.5,
+    "n_aclonal_coh": 437
   },
   {
     "treatment": "meso",
@@ -8334,7 +9522,10 @@
     "med_s_perp_roc_mHz": 0.47,
     "p90_s_perp_roc_mHz": 1.93,
     "pct_meso_roc": 31.0,
-    "n_meso_roc": 340
+    "n_meso_roc": 340,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 19.9,
+    "n_aclonal_coh": 218
   },
   {
     "treatment": "meso",
@@ -8355,7 +9546,10 @@
     "med_s_perp_roc_mHz": 0.48,
     "p90_s_perp_roc_mHz": 2.7,
     "pct_meso_roc": 37.5,
-    "n_meso_roc": 379
+    "n_meso_roc": 379,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 34.0,
+    "n_aclonal_coh": 343
   },
   {
     "treatment": "meso",
@@ -8376,7 +9570,10 @@
     "med_s_perp_roc_mHz": 0.62,
     "p90_s_perp_roc_mHz": 2.97,
     "pct_meso_roc": 44.0,
-    "n_meso_roc": 341
+    "n_meso_roc": 341,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 30.8,
+    "n_aclonal_coh": 239
   },
   {
     "treatment": "meso",
@@ -8397,7 +9594,10 @@
     "med_s_perp_roc_mHz": 0.37,
     "p90_s_perp_roc_mHz": 1.92,
     "pct_meso_roc": 28.2,
-    "n_meso_roc": 202
+    "n_meso_roc": 202,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 34.6,
+    "n_aclonal_coh": 248
   },
   {
     "treatment": "meso",
@@ -8418,7 +9618,10 @@
     "med_s_perp_roc_mHz": 0.23,
     "p90_s_perp_roc_mHz": 2.4,
     "pct_meso_roc": 28.7,
-    "n_meso_roc": 117
+    "n_meso_roc": 117,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 9.6,
+    "n_aclonal_coh": 39
   },
   {
     "treatment": "meso",
@@ -8439,7 +9642,10 @@
     "med_s_perp_roc_mHz": 0.32,
     "p90_s_perp_roc_mHz": 2.25,
     "pct_meso_roc": 28.3,
-    "n_meso_roc": 154
+    "n_meso_roc": 154,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 27.6,
+    "n_aclonal_coh": 150
   },
   {
     "treatment": "meso",
@@ -8460,7 +9666,10 @@
     "med_s_perp_roc_mHz": 0.24,
     "p90_s_perp_roc_mHz": 2.42,
     "pct_meso_roc": 29.7,
-    "n_meso_roc": 255
+    "n_meso_roc": 255,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 27.9,
+    "n_aclonal_coh": 239
   },
   {
     "treatment": "meso",
@@ -8481,7 +9690,10 @@
     "med_s_perp_roc_mHz": 0.54,
     "p90_s_perp_roc_mHz": 2.9,
     "pct_meso_roc": 40.7,
-    "n_meso_roc": 294
+    "n_meso_roc": 294,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 22.1,
+    "n_aclonal_coh": 160
   },
   {
     "treatment": "meso",
@@ -8502,7 +9714,10 @@
     "med_s_perp_roc_mHz": 0.43,
     "p90_s_perp_roc_mHz": 1.98,
     "pct_meso_roc": 30.7,
-    "n_meso_roc": 301
+    "n_meso_roc": 301,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 35.7,
+    "n_aclonal_coh": 351
   },
   {
     "treatment": "meso",
@@ -8523,7 +9738,10 @@
     "med_s_perp_roc_mHz": 0.24,
     "p90_s_perp_roc_mHz": 0.93,
     "pct_meso_roc": 11.3,
-    "n_meso_roc": 241
+    "n_meso_roc": 241,
+    "med_c_nc": 0.31,
+    "pct_aclonal_coh": 57.2,
+    "n_aclonal_coh": 1214
   },
   {
     "treatment": "meso",
@@ -8544,7 +9762,10 @@
     "med_s_perp_roc_mHz": 0.37,
     "p90_s_perp_roc_mHz": 1.59,
     "pct_meso_roc": 26.2,
-    "n_meso_roc": 233
+    "n_meso_roc": 233,
+    "med_c_nc": 0.04,
+    "pct_aclonal_coh": 41.6,
+    "n_aclonal_coh": 371
   },
   {
     "treatment": "meso",
@@ -8565,7 +9786,10 @@
     "med_s_perp_roc_mHz": 0.29,
     "p90_s_perp_roc_mHz": 1.3,
     "pct_meso_roc": 17.9,
-    "n_meso_roc": 189
+    "n_meso_roc": 189,
+    "med_c_nc": 0.38,
+    "pct_aclonal_coh": 59.8,
+    "n_aclonal_coh": 632
   },
   {
     "treatment": "meso",
@@ -8586,7 +9810,10 @@
     "med_s_perp_roc_mHz": 0.23,
     "p90_s_perp_roc_mHz": 1.24,
     "pct_meso_roc": 16.8,
-    "n_meso_roc": 109
+    "n_meso_roc": 109,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 41.3,
+    "n_aclonal_coh": 268
   },
   {
     "treatment": "meso",
@@ -8607,7 +9834,10 @@
     "med_s_perp_roc_mHz": 0.26,
     "p90_s_perp_roc_mHz": 1.47,
     "pct_meso_roc": 17.7,
-    "n_meso_roc": 159
+    "n_meso_roc": 159,
+    "med_c_nc": 0.06,
+    "pct_aclonal_coh": 39.4,
+    "n_aclonal_coh": 354
   },
   {
     "treatment": "meso",
@@ -8628,7 +9858,10 @@
     "med_s_perp_roc_mHz": 0.26,
     "p90_s_perp_roc_mHz": 1.42,
     "pct_meso_roc": 18.5,
-    "n_meso_roc": 214
+    "n_meso_roc": 214,
+    "med_c_nc": 0.42,
+    "pct_aclonal_coh": 63.9,
+    "n_aclonal_coh": 738
   },
   {
     "treatment": "meso",
@@ -8649,7 +9882,10 @@
     "med_s_perp_roc_mHz": 0.34,
     "p90_s_perp_roc_mHz": 1.59,
     "pct_meso_roc": 21.3,
-    "n_meso_roc": 279
+    "n_meso_roc": 279,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 27.4,
+    "n_aclonal_coh": 359
   },
   {
     "treatment": "meso",
@@ -8670,7 +9906,10 @@
     "med_s_perp_roc_mHz": 0.41,
     "p90_s_perp_roc_mHz": 2.34,
     "pct_meso_roc": 33.4,
-    "n_meso_roc": 419
+    "n_meso_roc": 419,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 38.5,
+    "n_aclonal_coh": 483
   },
   {
     "treatment": "meso",
@@ -8691,7 +9930,10 @@
     "med_s_perp_roc_mHz": 0.32,
     "p90_s_perp_roc_mHz": 1.67,
     "pct_meso_roc": 22.5,
-    "n_meso_roc": 327
+    "n_meso_roc": 327,
+    "med_c_nc": 0.03,
+    "pct_aclonal_coh": 35.6,
+    "n_aclonal_coh": 517
   },
   {
     "treatment": "meso",
@@ -8712,7 +9954,10 @@
     "med_s_perp_roc_mHz": 0.27,
     "p90_s_perp_roc_mHz": 2.01,
     "pct_meso_roc": 24.4,
-    "n_meso_roc": 265
+    "n_meso_roc": 265,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 34.0,
+    "n_aclonal_coh": 369
   },
   {
     "treatment": "meso",
@@ -8733,7 +9978,10 @@
     "med_s_perp_roc_mHz": 0.36,
     "p90_s_perp_roc_mHz": 2.08,
     "pct_meso_roc": 26.6,
-    "n_meso_roc": 314
+    "n_meso_roc": 314,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 35.8,
+    "n_aclonal_coh": 423
   },
   {
     "treatment": "meso",
@@ -8754,7 +10002,10 @@
     "med_s_perp_roc_mHz": 0.36,
     "p90_s_perp_roc_mHz": 2.05,
     "pct_meso_roc": 27.6,
-    "n_meso_roc": 321
+    "n_meso_roc": 321,
+    "med_c_nc": 0.17,
+    "pct_aclonal_coh": 44.8,
+    "n_aclonal_coh": 522
   },
   {
     "treatment": "meso",
@@ -8775,7 +10026,10 @@
     "med_s_perp_roc_mHz": 0.31,
     "p90_s_perp_roc_mHz": 2.11,
     "pct_meso_roc": 25.4,
-    "n_meso_roc": 279
+    "n_meso_roc": 279,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 30.9,
+    "n_aclonal_coh": 340
   },
   {
     "treatment": "meso",
@@ -8796,7 +10050,10 @@
     "med_s_perp_roc_mHz": 0.47,
     "p90_s_perp_roc_mHz": 2.31,
     "pct_meso_roc": 36.4,
-    "n_meso_roc": 385
+    "n_meso_roc": 385,
+    "med_c_nc": 0.0,
+    "pct_aclonal_coh": 33.5,
+    "n_aclonal_coh": 354
   },
   {
     "treatment": "meso",
@@ -8817,6 +10074,9 @@
     "med_s_perp_roc_mHz": 0.25,
     "p90_s_perp_roc_mHz": 1.24,
     "pct_meso_roc": 15.8,
-    "n_meso_roc": 199
+    "n_meso_roc": 199,
+    "med_c_nc": 0.2,
+    "pct_aclonal_coh": 48.2,
+    "n_aclonal_coh": 608
   }
 ]
